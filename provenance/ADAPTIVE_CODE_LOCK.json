@@ -1,0 +1,43 @@
+{
+  "at": 1794829329.5977726,
+  "files": {
+    "SCHEDULER_POLICY.json": "31344a6250a10c5c4333206d50e875a957d9c6b74decd193dd97ff101d513061",
+    "tools/select_method.py": "168be4ce2f493e764f79941bb9fa5a22390b8e4df409f2756baf17071c6870c9",
+    "tools/export_excel.py": "28ca2bc2a83df638df10a9b3d8dfabeb94c62983787ff4826d74d666041a4172",
+    "tools/finalize.py": "f573ec7c6238bd9360ed1a5af246a931d271ef43f7c15758e2b32cc854a9ca4d",
+    "tools/archive_snapshot.py": "af3595f8c584a24235f45d0e070cba97678018a335559a40bf47055d29ddd21a",
+    "tools/experiment_dark_extensions.py": "e948fd4dcb883d1748c206b1169a75cef2e1b2b3aab4e574b1a4ad933442b409",
+    "DATASET_COMPATIBILITY.json": "6f91a6ec6c4b029c4cf489a6a76e0ff29fac1c22b970b27860c881fdab9a475c",
+    "DATA_COMPATIBILITY_LOCK.json": "8f803736c727145ed062e92a1711b0d773ae6d0a9b0c5bd91d1ae44ada332b9e",
+    "tools/backup_completed_runs.py": "9efdb223b277e94cdfefe708618cc279fe7af7334f61b785418a494efafadcde",
+    "tools/watch_progress.py": "2abfa520f1af3ba5d258627b22f1577b1a3fa19b6067180215a114dcc69b7ee8",
+    "tools/reporting_protocol.py": "bb7f8cb3911017d09c21986f0401ab3f00b229bcd8c5dad54e9154c503dbeea2",
+    "TRAINING_SEED_POLICY.json": "969c01e36f13fdf4d24a1815565953b3a26d24f09edd2f8ae37be47f357d2c29"
+  },
+  "revisions": [
+    {
+      "at": 1794831073.2435002,
+      "reason": "Explicit metric/cost convention labels; frozen training source and math unchanged"
+    },
+    {
+      "at": 1794834794.8593,
+      "reason": "Preserve all V1 external outcomes; uniform V2 geometry comparison, original neural/training math untouched"
+    },
+    {
+      "at": 1794835269.1862473,
+      "reason": "Full40-cohort/metrics/weight audit, mutable-observer exclusions and resumable archive; no training or metric math changed"
+    },
+    {
+      "at": 1794886223.5329356,
+      "reason": "Dark-only .JPEG/.jpeg enumeration to satisfy already declared4440/555/555 splits. Eight zero-step failures retained; Source61 and frozen training math unchanged; other32 completed runs untouched."
+    },
+    {
+      "at": 1794887129.4245465,
+      "reason": "Expose diagnosed zero-step Dark failures and fixed extension enumeration in Excel provenance; all metric values and source unchanged."
+    },
+    {
+      "at": 1794889610.270233,
+      "reason": "Explicit user request: all future new training uses init7; retire four unstarted Dark43 jobs, retain completed43 results and original40 PLAN, add transparent Seed7 view and versioned36 completion scope. No model/training math change."
+    }
+  ]
+}

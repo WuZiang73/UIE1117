@@ -1,0 +1,7 @@
+{
+  "source": "/data1/wza/wwe/dino_rms_direction_20261110/teachers/vitb14.pth",
+  "local": "/data1/wza/wwe/four_stage_all_datasets_20261116/teachers/vitb14.pth",
+  "sha256": "0b8b82f85de91b424aded121c7e1dcc2b7bc6d0adeea651bf73a13307fad8c73",
+  "frozen": true,
+  "no_restoration_pretraining": true
+}

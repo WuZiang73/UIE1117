@@ -1,0 +1,58 @@
+{
+  "passed": true,
+  "at": 1794893589.509097,
+  "scope": "UIEB initialization7 EMA Val-best only; no cross-seed robustness claim",
+  "models": {
+    "baseline": {
+      "checkpoint": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/baseline/best_model.pth",
+      "sha256": "d29c13a8cd9572619c606017c421f8595fbea13ee64cb7e7cd9ef58f1c1aa6ca",
+      "size_bytes": 1944643,
+      "best_ema_epoch": 142,
+      "test_psnr": 24.3583693662044,
+      "test_ssim": 0.9148829793662168,
+      "restoration_parameters": 480995,
+      "strict_base_Module_load_passed": true
+    },
+    "c0": {
+      "checkpoint": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/c0/best_model.pth",
+      "sha256": "cbe28325282e602d9a9009d6ed517a56c474e5e9c83d587993372a0a13065619",
+      "size_bytes": 1968155,
+      "best_ema_epoch": 137,
+      "test_psnr": 24.50122243962778,
+      "test_ssim": 0.915600769305497,
+      "restoration_parameters": 485143,
+      "strict_base_Module_load_passed": true
+    },
+    "isp_control": {
+      "checkpoint": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/isp_control/best_model.pth",
+      "sha256": "948449ced5f922d54e9f42de8ff9d7b8c53bf69e54c772d5b7c7608ec4f67347",
+      "size_bytes": 1968155,
+      "best_ema_epoch": 149,
+      "test_psnr": 24.596089083764852,
+      "test_ssim": 0.9183634037382147,
+      "restoration_parameters": 485143,
+      "strict_base_Module_load_passed": true
+    },
+    "dino_cross_stage": {
+      "checkpoint": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/dino_cross_stage/best_model.pth",
+      "sha256": "1b4bfb3000778c0dce53837e846aee6897a2660cdb67ea5073bf4db8f0068b00",
+      "size_bytes": 2892684,
+      "best_ema_epoch": 117,
+      "test_psnr": 24.62410806374147,
+      "test_ssim": 0.9191473126411438,
+      "restoration_parameters": 645778,
+      "strict_base_Module_load_passed": true
+    }
+  },
+  "source_files": 61,
+  "teacher_sha256": "0b8b82f85de91b424aded121c7e1dcc2b7bc6d0adeea651bf73a13307fad8c73",
+  "teacher_size_bytes": 346378731,
+  "environment": {
+    "python": "3.10.22 (main, Oct  1 2026, 20:14:04) [GCC 14.3.0]",
+    "python_executable": "/data1/wza/conda_envs/wwe3/bin/python",
+    "torch": "1.13.1+cu117",
+    "cuda": "11.7",
+    "cudnn": 8500,
+    "platform": "Linux-6.8.0-40-generic-x86_64-with-glibc2.35"
+  }
+}

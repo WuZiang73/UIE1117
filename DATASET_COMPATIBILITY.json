@@ -1,0 +1,29 @@
+{
+  "version": "dark_jpeg_extension_v1",
+  "dataset": "EUVP-Dark",
+  "accepted_extensions_case_insensitive": [
+    ".png",
+    ".jpg",
+    ".jpeg",
+    ".bmp"
+  ],
+  "original_loader_counts": {
+    "train": 2508,
+    "val": 316,
+    "test": 311
+  },
+  "intended_original_split_counts": {
+    "train": 4440,
+    "val": 555,
+    "test": 555
+  },
+  "steps_per_epoch": 185,
+  "epochs": 200,
+  "EMA_start_step": 12950,
+  "EMA_decay": 0.999,
+  "only_filename_filter_extended": true,
+  "original_files_names_pixels_transforms_splits_unchanged": true,
+  "original_source_and_frozen_train_engine_unchanged": true,
+  "other32_completed_trajectories_unchanged": true,
+  "failed_Dark_attempts_had_zero_optimizer_steps": true
+}

@@ -1,0 +1,111 @@
+{
+  "version": "future_seed7_user_20261117",
+  "at": 1794889603.575926,
+  "user_instruction": "\u662f\u4e0d\u662f\u5728\u4e00\u4e2a\u79cd\u5b50\u4e0b UIEB\u662f\u6d88\u878d\u6210\u7acb\u7684\u5440\uff1f\u662f\u7684\u8bdd \u4f60\u540e\u7eed\u6240\u6709\u7684\u8dd1\u6570\u636e\u96c6\u90fd\u7528\u90a3\u4e2a\u79cd\u5b50",
+  "future_initialization_seeds": [
+    7
+  ],
+  "training_seed": 7,
+  "loader_seed": 1007,
+  "selection_basis": "User selected initialization7 after observing the UIEB EMA Test ablation; this is post-hoc selection, not predeclared robustness evidence.",
+  "required_job_keys": [
+    "UIEB/7/baseline",
+    "UIEB/7/c0",
+    "UIEB/7/isp_control",
+    "UIEB/7/dino_cross_stage",
+    "UIEB/43/baseline",
+    "UIEB/43/c0",
+    "UIEB/43/isp_control",
+    "UIEB/43/dino_cross_stage",
+    "EUVP-Scene/7/baseline",
+    "EUVP-Scene/7/c0",
+    "EUVP-Scene/7/isp_control",
+    "EUVP-Scene/7/dino_cross_stage",
+    "EUVP-Scene/43/baseline",
+    "EUVP-Scene/43/c0",
+    "EUVP-Scene/43/isp_control",
+    "EUVP-Scene/43/dino_cross_stage",
+    "UFO-120/7/baseline",
+    "UFO-120/7/c0",
+    "UFO-120/7/isp_control",
+    "UFO-120/7/dino_cross_stage",
+    "UFO-120/43/baseline",
+    "UFO-120/43/c0",
+    "UFO-120/43/isp_control",
+    "UFO-120/43/dino_cross_stage",
+    "EUVP-Dark/7/baseline",
+    "EUVP-Dark/7/c0",
+    "EUVP-Dark/7/isp_control",
+    "EUVP-Dark/7/dino_cross_stage",
+    "LSUI/7/baseline",
+    "LSUI/7/c0",
+    "LSUI/7/isp_control",
+    "LSUI/7/dino_cross_stage",
+    "LSUI/43/baseline",
+    "LSUI/43/c0",
+    "LSUI/43/isp_control",
+    "LSUI/43/dino_cross_stage"
+  ],
+  "required_initializations_by_dataset": {
+    "UIEB": [
+      7,
+      43
+    ],
+    "LSUI": [
+      7,
+      43
+    ],
+    "UFO-120": [
+      7,
+      43
+    ],
+    "EUVP-Scene": [
+      7,
+      43
+    ],
+    "EUVP-Dark": [
+      7
+    ]
+  },
+  "retired_unstarted_jobs": [
+    {
+      "dataset": "EUVP-Dark",
+      "mode": "baseline",
+      "init_seed": 43,
+      "gpu": 4,
+      "reason": "User requested all future training use initialization7; no Dark43 optimizer trajectory started."
+    },
+    {
+      "dataset": "EUVP-Dark",
+      "mode": "c0",
+      "init_seed": 43,
+      "gpu": 4,
+      "reason": "User requested all future training use initialization7; no Dark43 optimizer trajectory started."
+    },
+    {
+      "dataset": "EUVP-Dark",
+      "mode": "isp_control",
+      "init_seed": 43,
+      "gpu": 4,
+      "reason": "User requested all future training use initialization7; no Dark43 optimizer trajectory started."
+    },
+    {
+      "dataset": "EUVP-Dark",
+      "mode": "dino_cross_stage",
+      "init_seed": 43,
+      "gpu": 4,
+      "reason": "User requested all future training use initialization7; no Dark43 optimizer trajectory started."
+    }
+  ],
+  "all_completed_seed43_results_retained": true,
+  "all32_completed_trajectories_unchanged": true,
+  "primary_seed7_view_is_retrospective_for_completed_datasets": true,
+  "current_required_trajectories": 36,
+  "original_declared_trajectories": 40,
+  "expected_weight_files": 324,
+  "expected_model_states": 360,
+  "expected_curve_rows": 7200,
+  "expected_paired_evaluations": 144,
+  "external_evaluations_retained": 48,
+  "all5_paired_datasets_and_all3_external_sets_still_required": true
+}

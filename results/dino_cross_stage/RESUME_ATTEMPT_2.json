@@ -1,0 +1,10 @@
+{
+  "at": 1794835477.1589992,
+  "restored_raw_ema_optimizer_scheduler_all_rng": true,
+  "from_epoch": 98,
+  "prefix_steps": 2940,
+  "checkpoint_sha256": "bc143bb5725eeca4eed00bade57dc31a87f37773170405a5e8291db2f32b801f",
+  "previous_gpu": 1,
+  "actual_resume_gpu": 1,
+  "resource_engine_sha256": "84090101d56b49abff003bec4ed3712071f00fa59bba062ad7efd81dfad0073d"
+}

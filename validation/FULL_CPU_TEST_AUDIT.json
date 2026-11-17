@@ -1,0 +1,74 @@
+{
+  "passed": true,
+  "at": 1794894666.2627077,
+  "full_Test_images_per_model": 89,
+  "all4_input_and_GT_hashes_match_original": true,
+  "all4_CPU_PSNR_and_SSIM_monotonic": true,
+  "max_absolute_PSNR_difference_from_archived_GPU": 0.00028055141166660746,
+  "models": [
+    {
+      "mode": "baseline",
+      "weights": "EMA Val-best",
+      "seed": 7,
+      "n": 89,
+      "device": "cpu",
+      "psnr": 24.358199710916956,
+      "ssim": 0.914885841058881,
+      "input_sha256": "538d4c0d14db27a56776af2b9ada7eccab0dbe902e53cdcda8e0ba5501caed6f",
+      "target_sha256": "200116fc3b47e84e978942ce924a0734572af8820aa12e52828457ea717cd149",
+      "checkpoint_sha256": "d29c13a8cd9572619c606017c421f8595fbea13ee64cb7e7cd9ef58f1c1aa6ca",
+      "delta_from_archived": {
+        "psnr": -0.00016965528744350422,
+        "ssim": 2.8616926642799356e-06
+      }
+    },
+    {
+      "mode": "c0",
+      "weights": "EMA Val-best",
+      "seed": 7,
+      "n": 89,
+      "device": "cpu",
+      "psnr": 24.500941888216115,
+      "ssim": 0.9156006755453817,
+      "input_sha256": "538d4c0d14db27a56776af2b9ada7eccab0dbe902e53cdcda8e0ba5501caed6f",
+      "target_sha256": "200116fc3b47e84e978942ce924a0734572af8820aa12e52828457ea717cd149",
+      "checkpoint_sha256": "cbe28325282e602d9a9009d6ed517a56c474e5e9c83d587993372a0a13065619",
+      "delta_from_archived": {
+        "psnr": -0.00028055141166660746,
+        "ssim": -9.376011533834827e-08
+      }
+    },
+    {
+      "mode": "isp_control",
+      "weights": "EMA Val-best",
+      "seed": 7,
+      "n": 89,
+      "device": "cpu",
+      "psnr": 24.596347207559752,
+      "ssim": 0.9183666692690903,
+      "input_sha256": "538d4c0d14db27a56776af2b9ada7eccab0dbe902e53cdcda8e0ba5501caed6f",
+      "target_sha256": "200116fc3b47e84e978942ce924a0734572af8820aa12e52828457ea717cd149",
+      "checkpoint_sha256": "948449ced5f922d54e9f42de8ff9d7b8c53bf69e54c772d5b7c7608ec4f67347",
+      "delta_from_archived": {
+        "psnr": 0.0002581237949002002,
+        "ssim": 3.265530875595779e-06
+      }
+    },
+    {
+      "mode": "dino_cross_stage",
+      "weights": "EMA Val-best",
+      "seed": 7,
+      "n": 89,
+      "device": "cpu",
+      "psnr": 24.62406579269361,
+      "ssim": 0.9191466723934988,
+      "input_sha256": "538d4c0d14db27a56776af2b9ada7eccab0dbe902e53cdcda8e0ba5501caed6f",
+      "target_sha256": "200116fc3b47e84e978942ce924a0734572af8820aa12e52828457ea717cd149",
+      "checkpoint_sha256": "1b4bfb3000778c0dce53837e846aee6897a2660cdb67ea5073bf4db8f0068b00",
+      "delta_from_archived": {
+        "psnr": -4.227104786025393e-05,
+        "ssim": -6.402476450118044e-07
+      }
+    }
+  ]
+}

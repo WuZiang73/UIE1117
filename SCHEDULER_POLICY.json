@@ -1,0 +1,51 @@
+{
+  "at": 1794238168.654926,
+  "authorization": "Latest user prioritizes WWE on GPUs1/4 and authorizes additional schemes. CLUIE fills only card-idle gaps and never displaces ready WWE.",
+  "authorized_gpus": [
+    1,
+    4
+  ],
+  "max_active_physical_gpus": 2,
+  "poll_seconds": 2,
+  "max_parallel_per_gpu": 3,
+  "margin_mib": 1500,
+  "default_job_budget_mib": 12000,
+  "controller_watchdog_poll_seconds": 3,
+  "resource_recovery": "Always resume from verified full checkpoint; retain every interruption. Exponential cooldown per repeated failure, capped300s. Mathematical assertions are isolated and require diagnosis, not silently restarted.",
+  "hardware_requirement": {
+    "name": "NVIDIA GeForce RTX 4090",
+    "compute_cap": "8.9"
+  },
+  "training_plan_unchanged": true,
+  "test_unchanged": true,
+  "post_training": "Resume genuine CLUIE on any idle assigned GPU only after all queued WWE tasks for that card finish.",
+  "job_priority": [
+    "LSUI/7/stage_nodino",
+    "LSUI/7/stage_transport",
+    "LSUI/43/stage_nodino",
+    "LSUI/43/stage_transport",
+    "dino_rms_direction_20261110/LSUI/7/stage_transport",
+    "dino_rms_direction_20261110/LSUI/43/stage_transport",
+    "dino_relation_variants_20261110/LSUI/7/stage_transport",
+    "dino_relation_variants_20261110/LSUI/43/stage_transport",
+    "dino_relation_variants_20261110/LSUI/7/stage_disagreement",
+    "dino_relation_variants_20261110/LSUI/43/stage_disagreement",
+    "dino_relation_variants_20261110/LSUI/7/stage_nodino",
+    "dino_relation_variants_20261110/LSUI/43/stage_nodino",
+    "dino_rms_direction_20261110/LSUI/7/stage_nodino",
+    "dino_rms_direction_20261110/LSUI/43/stage_nodino",
+    "nodino_detail_retrieval_20261110/LSUI/7/half_residual",
+    "nodino_detail_retrieval_20261110/LSUI/43/half_residual",
+    "dino_rms_direction_20261110/LSUI/7/stage_disagreement",
+    "dino_rms_direction_20261110/LSUI/43/stage_disagreement",
+    "nodino_detail_retrieval_20261110/LSUI/7/concentration_residual",
+    "nodino_detail_retrieval_20261110/LSUI/43/concentration_residual",
+    "nodino_detail_retrieval_20261110/LSUI/7/local_only",
+    "nodino_detail_retrieval_20261110/LSUI/43/local_only",
+    "nodino_detail_retrieval_20261110/LSUI/7/aligned_only",
+    "nodino_detail_retrieval_20261110/LSUI/43/aligned_only"
+  ],
+  "priority_reason": "All live WWE preserved. Shared RMS noDINO controls next, then paired noDINO candidates balanced with pending DINO-centered candidates. All local/aligned controls retained. No Test-based scheduling.",
+  "minimum_real_gpu_memory_fraction": 0.6,
+  "shared_card_capacity_accounting": true
+}

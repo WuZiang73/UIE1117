@@ -1,0 +1,25 @@
+{
+  "dataset": "UIEB",
+  "initialization_seed": 7,
+  "training_seed": 7,
+  "loader_seed": 1007,
+  "primary_weights": "EMA Val-best",
+  "methods": [
+    "baseline",
+    "c0",
+    "isp_control",
+    "dino_cross_stage"
+  ],
+  "original_training_epochs": 200,
+  "original_test_images": 89,
+  "source_files": 61,
+  "training_math_copied_unchanged": true,
+  "full_original_data_not_uploaded": true,
+  "selection_is_post_hoc_UIEB_EMA_single_initialization": true,
+  "private_repository_target": "WuZiang73/UIE1117",
+  "teacher_external_to_restoration_state": true,
+  "original_experiment": "/data1/wza/wwe/four_stage_all_datasets_20261116",
+  "remote_teacher_storage": "Local backup full copy; remote restores exact Meta public teacher via fetch_teacher.py and verified SHA256",
+  "repository_visibility_at_user_upload_authorization": "public",
+  "user_authorized_public_upload_then_user_will_make_private": true
+}

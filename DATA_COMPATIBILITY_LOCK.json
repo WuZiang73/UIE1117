@@ -1,0 +1,11 @@
+{
+  "at": 1794886223.532101,
+  "version": "dark_jpeg_extension_v1",
+  "files": {
+    "tools/experiment_dark_extensions.py": "e948fd4dcb883d1748c206b1169a75cef2e1b2b3aab4e574b1a4ad933442b409",
+    "DATASET_COMPATIBILITY.json": "6f91a6ec6c4b029c4cf489a6a76e0ff29fac1c22b970b27860c881fdab9a475c",
+    "source/utils/dataset.py": "0e8b3a268ac968d08e8cada23b617202757473e950f210deeca01478a489f9dd",
+    "tools/experiment.py": "84090101d56b49abff003bec4ed3712071f00fa59bba062ad7efd81dfad0073d"
+  },
+  "cpu_checks_sha256": "95a794ebc8aa1ef03cf314f7f85c04d047bef0e4c8af43e1a28a991bfeddedc9"
+}

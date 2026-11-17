@@ -1,0 +1,174 @@
+{
+  "at": 1794856760.4182687,
+  "test_modes": [
+    "baseline",
+    "c0",
+    "isp_control",
+    "dino_cross_stage"
+  ],
+  "selected_mode": null,
+  "locked_before_new_Test": true,
+  "entries": {
+    "UIEB/7/baseline": {
+      "at": 1794831184.63682,
+      "imported_previous_Val_locked_artifacts": true,
+      "full_Val_only_checkpoint_selection": true
+    },
+    "UIEB/7/c0": {
+      "at": 1794831184.642672,
+      "imported_previous_Val_locked_artifacts": true,
+      "full_Val_only_checkpoint_selection": true
+    },
+    "UIEB/7/isp_control": {
+      "at": 1794831184.6484952,
+      "imported_previous_Val_locked_artifacts": true,
+      "full_Val_only_checkpoint_selection": true
+    },
+    "UIEB/43/baseline": {
+      "at": 1794831184.6540391,
+      "imported_previous_Val_locked_artifacts": true,
+      "full_Val_only_checkpoint_selection": true
+    },
+    "UIEB/43/c0": {
+      "at": 1794831184.6599312,
+      "imported_previous_Val_locked_artifacts": true,
+      "full_Val_only_checkpoint_selection": true
+    },
+    "UIEB/43/isp_control": {
+      "at": 1794831184.665959,
+      "imported_previous_Val_locked_artifacts": true,
+      "full_Val_only_checkpoint_selection": true
+    },
+    "LSUI/7/baseline": {
+      "at": 1794831184.6732194,
+      "imported_previous_Val_locked_artifacts": true,
+      "full_Val_only_checkpoint_selection": true
+    },
+    "LSUI/7/c0": {
+      "at": 1794831184.6804798,
+      "imported_previous_Val_locked_artifacts": true,
+      "full_Val_only_checkpoint_selection": true
+    },
+    "LSUI/7/isp_control": {
+      "at": 1794831184.6875365,
+      "imported_previous_Val_locked_artifacts": true,
+      "full_Val_only_checkpoint_selection": true
+    },
+    "LSUI/7/dino_cross_stage": {
+      "at": 1794831184.697363,
+      "imported_previous_Val_locked_artifacts": true,
+      "full_Val_only_checkpoint_selection": true
+    },
+    "LSUI/43/baseline": {
+      "at": 1794831184.7053092,
+      "imported_previous_Val_locked_artifacts": true,
+      "full_Val_only_checkpoint_selection": true
+    },
+    "LSUI/43/c0": {
+      "at": 1794831184.7139359,
+      "imported_previous_Val_locked_artifacts": true,
+      "full_Val_only_checkpoint_selection": true
+    },
+    "LSUI/43/isp_control": {
+      "at": 1794831184.7226257,
+      "imported_previous_Val_locked_artifacts": true,
+      "full_Val_only_checkpoint_selection": true
+    },
+    "LSUI/43/dino_cross_stage": {
+      "at": 1794831184.7311025,
+      "imported_previous_Val_locked_artifacts": true,
+      "full_Val_only_checkpoint_selection": true
+    },
+    "UIEB/43/dino_cross_stage": {
+      "at": 1794834111.9104776,
+      "imported_previous_Val_locked_artifacts": false,
+      "full_Val_only_checkpoint_selection": true
+    },
+    "EUVP-Scene/7/baseline": {
+      "at": 1794837972.9505775,
+      "imported_previous_Val_locked_artifacts": false,
+      "full_Val_only_checkpoint_selection": true
+    },
+    "UIEB/7/dino_cross_stage": {
+      "at": 1794838199.6338124,
+      "imported_previous_Val_locked_artifacts": false,
+      "full_Val_only_checkpoint_selection": true
+    },
+    "UFO-120/43/baseline": {
+      "at": 1794842864.8483348,
+      "imported_previous_Val_locked_artifacts": false,
+      "full_Val_only_checkpoint_selection": true
+    },
+    "EUVP-Scene/7/c0": {
+      "at": 1794843266.1041105,
+      "imported_previous_Val_locked_artifacts": false,
+      "full_Val_only_checkpoint_selection": true
+    },
+    "EUVP-Scene/7/isp_control": {
+      "at": 1794843797.1112623,
+      "imported_previous_Val_locked_artifacts": false,
+      "full_Val_only_checkpoint_selection": true
+    },
+    "EUVP-Scene/43/baseline": {
+      "at": 1794844681.6829417,
+      "imported_previous_Val_locked_artifacts": false,
+      "full_Val_only_checkpoint_selection": true
+    },
+    "EUVP-Scene/43/c0": {
+      "at": 1794844900.0233538,
+      "imported_previous_Val_locked_artifacts": false,
+      "full_Val_only_checkpoint_selection": true
+    },
+    "EUVP-Scene/43/isp_control": {
+      "at": 1794845993.0031538,
+      "imported_previous_Val_locked_artifacts": false,
+      "full_Val_only_checkpoint_selection": true
+    },
+    "UFO-120/7/baseline": {
+      "at": 1794847960.5992846,
+      "imported_previous_Val_locked_artifacts": false,
+      "full_Val_only_checkpoint_selection": true
+    },
+    "EUVP-Scene/43/dino_cross_stage": {
+      "at": 1794848372.0938063,
+      "imported_previous_Val_locked_artifacts": false,
+      "full_Val_only_checkpoint_selection": true
+    },
+    "UFO-120/43/c0": {
+      "at": 1794851562.1737595,
+      "imported_previous_Val_locked_artifacts": false,
+      "full_Val_only_checkpoint_selection": true
+    },
+    "UFO-120/7/c0": {
+      "at": 1794852175.8518429,
+      "imported_previous_Val_locked_artifacts": false,
+      "full_Val_only_checkpoint_selection": true
+    },
+    "UFO-120/43/isp_control": {
+      "at": 1794852874.476901,
+      "imported_previous_Val_locked_artifacts": false,
+      "full_Val_only_checkpoint_selection": true
+    },
+    "UFO-120/7/isp_control": {
+      "at": 1794853266.8932707,
+      "imported_previous_Val_locked_artifacts": false,
+      "full_Val_only_checkpoint_selection": true
+    },
+    "UFO-120/43/dino_cross_stage": {
+      "at": 1794853723.0850213,
+      "imported_previous_Val_locked_artifacts": false,
+      "full_Val_only_checkpoint_selection": true
+    },
+    "UFO-120/7/dino_cross_stage": {
+      "at": 1794855400.868288,
+      "imported_previous_Val_locked_artifacts": false,
+      "full_Val_only_checkpoint_selection": true
+    },
+    "EUVP-Scene/7/dino_cross_stage": {
+      "at": 1794856760.341184,
+      "imported_previous_Val_locked_artifacts": false,
+      "full_Val_only_checkpoint_selection": true
+    }
+  },
+  "rule": "All four cumulative versions fixed in advance; each Raw/EMA full-Val best checkpoint independently locked before its Test. No Test-selected candidate."
+}

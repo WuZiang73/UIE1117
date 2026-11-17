@@ -1,0 +1,20 @@
+{
+  "at": 1794207881.9365108,
+  "epoch": 200,
+  "steps": 6000,
+  "ema_updates": 6000,
+  "preflight_only": false,
+  "first_epoch_matches_preflight": true,
+  "source_and_tools_unchanged": true,
+  "historical_prefix_steps_checked": 6000,
+  "all_available_historical_prefix_inputs_match": true,
+  "cross_run_audit": "deferred: consult cohort audit files and FINAL_AUDIT",
+  "ema_initialized": true,
+  "ema_averaging_updates": 3900,
+  "ema_start_step": 2100,
+  "peak_reserved": 6228541440,
+  "resumed_from_epoch": 162,
+  "best_ema_sha256": "948449ced5f922d54e9f42de8ff9d7b8c53bf69e54c772d5b7c7608ec4f67347",
+  "best_raw_sha256": "9597fd666c33cac2fce387a3262fe3d3ebd1dabd4f3ffb44ae55cbb82c1c5004",
+  "last_full_sha256": "c0aeb93f7bbdf7e6b543c4438670e2e25d2926143bb758e6d275271817a11b14"
+}

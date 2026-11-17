@@ -1,0 +1,130 @@
+{
+  "UIEB/7/baseline": {
+    "raw": "b24458a0dcb3c1418ee5a9e04d9462c987b657503277a552b19737b7fc3e4ee4",
+    "ema": "d29c13a8cd9572619c606017c421f8595fbea13ee64cb7e7cd9ef58f1c1aa6ca"
+  },
+  "UIEB/7/c0": {
+    "raw": "84e2a8e4ce65972d1a002062ee8a979e87c2f3576349585abd2bcbd1e3b2a9c4",
+    "ema": "cbe28325282e602d9a9009d6ed517a56c474e5e9c83d587993372a0a13065619"
+  },
+  "UIEB/7/isp_control": {
+    "raw": "9597fd666c33cac2fce387a3262fe3d3ebd1dabd4f3ffb44ae55cbb82c1c5004",
+    "ema": "948449ced5f922d54e9f42de8ff9d7b8c53bf69e54c772d5b7c7608ec4f67347"
+  },
+  "UIEB/43/baseline": {
+    "raw": "23c799376efed05b1dfbbe5d23c7b7d569ce52265f916735eaaa10453d1125a9",
+    "ema": "f7cdd736879f683e975c058431c8f816733e4f928e93cd8831262ec88905e0f3"
+  },
+  "UIEB/43/c0": {
+    "raw": "be70fb8f3561cfdea2a0ddfa089f6263d8a74787a5d23bba07c4df729d941ff8",
+    "ema": "1e365c613459f96080426a479459f4eede408d62b99a83c0cce6a91d996ea251"
+  },
+  "UIEB/43/isp_control": {
+    "raw": "fd9a62d31ffb05646aa54a0a66f7fe2ea247f9445aed73b99461fc34173d0eef",
+    "ema": "66bd78ebadc18e3b9891740f3428b000b6e1ba7540f53be50bb3ed7bd6ea658b"
+  },
+  "LSUI/7/baseline": {
+    "raw": "cddeddeac7b389e9d57595a744112bb0c12ee52376b6b44843c0c10221e8e428",
+    "ema": "fde432ed526c55d286f2484b10d263ef48a62369067c1b129e572e51cd37f174"
+  },
+  "LSUI/7/c0": {
+    "raw": "4a102aa40f9d3519173ea3bd3e23a8e86378ea3d9b7eb965a7c828edee1bbe65",
+    "ema": "38f4bc56dcd75e555390f51c852df451ea4c59786aa9b76ee2094f761f3a02c9"
+  },
+  "LSUI/7/isp_control": {
+    "raw": "3b23859605a28c846f4b9f4fec2f25eab2c6a2213f758e685af1062116286455",
+    "ema": "f757f2d1bfc15171aae9dfa6ea28dcf8239bc34b89f29dc0af5da2caeb6ddd0a"
+  },
+  "LSUI/7/dino_cross_stage": {
+    "raw": "ed5b4a3564402d5ee1078bcd75cc1de954de8408549435a0b91b8e497b2b5c79",
+    "ema": "665fdb1c563a130b623da33846f1b2ee2e108a6d218f6ff32907a428281b972e"
+  },
+  "LSUI/43/baseline": {
+    "raw": "8ba0f84099e69cebe87229d03812c399a8642df78ecd1c0e3defc4615b522bb0",
+    "ema": "604fe6f58aa27352e6b09e079e0ee923b282e1dbc1f2d53653055457cf2ff7dd"
+  },
+  "LSUI/43/c0": {
+    "raw": "2a7521fff820dc2890efd4e24ecbbe315541301bf867bdd3a718f7b4d9db0b74",
+    "ema": "175efab2e605c148e13476035e7fd04fc55e6da468435242ff68e7701f6eea11"
+  },
+  "LSUI/43/isp_control": {
+    "raw": "9711c841b1f5ddfe31dd6b6bbb8ed26416bf93d7807993832a1bb8ee43510c27",
+    "ema": "f72dbc7a2dc5546172c2432c6110c6cdf79f77a9964238e34ed97b7c56d5d237"
+  },
+  "LSUI/43/dino_cross_stage": {
+    "raw": "61bdd5273a67516aab4e0f2920def12133c012b591d6122ea8a5a867fbe5c23b",
+    "ema": "ab696b187811438f4ed1fe1c0203f7e96b3de953e915262326f00f9cd9c1c644"
+  },
+  "UIEB/43/dino_cross_stage": {
+    "raw": "575122a366f7f6bb0c010c5d3879a778334897ce70c323dffabb382071d1c14f",
+    "ema": "bcb14641dad265aa3cf9fcc65891b3ff1227a0fb1d716c4c0047979cbadf8277"
+  },
+  "EUVP-Scene/7/baseline": {
+    "raw": "2b613b43035f9b1964bc82161e0c524938ab7e238b9c223a3c5b96dc4067c623",
+    "ema": "f7e39870a209d2e222e98176151449876f398c960606e2aee48a723c23b21aac"
+  },
+  "UIEB/7/dino_cross_stage": {
+    "raw": "38888258e5cb0be2d2e87dcf38e6731940d044bce72eef0ec7216a4dfd110f82",
+    "ema": "1b4bfb3000778c0dce53837e846aee6897a2660cdb67ea5073bf4db8f0068b00"
+  },
+  "UFO-120/43/baseline": {
+    "raw": "bd165ae1a3f6cf21d8d48773bcb1499b00511db418572a457d4eda5a7d5de954",
+    "ema": "5d171886b64910bdc47b9dd28ab6023a84f7313262226951b032f76d727ff33a"
+  },
+  "EUVP-Scene/7/c0": {
+    "raw": "8a4e39efe574b9b94e39bb24a803096c09a6cdb2ac9fe19491318a6bf82b93a0",
+    "ema": "27bb60c9bb0977a66ce0325ea3089be2f1cfc381d387b2a80f5102f0d4c8fb35"
+  },
+  "EUVP-Scene/7/isp_control": {
+    "raw": "9e925c926727d1ccdaea2ca624b5f33044ee6d34d8cdec35ef9d1af2f29c2042",
+    "ema": "4893e3f7a9571fee8c70fcbadbb5b8b85dfa2e5a3bffaa06d44a4b2b38ac9328"
+  },
+  "EUVP-Scene/43/baseline": {
+    "raw": "c806d90fb5617c2a3ccde3ed0ba1b9b1e34b0c8597c35d2c32b5a9a884e02c36",
+    "ema": "7b3f7d40c0b24a3692b8dee0efe3352cd4770da99dd7dc10396a3441648b7120"
+  },
+  "EUVP-Scene/43/c0": {
+    "raw": "b3f9888ae896d067d8f828aa76c5c9a7252ea7b2195f994218bf7479ddd8cb80",
+    "ema": "e307e7bb6c9fa30d6b738af546206337e3fe264b2470a32b7e86c31b53926ae4"
+  },
+  "EUVP-Scene/43/isp_control": {
+    "raw": "0df00de5de49ae816a0f1bbfa8e8db3758057f298fba70a5123631a5a456f832",
+    "ema": "2f5eece766175e12882163db0e79f29c796db71bf45f639735526d97f868ca89"
+  },
+  "UFO-120/7/baseline": {
+    "raw": "96b26f42e283911d9152b1c03e008f8b064ccbf22d7e1a035f0d333641061371",
+    "ema": "9b330f066e9a4819c19dde7640b3f13942acb430192dc216799f61da445ec2f3"
+  },
+  "EUVP-Scene/43/dino_cross_stage": {
+    "raw": "c7810129a43f5a05f4db3e44fd828a8a9fbd16933bd73b21b057e12150c8ab9c",
+    "ema": "eb07667b809b91c61428fc33d12c08a89ee17b9d937e80ea22d9a8dc168dacbf"
+  },
+  "UFO-120/43/c0": {
+    "raw": "0c70ae97a92a9520dad13d40426111ec0d1bbdfd1254c335f1e1c94141ab1741",
+    "ema": "2a7b6c1ccfaf79c438dab3825b452a27c083ffa0ce9b38ac0ae8da781f3caa91"
+  },
+  "UFO-120/7/c0": {
+    "raw": "56cd2fad70555e98e9b6cd6203b4fd825b61b753428ff8a6edbc3599eb78d971",
+    "ema": "0389835fe23fda90be0f8e3c32fbde32fb58177db092bebcaaa3baa800e3a7a4"
+  },
+  "UFO-120/43/isp_control": {
+    "raw": "4c07a046a019137d08e12155302650fc16343f4636a8a03d1b5f9e03c094a6a3",
+    "ema": "4e64908308ab9257acc0232701e4893ac44651405e248fbbb97a37dd4192e056"
+  },
+  "UFO-120/7/isp_control": {
+    "raw": "7190d5c9be7e4fdc48fc7c0a1043a329509d90d34cf7eab135e8b635e69a960c",
+    "ema": "a25f63f5104b388d0734b20c7e7b4d756a4f939422a0da1bbc52e2987801b726"
+  },
+  "UFO-120/43/dino_cross_stage": {
+    "raw": "78f2faf0b6fb8d381e0900d08c0b6acc12f8481061fe302d0f77cf36f089ee21",
+    "ema": "56941ba8adeb64c1f7f668833288f7b9c48d35c67bb4e4d63d00fd492e77706b"
+  },
+  "UFO-120/7/dino_cross_stage": {
+    "raw": "8a2428aa18d8d55eb9a5bed73941301647dba1166143e2816c486c129fa210b8",
+    "ema": "5cf58d84b30d60fc349305c9de4126e8a3dcfd4427dd533278cb477fe43d3da0"
+  },
+  "EUVP-Scene/7/dino_cross_stage": {
+    "raw": "8633116c0d67d8abe5f355649719ac4d72a5552447fa016fe30f182efd0fec5e",
+    "ema": "039c4cfc1f98754b3dda7d668b263d871666eb71666f9cd6c149d331d047eb5f"
+  }
+}

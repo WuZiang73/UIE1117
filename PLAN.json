@@ -1,0 +1,687 @@
+{
+  "created_at": 1794828678.843976,
+  "scope": "Four cumulative versions on all5 paired datasets and all3 Table2 external sets; current accepted recipe, all outcomes retained.",
+  "datasets": [
+    "UIEB",
+    "LSUI",
+    "UFO-120",
+    "EUVP-Scene",
+    "EUVP-Dark"
+  ],
+  "methods": [
+    "baseline",
+    "c0",
+    "isp_control",
+    "dino_cross_stage"
+  ],
+  "initialization_seeds": [
+    7,
+    43
+  ],
+  "training_seed": 7,
+  "epochs": 200,
+  "total_jobs": 40,
+  "authorized_gpus": [
+    1,
+    4
+  ],
+  "evaluation_authorized_gpus": [
+    1,
+    4
+  ],
+  "poll_seconds": 30,
+  "minimum_real_gpu_memory_fraction": 0.6,
+  "max_parallel_per_gpu": 3,
+  "card_margin_mib": 1500,
+  "max_sigkill_recoveries": 2,
+  "dropout": {
+    "kind": "Per-sample inverted stochastic depth on convolutional residual branch only",
+    "maximum_probability": 0.1,
+    "blocks": [
+      "encoder1",
+      "encoder2",
+      "bottleneck",
+      "decoder1",
+      "decoder2"
+    ],
+    "rates": [
+      0.0,
+      0.025,
+      0.05,
+      0.075,
+      0.1
+    ],
+    "global_cuda_rng_seed": 7,
+    "eval_disabled": true
+  },
+  "ema": {
+    "kind": "Delayed non-feedback parameterEMA",
+    "decay_max": 0.999,
+    "decay_constant": 0.999,
+    "start_optimizer_step_by_dataset": {
+      "UIEB": 2100,
+      "LSUI": 10000,
+      "UFO-120": 3500,
+      "EUVP-Scene": 5110,
+      "EUVP-Dark": 12950
+    },
+    "initialization": "At startstep afteroptimizer.step, copycurrentRaw; thereafter average withfixed0.999; noearlier parametersincluded",
+    "update_after_every_optimizer_step": true,
+    "parameters_only_averaged": true,
+    "buffers_copied_exact": true,
+    "primary_selection": "EMA Val-best onlyafterinitialization; raw separatelyVal-best",
+    "raw_best_also_saved_and_tested": true,
+    "prestart_EMA_metrics": "null: notyetinitialized; nevercopiedfromRawintoEMAmetrics",
+    "scaled_start_rule": "Preserve already accepted approximatelyepoch70 startsteps2100/3500/10000; fixed.999 thereafter.",
+    "extension_to_new_datasets": "Accepted approximatelyepoch70 start, fixed0.999: preserve2100/10000/3500, extend to5110/12950; same across four methods."
+  },
+  "recipe": {
+    "epoch": 200,
+    "epoch_val": 1,
+    "lr": 0.002,
+    "train_batch_size": 24,
+    "eval_batch_size": 24,
+    "weight_decay": 1e-05,
+    "num_workers": 8,
+    "semantic": "none",
+    "dino_loss": 0.0,
+    "loss": "charbonnier",
+    "shot_noise": 0.0,
+    "read_noise": 0.0,
+    "refiner_warmup": 0,
+    "psf_cycle": 0.0,
+    "dino_weights": "/data1/wza/wwe/four_stage_all_datasets_20261116/teachers/vitb14.pth",
+    "arch": "stripped",
+    "resume": null,
+    "init_backbone": null,
+    "seed": 7,
+    "cpu": false,
+    "smoke": false,
+    "max_train_batches": 0,
+    "max_val_batches": 0,
+    "freeze_backbone": false,
+    "variant": "M2v2R",
+    "rho": 0.25,
+    "dataset": "UIEB"
+  },
+  "data_root": "/data1/wza/wwe/four_stage_all_datasets_20261116/data/UnderWaterDataset",
+  "source_reference": "/data1/wza/wwe/dino_rms_direction_20261110/source",
+  "prerequisite_root": "/data1/wza/wwe/loss_weight_study_20261108",
+  "backup_root": "/data1/wza/wwe/four_stage_all_datasets_backup_20261116",
+  "excel": "/data1/wza/wwe/four_stage_all_datasets_20261116/four_stage_paper_comparison.xlsx",
+  "backend": {
+    "cudnn_benchmark": false,
+    "cudnn_deterministic": true,
+    "strict": true,
+    "matmul_tf32": false,
+    "cudnn_tf32": true,
+    "CUBLAS_WORKSPACE_CONFIG": ":4096:8"
+  },
+  "predeclared_job_order": [
+    {
+      "dataset": "UIEB",
+      "mode": "baseline",
+      "init_seed": 7,
+      "gpu": 1
+    },
+    {
+      "dataset": "UIEB",
+      "mode": "c0",
+      "init_seed": 7,
+      "gpu": 1
+    },
+    {
+      "dataset": "UIEB",
+      "mode": "isp_control",
+      "init_seed": 7,
+      "gpu": 1
+    },
+    {
+      "dataset": "UIEB",
+      "mode": "dino_cross_stage",
+      "init_seed": 7,
+      "gpu": 1
+    },
+    {
+      "dataset": "UIEB",
+      "mode": "baseline",
+      "init_seed": 43,
+      "gpu": 4
+    },
+    {
+      "dataset": "UIEB",
+      "mode": "c0",
+      "init_seed": 43,
+      "gpu": 4
+    },
+    {
+      "dataset": "UIEB",
+      "mode": "isp_control",
+      "init_seed": 43,
+      "gpu": 4
+    },
+    {
+      "dataset": "UIEB",
+      "mode": "dino_cross_stage",
+      "init_seed": 43,
+      "gpu": 4
+    },
+    {
+      "dataset": "EUVP-Scene",
+      "mode": "baseline",
+      "init_seed": 7,
+      "gpu": 1
+    },
+    {
+      "dataset": "EUVP-Scene",
+      "mode": "c0",
+      "init_seed": 7,
+      "gpu": 1
+    },
+    {
+      "dataset": "EUVP-Scene",
+      "mode": "isp_control",
+      "init_seed": 7,
+      "gpu": 1
+    },
+    {
+      "dataset": "EUVP-Scene",
+      "mode": "dino_cross_stage",
+      "init_seed": 7,
+      "gpu": 1
+    },
+    {
+      "dataset": "EUVP-Scene",
+      "mode": "baseline",
+      "init_seed": 43,
+      "gpu": 4
+    },
+    {
+      "dataset": "EUVP-Scene",
+      "mode": "c0",
+      "init_seed": 43,
+      "gpu": 4
+    },
+    {
+      "dataset": "EUVP-Scene",
+      "mode": "isp_control",
+      "init_seed": 43,
+      "gpu": 4
+    },
+    {
+      "dataset": "EUVP-Scene",
+      "mode": "dino_cross_stage",
+      "init_seed": 43,
+      "gpu": 4
+    },
+    {
+      "dataset": "UFO-120",
+      "mode": "baseline",
+      "init_seed": 7,
+      "gpu": 1
+    },
+    {
+      "dataset": "UFO-120",
+      "mode": "c0",
+      "init_seed": 7,
+      "gpu": 1
+    },
+    {
+      "dataset": "UFO-120",
+      "mode": "isp_control",
+      "init_seed": 7,
+      "gpu": 1
+    },
+    {
+      "dataset": "UFO-120",
+      "mode": "dino_cross_stage",
+      "init_seed": 7,
+      "gpu": 1
+    },
+    {
+      "dataset": "UFO-120",
+      "mode": "baseline",
+      "init_seed": 43,
+      "gpu": 4
+    },
+    {
+      "dataset": "UFO-120",
+      "mode": "c0",
+      "init_seed": 43,
+      "gpu": 4
+    },
+    {
+      "dataset": "UFO-120",
+      "mode": "isp_control",
+      "init_seed": 43,
+      "gpu": 4
+    },
+    {
+      "dataset": "UFO-120",
+      "mode": "dino_cross_stage",
+      "init_seed": 43,
+      "gpu": 4
+    },
+    {
+      "dataset": "EUVP-Dark",
+      "mode": "baseline",
+      "init_seed": 7,
+      "gpu": 1
+    },
+    {
+      "dataset": "EUVP-Dark",
+      "mode": "c0",
+      "init_seed": 7,
+      "gpu": 1
+    },
+    {
+      "dataset": "EUVP-Dark",
+      "mode": "isp_control",
+      "init_seed": 7,
+      "gpu": 1
+    },
+    {
+      "dataset": "EUVP-Dark",
+      "mode": "dino_cross_stage",
+      "init_seed": 7,
+      "gpu": 1
+    },
+    {
+      "dataset": "EUVP-Dark",
+      "mode": "baseline",
+      "init_seed": 43,
+      "gpu": 4
+    },
+    {
+      "dataset": "EUVP-Dark",
+      "mode": "c0",
+      "init_seed": 43,
+      "gpu": 4
+    },
+    {
+      "dataset": "EUVP-Dark",
+      "mode": "isp_control",
+      "init_seed": 43,
+      "gpu": 4
+    },
+    {
+      "dataset": "EUVP-Dark",
+      "mode": "dino_cross_stage",
+      "init_seed": 43,
+      "gpu": 4
+    },
+    {
+      "dataset": "LSUI",
+      "mode": "baseline",
+      "init_seed": 7,
+      "gpu": 1
+    },
+    {
+      "dataset": "LSUI",
+      "mode": "c0",
+      "init_seed": 7,
+      "gpu": 1
+    },
+    {
+      "dataset": "LSUI",
+      "mode": "isp_control",
+      "init_seed": 7,
+      "gpu": 1
+    },
+    {
+      "dataset": "LSUI",
+      "mode": "dino_cross_stage",
+      "init_seed": 7,
+      "gpu": 1
+    },
+    {
+      "dataset": "LSUI",
+      "mode": "baseline",
+      "init_seed": 43,
+      "gpu": 4
+    },
+    {
+      "dataset": "LSUI",
+      "mode": "c0",
+      "init_seed": 43,
+      "gpu": 4
+    },
+    {
+      "dataset": "LSUI",
+      "mode": "isp_control",
+      "init_seed": 43,
+      "gpu": 4
+    },
+    {
+      "dataset": "LSUI",
+      "mode": "dino_cross_stage",
+      "init_seed": 43,
+      "gpu": 4
+    }
+  ],
+  "split_counts": {
+    "UIEB": {
+      "train": 712,
+      "val": 89,
+      "test": 89
+    },
+    "LSUI": {
+      "train": 3423,
+      "val": 428,
+      "test": 428
+    },
+    "UFO-120": {
+      "train": 1200,
+      "val": 300,
+      "test": 120
+    },
+    "EUVP-Scene": {
+      "train": 1748,
+      "val": 218,
+      "test": 219
+    },
+    "EUVP-Dark": {
+      "train": 4440,
+      "val": 555,
+      "test": 555
+    }
+  },
+  "steps_per_epoch": {
+    "UIEB": 30,
+    "LSUI": 143,
+    "UFO-120": 50,
+    "EUVP-Scene": 73,
+    "EUVP-Dark": 185
+  },
+  "physical_gpu": 1,
+  "latest_gpu_authorization": "User authorizedGPU6 andWWE priority overownedCLUIE",
+  "artifact_naming": "ASCII-only for all new artifacts; preserve existing legacy files",
+  "allow_parallel_with_prerequisite": false,
+  "gpu_authorization": "User-owned GPUs1/4 only, maximum2 physical cards. WWE first; genuine CLUIE resumes after ready WWE.",
+  "historical_reference_epochs": 200,
+  "milestone_epochs": [
+    100,
+    150
+  ],
+  "post_training_cluie_gap_authorized": false,
+  "expected_weight_files": 360,
+  "expected_model_states": 400,
+  "expected_evaluations": 160,
+  "expected_curve_rows": 8000,
+  "preprocessing": "OriginalLSUI/UIEB paired sizes; UFO originalinput/GT directly resized separately to256; same official metrics.",
+  "losses": {
+    "baseline": {
+      "loss_id": "charb_s100",
+      "pixel": "charbonnier",
+      "ssim_weight": 0.1
+    },
+    "c0": {
+      "loss_id": "charb_s100",
+      "pixel": "charbonnier",
+      "ssim_weight": 0.1
+    },
+    "isp_control": {
+      "loss_id": "charb_s100",
+      "pixel": "charbonnier",
+      "ssim_weight": 0.1
+    },
+    "dino_cross_stage": {
+      "loss_id": "charb_s100",
+      "pixel": "charbonnier",
+      "ssim_weight": 0.1
+    }
+  },
+  "initialization_gpus": {
+    "7": 1,
+    "43": 4
+  },
+  "initial_training_budget_mib": 7500,
+  "checkpoint_selection": "Immediate Raw/EMA full Val/Test after each run; preserve all seeds, failures and recovery attempts.",
+  "gpu_residency_note": "Actual real workload only; third-party jobs currently constrain own available memory. Do not allocate fake buffers or terminate other users.",
+  "max_active_physical_gpus": 2,
+  "coordinator_root": "/data1/wza/wwe/dino_factorized_cross_stage_20261110",
+  "first_batch_root": "/data1/wza/wwe/dino_rms_direction_20261110",
+  "immediate_evaluation": true,
+  "full_external_evaluation_required": true,
+  "external_datasets": [
+    "Challenging-60",
+    "U45",
+    "Color-Check7"
+  ],
+  "external_source_dataset": "UIEB",
+  "external_expected_evaluations": 48,
+  "selection": {
+    "rule": "All four fixed cumulative versions are reported. Each Raw/EMA checkpoint chosen independently by full Val PSNR. No architecture selection by Test."
+  },
+  "method_names": {
+    "baseline": "Baseline: all proposed points removed",
+    "c0": "Baseline+C0",
+    "isp_control": "Baseline+C0+aligned ISP",
+    "dino_cross_stage": "Baseline+C0+aligned ISP+centered-DINO RMS cross-stage interaction"
+  },
+  "external_completion_gate": "All3 named external datasets x4models x2initializations xRaw/EMA; absence of Color-Check7 or a metric is incomplete, never silently skipped.",
+  "external_job_order": [
+    {
+      "dataset": "Challenging-60",
+      "mode": "baseline",
+      "init_seed": 7,
+      "gpu": 1,
+      "phase": "evaluation",
+      "evaluation_scope": "external",
+      "source_dataset": "UIEB"
+    },
+    {
+      "dataset": "Challenging-60",
+      "mode": "c0",
+      "init_seed": 7,
+      "gpu": 1,
+      "phase": "evaluation",
+      "evaluation_scope": "external",
+      "source_dataset": "UIEB"
+    },
+    {
+      "dataset": "Challenging-60",
+      "mode": "isp_control",
+      "init_seed": 7,
+      "gpu": 1,
+      "phase": "evaluation",
+      "evaluation_scope": "external",
+      "source_dataset": "UIEB"
+    },
+    {
+      "dataset": "Challenging-60",
+      "mode": "dino_cross_stage",
+      "init_seed": 7,
+      "gpu": 1,
+      "phase": "evaluation",
+      "evaluation_scope": "external",
+      "source_dataset": "UIEB"
+    },
+    {
+      "dataset": "Challenging-60",
+      "mode": "baseline",
+      "init_seed": 43,
+      "gpu": 4,
+      "phase": "evaluation",
+      "evaluation_scope": "external",
+      "source_dataset": "UIEB"
+    },
+    {
+      "dataset": "Challenging-60",
+      "mode": "c0",
+      "init_seed": 43,
+      "gpu": 4,
+      "phase": "evaluation",
+      "evaluation_scope": "external",
+      "source_dataset": "UIEB"
+    },
+    {
+      "dataset": "Challenging-60",
+      "mode": "isp_control",
+      "init_seed": 43,
+      "gpu": 4,
+      "phase": "evaluation",
+      "evaluation_scope": "external",
+      "source_dataset": "UIEB"
+    },
+    {
+      "dataset": "Challenging-60",
+      "mode": "dino_cross_stage",
+      "init_seed": 43,
+      "gpu": 4,
+      "phase": "evaluation",
+      "evaluation_scope": "external",
+      "source_dataset": "UIEB"
+    },
+    {
+      "dataset": "U45",
+      "mode": "baseline",
+      "init_seed": 7,
+      "gpu": 1,
+      "phase": "evaluation",
+      "evaluation_scope": "external",
+      "source_dataset": "UIEB"
+    },
+    {
+      "dataset": "U45",
+      "mode": "c0",
+      "init_seed": 7,
+      "gpu": 1,
+      "phase": "evaluation",
+      "evaluation_scope": "external",
+      "source_dataset": "UIEB"
+    },
+    {
+      "dataset": "U45",
+      "mode": "isp_control",
+      "init_seed": 7,
+      "gpu": 1,
+      "phase": "evaluation",
+      "evaluation_scope": "external",
+      "source_dataset": "UIEB"
+    },
+    {
+      "dataset": "U45",
+      "mode": "dino_cross_stage",
+      "init_seed": 7,
+      "gpu": 1,
+      "phase": "evaluation",
+      "evaluation_scope": "external",
+      "source_dataset": "UIEB"
+    },
+    {
+      "dataset": "U45",
+      "mode": "baseline",
+      "init_seed": 43,
+      "gpu": 4,
+      "phase": "evaluation",
+      "evaluation_scope": "external",
+      "source_dataset": "UIEB"
+    },
+    {
+      "dataset": "U45",
+      "mode": "c0",
+      "init_seed": 43,
+      "gpu": 4,
+      "phase": "evaluation",
+      "evaluation_scope": "external",
+      "source_dataset": "UIEB"
+    },
+    {
+      "dataset": "U45",
+      "mode": "isp_control",
+      "init_seed": 43,
+      "gpu": 4,
+      "phase": "evaluation",
+      "evaluation_scope": "external",
+      "source_dataset": "UIEB"
+    },
+    {
+      "dataset": "U45",
+      "mode": "dino_cross_stage",
+      "init_seed": 43,
+      "gpu": 4,
+      "phase": "evaluation",
+      "evaluation_scope": "external",
+      "source_dataset": "UIEB"
+    },
+    {
+      "dataset": "Color-Check7",
+      "mode": "baseline",
+      "init_seed": 7,
+      "gpu": 1,
+      "phase": "evaluation",
+      "evaluation_scope": "external",
+      "source_dataset": "UIEB"
+    },
+    {
+      "dataset": "Color-Check7",
+      "mode": "c0",
+      "init_seed": 7,
+      "gpu": 1,
+      "phase": "evaluation",
+      "evaluation_scope": "external",
+      "source_dataset": "UIEB"
+    },
+    {
+      "dataset": "Color-Check7",
+      "mode": "isp_control",
+      "init_seed": 7,
+      "gpu": 1,
+      "phase": "evaluation",
+      "evaluation_scope": "external",
+      "source_dataset": "UIEB"
+    },
+    {
+      "dataset": "Color-Check7",
+      "mode": "dino_cross_stage",
+      "init_seed": 7,
+      "gpu": 1,
+      "phase": "evaluation",
+      "evaluation_scope": "external",
+      "source_dataset": "UIEB"
+    },
+    {
+      "dataset": "Color-Check7",
+      "mode": "baseline",
+      "init_seed": 43,
+      "gpu": 4,
+      "phase": "evaluation",
+      "evaluation_scope": "external",
+      "source_dataset": "UIEB"
+    },
+    {
+      "dataset": "Color-Check7",
+      "mode": "c0",
+      "init_seed": 43,
+      "gpu": 4,
+      "phase": "evaluation",
+      "evaluation_scope": "external",
+      "source_dataset": "UIEB"
+    },
+    {
+      "dataset": "Color-Check7",
+      "mode": "isp_control",
+      "init_seed": 43,
+      "gpu": 4,
+      "phase": "evaluation",
+      "evaluation_scope": "external",
+      "source_dataset": "UIEB"
+    },
+    {
+      "dataset": "Color-Check7",
+      "mode": "dino_cross_stage",
+      "init_seed": 43,
+      "gpu": 4,
+      "phase": "evaluation",
+      "evaluation_scope": "external",
+      "source_dataset": "UIEB"
+    }
+  ],
+  "initial_job_budget_mib_by_mode": {
+    "baseline": 7500,
+    "c0": 7500,
+    "isp_control": 7500,
+    "dino_cross_stage": 12000
+  }
+}

@@ -1,0 +1,3795 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": 0.12998131635074403,
+    "gradient_norm": 0.628543221950531,
+    "learning_rate": 0.002,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 20.420205640560102,
+      "ssim": 0.8345302942763554
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.1001261201997598,
+      "ssim_loss": 0.2985519615098428,
+      "weighted_ssim": 0.02985519615098427
+    }
+  },
+  {
+    "epoch": 2,
+    "train_loss": 0.09049495015868889,
+    "gradient_norm": 0.4051320378979047,
+    "learning_rate": 0.0019998766448184125,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 21.131560363373577,
+      "ssim": 0.8593328364109725
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.0766705239812533,
+      "ssim_loss": 0.13824426177435598,
+      "weighted_ssim": 0.013824426177435596
+    }
+  },
+  {
+    "epoch": 3,
+    "train_loss": 0.0855250787485594,
+    "gradient_norm": 0.4390732670823733,
+    "learning_rate": 0.001999506609709695,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 21.389014462061077,
+      "ssim": 0.8664086909776323
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.07322118170559407,
+      "ssim_loss": 0.12303897042965334,
+      "weighted_ssim": 0.012303897042965334
+    }
+  },
+  {
+    "epoch": 4,
+    "train_loss": 0.08522004594493661,
+    "gradient_norm": 0.4663963094353676,
+    "learning_rate": 0.0019988899859744737,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 21.52848527237947,
+      "ssim": 0.8706123855676544
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.07324120004971822,
+      "ssim_loss": 0.11978845895218379,
+      "weighted_ssim": 0.01197884589521838
+    }
+  },
+  {
+    "epoch": 5,
+    "train_loss": 0.08167874691802343,
+    "gradient_norm": 0.40243124117453893,
+    "learning_rate": 0.0019980269257554284,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 21.647085729261352,
+      "ssim": 0.8793617895479953
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.07056881996492545,
+      "ssim_loss": 0.1110992695309798,
+      "weighted_ssim": 0.011109926953097985
+    }
+  },
+  {
+    "epoch": 6,
+    "train_loss": 0.08015529222846188,
+    "gradient_norm": 0.4082687998811404,
+    "learning_rate": 0.0019969176419997545,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 21.98878284513273,
+      "ssim": 0.8828648737307345
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.069352995728453,
+      "ssim_loss": 0.10802296500008882,
+      "weighted_ssim": 0.010802296500008881
+    }
+  },
+  {
+    "epoch": 7,
+    "train_loss": 0.07774883013756076,
+    "gradient_norm": 0.3881793941060702,
+    "learning_rate": 0.0019955624084066195,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 22.02216785153586,
+      "ssim": 0.8829969884304518
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.06736252134044965,
+      "ssim_loss": 0.10386308797111095,
+      "weighted_ssim": 0.010386308797111098
+    }
+  },
+  {
+    "epoch": 8,
+    "train_loss": 0.07791514557755651,
+    "gradient_norm": 0.3597323164343834,
+    "learning_rate": 0.001993961559359634,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 22.07835726504882,
+      "ssim": 0.883491569020775
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.06748917425672213,
+      "ssim_loss": 0.10425971320834382,
+      "weighted_ssim": 0.010425971320834383
+    }
+  },
+  {
+    "epoch": 9,
+    "train_loss": 0.07608813663072121,
+    "gradient_norm": 0.3740466634432475,
+    "learning_rate": 0.001992115489844346,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 21.634461787843616,
+      "ssim": 0.8791296006588454
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.06604702559610208,
+      "ssim_loss": 0.10041111034619146,
+      "weighted_ssim": 0.010041111034619148
+    }
+  },
+  {
+    "epoch": 10,
+    "train_loss": 0.0767459939291454,
+    "gradient_norm": 0.4078037192424138,
+    "learning_rate": 0.0019900246553507853,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 21.696748449232302,
+      "ssim": 0.8837763164820296
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.06662492553393046,
+      "ssim_loss": 0.10121068395214942,
+      "weighted_ssim": 0.010121068395214938
+    }
+  },
+  {
+    "epoch": 11,
+    "train_loss": 0.0745508917197324,
+    "gradient_norm": 0.34240546176830927,
+    "learning_rate": 0.0019876895717610777,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 22.40883254206307,
+      "ssim": 0.8901028304957272
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.06474030700822671,
+      "ssim_loss": 0.09810584711505715,
+      "weighted_ssim": 0.009810584711505716
+    }
+  },
+  {
+    "epoch": 12,
+    "train_loss": 0.07279018063249944,
+    "gradient_norm": 0.2938739279905955,
+    "learning_rate": 0.0019851108152221576,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 21.77299552066395,
+      "ssim": 0.8842624603362566
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.06314210953811804,
+      "ssim_loss": 0.09648071094381393,
+      "weighted_ssim": 0.009648071094381396
+    }
+  },
+  {
+    "epoch": 13,
+    "train_loss": 0.07613240357594772,
+    "gradient_norm": 0.3576827645301819,
+    "learning_rate": 0.001982289022003615,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 22.461587313616256,
+      "ssim": 0.8884031940042303
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.0660706768433253,
+      "ssim_loss": 0.10061726732622443,
+      "weighted_ssim": 0.010061726732622445
+    }
+  },
+  {
+    "epoch": 14,
+    "train_loss": 0.07521769187125092,
+    "gradient_norm": 0.38565448075532915,
+    "learning_rate": 0.0019792248883407026,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 22.280247382249442,
+      "ssim": 0.8871398996771052
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.06537824881573519,
+      "ssim_loss": 0.0983944305551575,
+      "weighted_ssim": 0.009839443055515753
+    }
+  },
+  {
+    "epoch": 15,
+    "train_loss": 0.07378918296983993,
+    "gradient_norm": 0.3549397761623065,
+    "learning_rate": 0.0019759191702625528,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 22.40007467764106,
+      "ssim": 0.8930230576000856
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.06411564201116562,
+      "ssim_loss": 0.09673540958674313,
+      "weighted_ssim": 0.009673540958674315
+    }
+  },
+  {
+    "epoch": 16,
+    "train_loss": 0.07349498993323088,
+    "gradient_norm": 0.375974636276563,
+    "learning_rate": 0.001972372683405636,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 21.866658944721802,
+      "ssim": 0.8831978540741996
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.06393544947107634,
+      "ssim_loss": 0.09559540462154555,
+      "weighted_ssim": 0.009559540462154553
+    }
+  },
+  {
+    "epoch": 17,
+    "train_loss": 0.07382628280882032,
+    "gradient_norm": 0.3757646128535271,
+    "learning_rate": 0.0019685863028125173,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 22.475634094117275,
+      "ssim": 0.8940866998072421
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.06423492208123208,
+      "ssim_loss": 0.09591360727588266,
+      "weighted_ssim": 0.009591360727588266
+    }
+  },
+  {
+    "epoch": 18,
+    "train_loss": 0.07106960447694612,
+    "gradient_norm": 0.2828178415695826,
+    "learning_rate": 0.0019645609627159514,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 22.70187005985207,
+      "ssim": 0.8920213687285948
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.06175296070675055,
+      "ssim_loss": 0.09316643770195568,
+      "weighted_ssim": 0.00931664377019557
+    }
+  },
+  {
+    "epoch": 19,
+    "train_loss": 0.07141937437845784,
+    "gradient_norm": 0.3477708021799723,
+    "learning_rate": 0.0019602976563083746,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 22.218745945883658,
+      "ssim": 0.8961933067675387
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.06205990004042784,
+      "ssim_loss": 0.0935947433802998,
+      "weighted_ssim": 0.009359474338029979
+    }
+  },
+  {
+    "epoch": 20,
+    "train_loss": 0.07041204840893431,
+    "gradient_norm": 0.3421963959932327,
+    "learning_rate": 0.0019557974354968495,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 22.600924563086505,
+      "ssim": 0.8967060915539774
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.06131597682833671,
+      "ssim_loss": 0.09096071580597591,
+      "weighted_ssim": 0.00909607158059759
+    }
+  },
+  {
+    "epoch": 21,
+    "train_loss": 0.07285193326839301,
+    "gradient_norm": 0.3767508715391159,
+    "learning_rate": 0.0019510614106435231,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 22.55927787158379,
+      "ssim": 0.894538859972793
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.06346660951773325,
+      "ssim_loss": 0.09385323750659742,
+      "weighted_ssim": 0.00938532375065974
+    }
+  },
+  {
+    "epoch": 22,
+    "train_loss": 0.07012853191527497,
+    "gradient_norm": 0.3490987593928973,
+    "learning_rate": 0.0019460907502916614,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 22.379187642902803,
+      "ssim": 0.8910626507876964
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.061106013134121895,
+      "ssim_loss": 0.09022518781153105,
+      "weighted_ssim": 0.009022518781153102
+    }
+  },
+  {
+    "epoch": 23,
+    "train_loss": 0.07163420030692484,
+    "gradient_norm": 0.3410849610964457,
+    "learning_rate": 0.0019408866808773289,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 22.512205345301695,
+      "ssim": 0.8984019120087784
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.062443965797623,
+      "ssim_loss": 0.09190234509301856,
+      "weighted_ssim": 0.00919023450930186
+    }
+  },
+  {
+    "epoch": 24,
+    "train_loss": 0.0695769599455618,
+    "gradient_norm": 0.34032793492078783,
+    "learning_rate": 0.0019354504864267834,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 22.90759760958826,
+      "ssim": 0.8981371012966285
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.060590960333744684,
+      "ssim_loss": 0.0898599961181712,
+      "weighted_ssim": 0.00898599961181712
+    }
+  },
+  {
+    "epoch": 25,
+    "train_loss": 0.06975349738648334,
+    "gradient_norm": 0.3124230285485586,
+    "learning_rate": 0.0019297835082396615,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 22.81772098533674,
+      "ssim": 0.8992913358666924
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.06077342269321283,
+      "ssim_loss": 0.08980074693270518,
+      "weighted_ssim": 0.008980074693270518
+    }
+  },
+  {
+    "epoch": 26,
+    "train_loss": 0.06770920057696832,
+    "gradient_norm": 0.2839004149039586,
+    "learning_rate": 0.0019238871445580346,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 23.071615899586167,
+      "ssim": 0.8992041637388508
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.05895452213784059,
+      "ssim_loss": 0.08754678439127718,
+      "weighted_ssim": 0.008754678439127719
+    }
+  },
+  {
+    "epoch": 27,
+    "train_loss": 0.06767875529359677,
+    "gradient_norm": 0.3219827488064766,
+    "learning_rate": 0.0019177628502214114,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 22.68805797033876,
+      "ssim": 0.8972424583488636
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.058992668489615124,
+      "ssim_loss": 0.0868608680398165,
+      "weighted_ssim": 0.008686086803981651
+    }
+  },
+  {
+    "epoch": 28,
+    "train_loss": 0.06926488331070656,
+    "gradient_norm": 0.3911995433270931,
+    "learning_rate": 0.0019114121363077803,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 22.878465565536082,
+      "ssim": 0.8995684224568056
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.0604142585148414,
+      "ssim_loss": 0.08850624795865175,
+      "weighted_ssim": 0.008850624795865175
+    }
+  },
+  {
+    "epoch": 29,
+    "train_loss": 0.06769674830304581,
+    "gradient_norm": 0.33966085910797117,
+    "learning_rate": 0.0019048365697607716,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 22.61107257957585,
+      "ssim": 0.8981448378455773
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.05906963621576627,
+      "ssim_loss": 0.08627112087279558,
+      "weighted_ssim": 0.00862711208727956
+    }
+  },
+  {
+    "epoch": 30,
+    "train_loss": 0.0685033647735589,
+    "gradient_norm": 0.32022752116123837,
+    "learning_rate": 0.001898037773003038,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 21.8309713434279,
+      "ssim": 0.8944916115717941
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.05980384113887946,
+      "ssim_loss": 0.08699523634679421,
+      "weighted_ssim": 0.008699523634679419
+    }
+  },
+  {
+    "epoch": 31,
+    "train_loss": 0.0698665638008585,
+    "gradient_norm": 0.36109644224246346,
+    "learning_rate": 0.0018910174235359475,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 21.761140127177075,
+      "ssim": 0.8930682452876916
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.06099695327381293,
+      "ssim_loss": 0.08869610527045567,
+      "weighted_ssim": 0.008869610527045565
+    }
+  },
+  {
+    "epoch": 32,
+    "train_loss": 0.07040423976169709,
+    "gradient_norm": 0.3534634048740069,
+    "learning_rate": 0.0018837772535256834,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 22.889180273183353,
+      "ssim": 0.9001262328597937
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.06144085911413034,
+      "ssim_loss": 0.08963380647566757,
+      "weighted_ssim": 0.008963380647566755
+    }
+  },
+  {
+    "epoch": 33,
+    "train_loss": 0.06756876264497419,
+    "gradient_norm": 0.31200824975967406,
+    "learning_rate": 0.0018763190493758578,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 23.11551623317065,
+      "ssim": 0.9011925505788139
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.05890338011085987,
+      "ssim_loss": 0.08665382534114295,
+      "weighted_ssim": 0.008665382534114295
+    }
+  },
+  {
+    "epoch": 34,
+    "train_loss": 0.06704506695265929,
+    "gradient_norm": 0.31098261326551435,
+    "learning_rate": 0.0018686446512867461,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 22.93957332450264,
+      "ssim": 0.9004031634062863
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.058437718699375786,
+      "ssim_loss": 0.08607348253283507,
+      "weighted_ssim": 0.008607348253283508
+    }
+  },
+  {
+    "epoch": 35,
+    "train_loss": 0.06636186658925257,
+    "gradient_norm": 0.28765587707360585,
+    "learning_rate": 0.001860755952801242,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 22.96754084796486,
+      "ssim": 0.9012510943948553
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.05776933195690314,
+      "ssim_loss": 0.08592534632349437,
+      "weighted_ssim": 0.008592534632349436
+    }
+  },
+  {
+    "epoch": 36,
+    "train_loss": 0.06712675684349377,
+    "gradient_norm": 0.32578425159056984,
+    "learning_rate": 0.0018526549003376556,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 22.69382748943783,
+      "ssim": 0.89850316958481
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.058544112866123516,
+      "ssim_loss": 0.08582643977370266,
+      "weighted_ssim": 0.008582643977370265
+    }
+  },
+  {
+    "epoch": 37,
+    "train_loss": 0.06746240004950929,
+    "gradient_norm": 0.33658775289853415,
+    "learning_rate": 0.0018443434927094637,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 22.97059971243889,
+      "ssim": 0.9008116380552228
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.05890939397116502,
+      "ssim_loss": 0.08553006078344247,
+      "weighted_ssim": 0.008553006078344246
+    }
+  },
+  {
+    "epoch": 38,
+    "train_loss": 0.0659579986537589,
+    "gradient_norm": 0.3034957965215047,
+    "learning_rate": 0.0018358237806321324,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 23.315306017364914,
+      "ssim": 0.9041951238439324
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.05760155382255713,
+      "ssim_loss": 0.0835644483120176,
+      "weighted_ssim": 0.008356444831201761
+    }
+  },
+  {
+    "epoch": 39,
+    "train_loss": 0.06429201893209796,
+    "gradient_norm": 0.29072403013706205,
+    "learning_rate": 0.0018270978662171331,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 23.224966339569615,
+      "ssim": 0.8995674292692978
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.05606970104078452,
+      "ssim_loss": 0.08222317891313434,
+      "weighted_ssim": 0.008222317891313434
+    }
+  },
+  {
+    "epoch": 40,
+    "train_loss": 0.06529079943648841,
+    "gradient_norm": 0.28868670438726746,
+    "learning_rate": 0.0018181679024532797,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 23.013943332866404,
+      "ssim": 0.9026954609356569
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.056947864840428034,
+      "ssim_loss": 0.08342934596060377,
+      "weighted_ssim": 0.00834293459606038
+    }
+  },
+  {
+    "epoch": 41,
+    "train_loss": 0.06451179597824813,
+    "gradient_norm": 0.30781730512777966,
+    "learning_rate": 0.001809036092675509,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 23.22958212414298,
+      "ssim": 0.9015584092461661
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.056284539649883905,
+      "ssim_loss": 0.0822725632836422,
+      "weighted_ssim": 0.00822725632836422
+    }
+  },
+  {
+    "epoch": 42,
+    "train_loss": 0.06366509221001708,
+    "gradient_norm": 0.2899225210150083,
+    "learning_rate": 0.0017997046900212412,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 22.934383682961084,
+      "ssim": 0.9013666222604473
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.0554912851502498,
+      "ssim_loss": 0.08173807059767285,
+      "weighted_ssim": 0.008173807059767285
+    }
+  },
+  {
+    "epoch": 43,
+    "train_loss": 0.06339019202288136,
+    "gradient_norm": 0.27283342083295187,
+    "learning_rate": 0.0017901759968744519,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 23.210919629134295,
+      "ssim": 0.90309659818585
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.05526453691224257,
+      "ssim_loss": 0.08125655110638783,
+      "weighted_ssim": 0.008125655110638787
+    }
+  },
+  {
+    "epoch": 44,
+    "train_loss": 0.06479585156461148,
+    "gradient_norm": 0.3770614062746366,
+    "learning_rate": 0.0017804523642975952,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 23.47812729261959,
+      "ssim": 0.904617678583338
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.05657773539423942,
+      "ssim_loss": 0.0821811617037204,
+      "weighted_ssim": 0.008218116170372042
+    }
+  },
+  {
+    "epoch": 45,
+    "train_loss": 0.0692074373307286,
+    "gradient_norm": 0.3575234224398931,
+    "learning_rate": 0.001770536191451511,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 22.577217392607984,
+      "ssim": 0.8974638802281926
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.060665788128972054,
+      "ssim_loss": 0.08541649201756553,
+      "weighted_ssim": 0.008541649201756553
+    }
+  },
+  {
+    "epoch": 46,
+    "train_loss": 0.06539257523698701,
+    "gradient_norm": 0.346358859539032,
+    "learning_rate": 0.0017604299250034703,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 23.2628503531282,
+      "ssim": 0.9015930924522743
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.05702710884312789,
+      "ssim_loss": 0.08365466393859117,
+      "weighted_ssim": 0.00836546639385912
+    }
+  },
+  {
+    "epoch": 47,
+    "train_loss": 0.06349546232580132,
+    "gradient_norm": 0.26572146117687223,
+    "learning_rate": 0.0017501360585234957,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 23.59233152920094,
+      "ssim": 0.9053400935751669
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.055282151947418846,
+      "ssim_loss": 0.08213310378382474,
+      "weighted_ssim": 0.008213310378382474
+    }
+  },
+  {
+    "epoch": 48,
+    "train_loss": 0.062155350757951415,
+    "gradient_norm": 0.24513362993796667,
+    "learning_rate": 0.0017396571318691108,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 23.552896259851572,
+      "ssim": 0.9056649623292216
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.054172105217973394,
+      "ssim_loss": 0.07983245539978005,
+      "weighted_ssim": 0.007983245539978008
+    }
+  },
+  {
+    "epoch": 49,
+    "train_loss": 0.06344195047450153,
+    "gradient_norm": 0.31652870078881584,
+    "learning_rate": 0.0017289957305586686,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 23.225775773317483,
+      "ssim": 0.9045847419942363
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.0552960650374492,
+      "ssim_loss": 0.0814588543705233,
+      "weighted_ssim": 0.008145885437052334
+    }
+  },
+  {
+    "epoch": 50,
+    "train_loss": 0.06525899368739368,
+    "gradient_norm": 0.3803600753347079,
+    "learning_rate": 0.0017181544851334117,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 22.84501465629087,
+      "ssim": 0.8996879578976149
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.05702764329810937,
+      "ssim_loss": 0.08231350389284307,
+      "weighted_ssim": 0.008231350389284308
+    }
+  },
+  {
+    "epoch": 51,
+    "train_loss": 0.06388901151974016,
+    "gradient_norm": 0.30447425991296767,
+    "learning_rate": 0.001707136070508428,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 23.234328063341856,
+      "ssim": 0.902615463465787
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.05574182396133741,
+      "ssim_loss": 0.08147187558402748,
+      "weighted_ssim": 0.008147187558402744
+    }
+  },
+  {
+    "epoch": 52,
+    "train_loss": 0.06202263452192743,
+    "gradient_norm": 0.26190674901008604,
+    "learning_rate": 0.0016959432053126541,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 23.447774644174075,
+      "ssim": 0.9029672098963448
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.05409979410469532,
+      "ssim_loss": 0.07922840417232108,
+      "weighted_ssim": 0.007922840417232107
+    }
+  },
+  {
+    "epoch": 53,
+    "train_loss": 0.06233238050485605,
+    "gradient_norm": 0.2747472882270813,
+    "learning_rate": 0.001684578651218095,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 23.617095517187714,
+      "ssim": 0.9054928421974182
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.05430341648558776,
+      "ssim_loss": 0.08028964019268307,
+      "weighted_ssim": 0.008028964019268304
+    }
+  },
+  {
+    "epoch": 54,
+    "train_loss": 0.06397247513342755,
+    "gradient_norm": 0.3607961451013883,
+    "learning_rate": 0.0016730452122584215,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 22.45073013941463,
+      "ssim": 0.8998874291945039
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.05591155650715033,
+      "ssim_loss": 0.08060918626277222,
+      "weighted_ssim": 0.008060918626277223
+    }
+  },
+  {
+    "epoch": 55,
+    "train_loss": 0.06267454369741512,
+    "gradient_norm": 0.3515498434503873,
+    "learning_rate": 0.0016613457341371186,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 22.820400994132996,
+      "ssim": 0.904095464877868
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.054727846508224806,
+      "ssim_loss": 0.07946697189190317,
+      "weighted_ssim": 0.007946697189190315
+    }
+  },
+  {
+    "epoch": 56,
+    "train_loss": 0.06404352367310226,
+    "gradient_norm": 0.38105289240678153,
+    "learning_rate": 0.0016494831035253497,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 23.300040794053608,
+      "ssim": 0.905288821525788
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.05594000120957692,
+      "ssim_loss": 0.08103522463525326,
+      "weighted_ssim": 0.008103522463525324
+    }
+  },
+  {
+    "epoch": 57,
+    "train_loss": 0.06497770730328037,
+    "gradient_norm": 0.3990265076359113,
+    "learning_rate": 0.001637460247349714,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 23.163519690238456,
+      "ssim": 0.904049155417453
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.05693474486470222,
+      "ssim_loss": 0.08042962438578163,
+      "weighted_ssim": 0.008042962438578164
+    }
+  },
+  {
+    "epoch": 58,
+    "train_loss": 0.06082116190097398,
+    "gradient_norm": 0.28978575666745504,
+    "learning_rate": 0.0016252801320700708,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 23.390537387381322,
+      "ssim": 0.904633226689328
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.0530342809855938,
+      "ssim_loss": 0.07786880915380175,
+      "weighted_ssim": 0.007786880915380172
+    }
+  },
+  {
+    "epoch": 59,
+    "train_loss": 0.060057979149586195,
+    "gradient_norm": 0.26447711636622745,
+    "learning_rate": 0.0016129457629476104,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 23.482669282441535,
+      "ssim": 0.9057744105210465
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.052310128882527354,
+      "ssim_loss": 0.07747850267058834,
+      "weighted_ssim": 0.007747850267058835
+    }
+  },
+  {
+    "epoch": 60,
+    "train_loss": 0.06082113510253708,
+    "gradient_norm": 0.30716618299484255,
+    "learning_rate": 0.0016004601833033507,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 23.63892259617197,
+      "ssim": 0.9058242406737939
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.05305425077676773,
+      "ssim_loss": 0.07766884325769358,
+      "weighted_ssim": 0.007766884325769358
+    }
+  },
+  {
+    "epoch": 61,
+    "train_loss": 0.06111794031455072,
+    "gradient_norm": 0.31241916368405026,
+    "learning_rate": 0.0015878264737672432,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 23.404577590371165,
+      "ssim": 0.90739018662592
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.05328824073076248,
+      "ssim_loss": 0.07829699583788242,
+      "weighted_ssim": 0.00782969958378824
+    }
+  },
+  {
+    "epoch": 62,
+    "train_loss": 0.06146444342646568,
+    "gradient_norm": 0.325054865082105,
+    "learning_rate": 0.0015750477515180735,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 23.73206208765621,
+      "ssim": 0.9087654740622874
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.05361685802539189,
+      "ssim_loss": 0.07847585401073795,
+      "weighted_ssim": 0.007847585401073795
+    }
+  },
+  {
+    "epoch": 63,
+    "train_loss": 0.06122423831008683,
+    "gradient_norm": 0.31618155439694723,
+    "learning_rate": 0.0015621271695143448,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 23.438722787099763,
+      "ssim": 0.9045565215389381
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.05334007367491722,
+      "ssim_loss": 0.07884164635169617,
+      "weighted_ssim": 0.007884164635169616
+    }
+  },
+  {
+    "epoch": 64,
+    "train_loss": 0.06071237638478936,
+    "gradient_norm": 0.27508662392695743,
+    "learning_rate": 0.0015490679157163312,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 23.695901138792788,
+      "ssim": 0.9054451631696037
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.052883130684494975,
+      "ssim_loss": 0.0782924570029438,
+      "weighted_ssim": 0.007829245700294378
+    }
+  },
+  {
+    "epoch": 65,
+    "train_loss": 0.06016269192221997,
+    "gradient_norm": 0.2717992812395096,
+    "learning_rate": 0.0015358732122994977,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 23.627139288177776,
+      "ssim": 0.9042419838101676
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.052361432214577994,
+      "ssim_loss": 0.07801259707641967,
+      "weighted_ssim": 0.00780125970764197
+    }
+  },
+  {
+    "epoch": 66,
+    "train_loss": 0.06150474102283687,
+    "gradient_norm": 0.35027779440085094,
+    "learning_rate": 0.0015225463148594762,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 23.41829920681242,
+      "ssim": 0.9042147331023485
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.0537401769310236,
+      "ssim_loss": 0.07764564091813281,
+      "weighted_ssim": 0.007764564091813282
+    }
+  },
+  {
+    "epoch": 67,
+    "train_loss": 0.061666800764453654,
+    "gradient_norm": 0.34957068065802255,
+    "learning_rate": 0.0015090905116087953,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 23.7398398187584,
+      "ssim": 0.9063398650522982
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.05387954004108906,
+      "ssim_loss": 0.07787260723364614,
+      "weighted_ssim": 0.00778726072336461
+    }
+  },
+  {
+    "epoch": 68,
+    "train_loss": 0.06122319266634301,
+    "gradient_norm": 0.30634077241023383,
+    "learning_rate": 0.0014955091225655635,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 23.589616782614673,
+      "ssim": 0.9064694227797262
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.05339476428925991,
+      "ssim_loss": 0.07828428377083109,
+      "weighted_ssim": 0.00782842837708311
+    }
+  },
+  {
+    "epoch": 69,
+    "train_loss": 0.05877261081010763,
+    "gradient_norm": 0.256273590028286,
+    "learning_rate": 0.0014818054987343042,
+    "ema_decay": null,
+    "raw": {
+      "psnr": 23.66222864660871,
+      "ssim": 0.9068335080414676
+    },
+    "ema": null,
+    "loss_components": {
+      "pixel": 0.051151945069432256,
+      "ssim_loss": 0.07620665740675373,
+      "weighted_ssim": 0.007620665740675371
+    }
+  },
+  {
+    "epoch": 70,
+    "train_loss": 0.059449846396651775,
+    "gradient_norm": 0.29864026804765065,
+    "learning_rate": 0.0014679830212791466,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.678273590852044,
+      "ssim": 0.9062250303418449
+    },
+    "ema": {
+      "psnr": 23.678273590852044,
+      "ssim": 0.9062250303418449
+    },
+    "loss_components": {
+      "pixel": 0.05186458813647429,
+      "ssim_loss": 0.07585258260177495,
+      "weighted_ssim": 0.007585258260177498
+    }
+  },
+  {
+    "epoch": 71,
+    "train_loss": 0.058972209524150394,
+    "gradient_norm": 0.3156095837553342,
+    "learning_rate": 0.001454045100689572,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.535845751465363,
+      "ssim": 0.906461110945498
+    },
+    "ema": {
+      "psnr": 23.718639452383194,
+      "ssim": 0.9065830754430106
+    },
+    "loss_components": {
+      "pixel": 0.05142014535764853,
+      "ssim_loss": 0.07552064166501875,
+      "weighted_ssim": 0.007552064166501874
+    }
+  },
+  {
+    "epoch": 72,
+    "train_loss": 0.057764644977006084,
+    "gradient_norm": 0.23308269381523133,
+    "learning_rate": 0.0014399951759389287,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.530911208783415,
+      "ssim": 0.9062955908561021
+    },
+    "ema": {
+      "psnr": 23.760219086269085,
+      "ssim": 0.9069460041067573
+    },
+    "loss_components": {
+      "pixel": 0.05026977472007275,
+      "ssim_loss": 0.07494870256933331,
+      "weighted_ssim": 0.007494870256933332
+    }
+  },
+  {
+    "epoch": 73,
+    "train_loss": 0.05871056854427022,
+    "gradient_norm": 0.28253464698791503,
+    "learning_rate": 0.0014258367136359155,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.929678021520463,
+      "ssim": 0.9090850828738695
+    },
+    "ema": {
+      "psnr": 23.795193234532142,
+      "ssim": 0.9073001682088616
+    },
+    "loss_components": {
+      "pixel": 0.05113647915422916,
+      "ssim_loss": 0.07574089390041053,
+      "weighted_ssim": 0.007574089390041053
+    }
+  },
+  {
+    "epoch": 74,
+    "train_loss": 0.05840504299807405,
+    "gradient_norm": 0.29181695530811946,
+    "learning_rate": 0.0014115732071692479,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.505739217812085,
+      "ssim": 0.9044643057866043
+    },
+    "ema": {
+      "psnr": 23.830070573296606,
+      "ssim": 0.9076326851094707
+    },
+    "loss_components": {
+      "pixel": 0.05094584872325261,
+      "ssim_loss": 0.07459194274821446,
+      "weighted_ssim": 0.007459194274821446
+    }
+  },
+  {
+    "epoch": 75,
+    "train_loss": 0.058337739258161506,
+    "gradient_norm": 0.29357753892739613,
+    "learning_rate": 0.0013972081758457165,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.65482927245304,
+      "ssim": 0.9086857364418801
+    },
+    "ema": {
+      "psnr": 23.860703441123746,
+      "ssim": 0.907947747225172
+    },
+    "loss_components": {
+      "pixel": 0.050782728691895804,
+      "ssim_loss": 0.07555010566265707,
+      "weighted_ssim": 0.007555010566265706
+    }
+  },
+  {
+    "epoch": 76,
+    "train_loss": 0.05722466288008106,
+    "gradient_norm": 0.2642976795633634,
+    "learning_rate": 0.0013827451640218529,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.847807954406996,
+      "ssim": 0.9071680220325341
+    },
+    "ema": {
+      "psnr": 23.88943282702711,
+      "ssim": 0.9082149823060196
+    },
+    "loss_components": {
+      "pixel": 0.04977144077420235,
+      "ssim_loss": 0.07453222105878697,
+      "weighted_ssim": 0.007453222105878699
+    }
+  },
+  {
+    "epoch": 77,
+    "train_loss": 0.05715755756619521,
+    "gradient_norm": 0.2772403970360756,
+    "learning_rate": 0.0013681877402294091,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.837969679734766,
+      "ssim": 0.9079963169740827
+    },
+    "ema": {
+      "psnr": 23.914996635147794,
+      "ssim": 0.9084710873914569
+    },
+    "loss_components": {
+      "pixel": 0.04978896342217922,
+      "ssim_loss": 0.07368594144015991,
+      "weighted_ssim": 0.007368594144015992
+    }
+  },
+  {
+    "epoch": 78,
+    "train_loss": 0.05723062979242409,
+    "gradient_norm": 0.28244100461403526,
+    "learning_rate": 0.0013535394962948786,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.808157851322935,
+      "ssim": 0.909007600184237
+    },
+    "ema": {
+      "psnr": 23.940081129813176,
+      "ssim": 0.908725484703364
+    },
+    "loss_components": {
+      "pixel": 0.04979888883729776,
+      "ssim_loss": 0.07431740955126333,
+      "weighted_ssim": 0.007431740955126333
+    }
+  },
+  {
+    "epoch": 79,
+    "train_loss": 0.057788523351563516,
+    "gradient_norm": 0.2570764054854711,
+    "learning_rate": 0.0013388040464532664,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.995141668423386,
+      "ssim": 0.9082184246416842
+    },
+    "ema": {
+      "psnr": 23.961393908070267,
+      "ssim": 0.9089515242683753
+    },
+    "loss_components": {
+      "pixel": 0.05028670181830724,
+      "ssim_loss": 0.0750182153325628,
+      "weighted_ssim": 0.007501821533256282
+    }
+  },
+  {
+    "epoch": 80,
+    "train_loss": 0.05703862899858551,
+    "gradient_norm": 0.2860876257220904,
+    "learning_rate": 0.001323985026456329,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.920340488976166,
+      "ssim": 0.9082737196697278
+    },
+    "ema": {
+      "psnr": 23.979329570825623,
+      "ssim": 0.9091683612780624
+    },
+    "loss_components": {
+      "pixel": 0.049655904869238536,
+      "ssim_loss": 0.07382724129346972,
+      "weighted_ssim": 0.0073827241293469735
+    }
+  },
+  {
+    "epoch": 81,
+    "train_loss": 0.05752932180801343,
+    "gradient_norm": 0.3287547762195269,
+    "learning_rate": 0.0013090860926755093,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.402141641282423,
+      "ssim": 0.9045963970462928
+    },
+    "ema": {
+      "psnr": 23.998140436477186,
+      "ssim": 0.9093819535180424
+    },
+    "loss_components": {
+      "pixel": 0.05012574245532354,
+      "ssim_loss": 0.07403579352689879,
+      "weighted_ssim": 0.007403579352689881
+    }
+  },
+  {
+    "epoch": 82,
+    "train_loss": 0.058986683443925984,
+    "gradient_norm": 0.366029184559981,
+    "learning_rate": 0.00129411092119978,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.710508771595226,
+      "ssim": 0.9089793207940091
+    },
+    "ema": {
+      "psnr": 24.01449217753259,
+      "ssim": 0.90958742211374
+    },
+    "loss_components": {
+      "pixel": 0.05145996275047461,
+      "ssim_loss": 0.07526720693451369,
+      "weighted_ssim": 0.007526720693451365
+    }
+  },
+  {
+    "epoch": 83,
+    "train_loss": 0.056782853426204344,
+    "gradient_norm": 0.27597701996564866,
+    "learning_rate": 0.0012790632069286248,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.811589669114753,
+      "ssim": 0.9090558149841395
+    },
+    "ema": {
+      "psnr": 24.032020535820035,
+      "ssim": 0.9097903685623341
+    },
+    "loss_components": {
+      "pixel": 0.049479151517152785,
+      "ssim_loss": 0.07303701909051563,
+      "weighted_ssim": 0.0073037019090515624
+    }
+  },
+  {
+    "epoch": 84,
+    "train_loss": 0.05584351044764324,
+    "gradient_norm": 0.27652534246444704,
+    "learning_rate": 0.0012639466626603755,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.798034610846816,
+      "ssim": 0.9070776714367813
+    },
+    "ema": {
+      "psnr": 24.044054192361063,
+      "ssim": 0.9099526746889178
+    },
+    "loss_components": {
+      "pixel": 0.04861415972312291,
+      "ssim_loss": 0.07229350724520318,
+      "weighted_ssim": 0.007229350724520318
+    }
+  },
+  {
+    "epoch": 85,
+    "train_loss": 0.05634207936356284,
+    "gradient_norm": 0.27370705604553225,
+    "learning_rate": 0.0012487650181761374,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.553182915021857,
+      "ssim": 0.9055690082271447
+    },
+    "ema": {
+      "psnr": 24.058252131243187,
+      "ssim": 0.9101206975036793
+    },
+    "loss_components": {
+      "pixel": 0.04907163927952449,
+      "ssim_loss": 0.07270440084038349,
+      "weighted_ssim": 0.007270440084038346
+    }
+  },
+  {
+    "epoch": 86,
+    "train_loss": 0.057058234748070404,
+    "gradient_norm": 0.3309962178270022,
+    "learning_rate": 0.0012335220193195192,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.839192413850657,
+      "ssim": 0.909626128298513
+    },
+    "ema": {
+      "psnr": 24.069532551374937,
+      "ssim": 0.910277759760953
+    },
+    "loss_components": {
+      "pixel": 0.04967800689240297,
+      "ssim_loss": 0.07380227855667428,
+      "weighted_ssim": 0.007380227855667427
+    }
+  },
+  {
+    "epoch": 87,
+    "train_loss": 0.05711012769829945,
+    "gradient_norm": 0.34022363821665447,
+    "learning_rate": 0.0012182214270724024,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.268902634356856,
+      "ssim": 0.9071227446031035
+    },
+    "ema": {
+      "psnr": 24.08227773965621,
+      "ssim": 0.9104354394955582
+    },
+    "loss_components": {
+      "pixel": 0.04978685304522514,
+      "ssim_loss": 0.07323274653074305,
+      "weighted_ssim": 0.007323274653074304
+    }
+  },
+  {
+    "epoch": 88,
+    "train_loss": 0.05665294344515543,
+    "gradient_norm": 0.30795580546061196,
+    "learning_rate": 0.0012028670166269763,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.17565826151937,
+      "ssim": 0.9033603386932545
+    },
+    "ema": {
+      "psnr": 24.09451913143189,
+      "ssim": 0.9105754715673039
+    },
+    "loss_components": {
+      "pixel": 0.0493503674864769,
+      "ssim_loss": 0.07302575958678538,
+      "weighted_ssim": 0.007302575958678537
+    }
+  },
+  {
+    "epoch": 89,
+    "train_loss": 0.0564990898672675,
+    "gradient_norm": 0.2700319692492485,
+    "learning_rate": 0.0011874625764542656,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.720835781025922,
+      "ssim": 0.9074587842051902
+    },
+    "ema": {
+      "psnr": 24.103180237695057,
+      "ssim": 0.9106897109010247
+    },
+    "loss_components": {
+      "pixel": 0.049144875009854636,
+      "ssim_loss": 0.07354214857412858,
+      "weighted_ssim": 0.007354214857412857
+    }
+  },
+  {
+    "epoch": 90,
+    "train_loss": 0.05546479447050777,
+    "gradient_norm": 0.2793624276916186,
+    "learning_rate": 0.001172011907369381,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.796797862258032,
+      "ssim": 0.9080258688230193
+    },
+    "ema": {
+      "psnr": 24.1128165717972,
+      "ssim": 0.9107944442984763
+    },
+    "loss_components": {
+      "pixel": 0.04832393911977609,
+      "ssim_loss": 0.07140855350731676,
+      "weighted_ssim": 0.007140855350731675
+    }
+  },
+  {
+    "epoch": 91,
+    "train_loss": 0.054714027311921924,
+    "gradient_norm": 0.28337647020816803,
+    "learning_rate": 0.0011565188215937263,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.85519473219521,
+      "ssim": 0.9079485709747571
+    },
+    "ema": {
+      "psnr": 24.1237583955769,
+      "ssim": 0.9109097129843208
+    },
+    "loss_components": {
+      "pixel": 0.047560519476731615,
+      "ssim_loss": 0.07153507835190316,
+      "weighted_ssim": 0.0071535078351903205
+    }
+  },
+  {
+    "epoch": 92,
+    "train_loss": 0.054941766812254135,
+    "gradient_norm": 0.27934083143870037,
+    "learning_rate": 0.0011409871418143883,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.878688978436678,
+      "ssim": 0.9081230886866537
+    },
+    "ema": {
+      "psnr": 24.13503533266027,
+      "ssim": 0.9110214228040716
+    },
+    "loss_components": {
+      "pixel": 0.0477610523502032,
+      "ssim_loss": 0.07180714462050934,
+      "weighted_ssim": 0.007180714462050936
+    }
+  },
+  {
+    "epoch": 93,
+    "train_loss": 0.05507057523797674,
+    "gradient_norm": 0.2996993516882261,
+    "learning_rate": 0.0011254207002409473,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.623491693455666,
+      "ssim": 0.9085170231508405
+    },
+    "ema": {
+      "psnr": 24.142010728567115,
+      "ssim": 0.911118764555856
+    },
+    "loss_components": {
+      "pixel": 0.04788252847890059,
+      "ssim_loss": 0.07188046759076144,
+      "weighted_ssim": 0.007188046759076147
+    }
+  },
+  {
+    "epoch": 94,
+    "train_loss": 0.055074874273195115,
+    "gradient_norm": 0.27208561499913536,
+    "learning_rate": 0.0011098233376599356,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.65443690740564,
+      "ssim": 0.9051856197667926
+    },
+    "ema": {
+      "psnr": 24.149434191978823,
+      "ssim": 0.9112130182512691
+    },
+    "loss_components": {
+      "pixel": 0.04774816992382209,
+      "ssim_loss": 0.07326704349373037,
+      "weighted_ssim": 0.007326704349373036
+    }
+  },
+  {
+    "epoch": 95,
+    "train_loss": 0.0552330566470707,
+    "gradient_norm": 0.309820227821668,
+    "learning_rate": 0.0010941989024871818,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 24.040682623994925,
+      "ssim": 0.9101373258601414
+    },
+    "ema": {
+      "psnr": 24.156161840481076,
+      "ssim": 0.9113007556186633
+    },
+    "loss_components": {
+      "pixel": 0.0481169980019331,
+      "ssim_loss": 0.07116058645137609,
+      "weighted_ssim": 0.00711605864513761
+    }
+  },
+  {
+    "epoch": 96,
+    "train_loss": 0.05481863948559798,
+    "gradient_norm": 0.29890628854433693,
+    "learning_rate": 0.0010785512498182716,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.911058484610713,
+      "ssim": 0.9101427599285425
+    },
+    "ema": {
+      "psnr": 24.163347115777302,
+      "ssim": 0.9114166042777929
+    },
+    "loss_components": {
+      "pixel": 0.0477010115981102,
+      "ssim_loss": 0.07117627887487786,
+      "weighted_ssim": 0.007117627887487787
+    }
+  },
+  {
+    "epoch": 97,
+    "train_loss": 0.05479484362180321,
+    "gradient_norm": 0.32457806865374245,
+    "learning_rate": 0.0010628842404773599,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 24.096078888824927,
+      "ssim": 0.9102161131548078
+    },
+    "ema": {
+      "psnr": 24.17056405398666,
+      "ssim": 0.9114969359355026
+    },
+    "loss_components": {
+      "pixel": 0.04768552432457606,
+      "ssim_loss": 0.0710931929722714,
+      "weighted_ssim": 0.00710931929722714
+    }
+  },
+  {
+    "epoch": 98,
+    "train_loss": 0.054365440713195635,
+    "gradient_norm": 0.2859255939722061,
+    "learning_rate": 0.001047201740064571,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.772874712850655,
+      "ssim": 0.9107151500294718
+    },
+    "ema": {
+      "psnr": 24.177183950093863,
+      "ssim": 0.9115860810440578
+    },
+    "loss_components": {
+      "pixel": 0.047266484176119165,
+      "ssim_loss": 0.07098956537076463,
+      "weighted_ssim": 0.007098956537076466
+    }
+  },
+  {
+    "epoch": 99,
+    "train_loss": 0.05446874868011477,
+    "gradient_norm": 0.32244755576054257,
+    "learning_rate": 0.0010315076180022198,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.97299039522725,
+      "ssim": 0.9087591820888306
+    },
+    "ema": {
+      "psnr": 24.18351920506092,
+      "ssim": 0.9116723390107744
+    },
+    "loss_components": {
+      "pixel": 0.047388654202222824,
+      "ssim_loss": 0.07080094477891943,
+      "weighted_ssim": 0.0070800944778919425
+    }
+  },
+  {
+    "epoch": 100,
+    "train_loss": 0.054947685565684516,
+    "gradient_norm": 0.3406081443031629,
+    "learning_rate": 0.0010158057465800888,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.531334396907965,
+      "ssim": 0.9078072101882334
+    },
+    "ema": {
+      "psnr": 24.186970042038105,
+      "ssim": 0.9117445255933183
+    },
+    "loss_components": {
+      "pixel": 0.04781669812897841,
+      "ssim_loss": 0.07130987436706106,
+      "weighted_ssim": 0.007130987436706106
+    }
+  },
+  {
+    "epoch": 101,
+    "train_loss": 0.054060310414990285,
+    "gradient_norm": 0.3054204687476158,
+    "learning_rate": 0.0010000999999999992,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.818658445580407,
+      "ssim": 0.9079116489110368
+    },
+    "ema": {
+      "psnr": 24.191279542262933,
+      "ssim": 0.9118088483810425
+    },
+    "loss_components": {
+      "pixel": 0.04699114772180716,
+      "ssim_loss": 0.07069162693183116,
+      "weighted_ssim": 0.007069162693183115
+    }
+  },
+  {
+    "epoch": 102,
+    "train_loss": 0.05376375668220185,
+    "gradient_norm": 0.28621606131394706,
+    "learning_rate": 0.0009843942534199098,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.698536448834204,
+      "ssim": 0.9083964308995879
+    },
+    "ema": {
+      "psnr": 24.194958000292768,
+      "ssim": 0.9118993228740906
+    },
+    "loss_components": {
+      "pixel": 0.04668409364918868,
+      "ssim_loss": 0.07079663033013181,
+      "weighted_ssim": 0.007079663033013183
+    }
+  },
+  {
+    "epoch": 103,
+    "train_loss": 0.053186727009812924,
+    "gradient_norm": 0.29260117510954536,
+    "learning_rate": 0.0009686923819977787,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 24.182878188136154,
+      "ssim": 0.9106460796313339
+    },
+    "ema": {
+      "psnr": 24.20167368821901,
+      "ssim": 0.9119703274094657
+    },
+    "loss_components": {
+      "pixel": 0.04620969705283642,
+      "ssim_loss": 0.06977029956976498,
+      "weighted_ssim": 0.006977029956976497
+    }
+  },
+  {
+    "epoch": 104,
+    "train_loss": 0.053786927558728284,
+    "gradient_norm": 0.34569350282351174,
+    "learning_rate": 0.0009529982599354276,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 24.02675021058631,
+      "ssim": 0.909498363398434
+    },
+    "ema": {
+      "psnr": 24.206341059761154,
+      "ssim": 0.9120255655117249
+    },
+    "loss_components": {
+      "pixel": 0.046834023545185725,
+      "ssim_loss": 0.06952904013542575,
+      "weighted_ssim": 0.006952904013542575
+    }
+  },
+  {
+    "epoch": 105,
+    "train_loss": 0.053462199661030926,
+    "gradient_norm": 0.3284268359343211,
+    "learning_rate": 0.0009373157595226388,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 24.025646483994603,
+      "ssim": 0.909898567065764
+    },
+    "ema": {
+      "psnr": 24.21090588276068,
+      "ssim": 0.9120699173948738
+    },
+    "loss_components": {
+      "pixel": 0.04653304405510426,
+      "ssim_loss": 0.06929155605926675,
+      "weighted_ssim": 0.0069291556059266745
+    }
+  },
+  {
+    "epoch": 106,
+    "train_loss": 0.054302576097987054,
+    "gradient_norm": 0.3502371574441592,
+    "learning_rate": 0.0009216487501817272,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.496406221289867,
+      "ssim": 0.9085755723246028
+    },
+    "ema": {
+      "psnr": 24.215618495553546,
+      "ssim": 0.9121128334088272
+    },
+    "loss_components": {
+      "pixel": 0.0472104595353206,
+      "ssim_loss": 0.07092116562666442,
+      "weighted_ssim": 0.007092116562666447
+    }
+  },
+  {
+    "epoch": 107,
+    "train_loss": 0.054205130928654574,
+    "gradient_norm": 0.3359926814834277,
+    "learning_rate": 0.0009060010975128169,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.505807787031895,
+      "ssim": 0.9079012201073464
+    },
+    "ema": {
+      "psnr": 24.219877940532896,
+      "ssim": 0.91216525803791
+    },
+    "loss_components": {
+      "pixel": 0.0471090945104758,
+      "ssim_loss": 0.07096036418178778,
+      "weighted_ssim": 0.007096036418178777
+    }
+  },
+  {
+    "epoch": 108,
+    "train_loss": 0.05235467503818213,
+    "gradient_norm": 0.31890063832203547,
+    "learning_rate": 0.0008903766623400632,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.908261486950483,
+      "ssim": 0.9089407030116307
+    },
+    "ema": {
+      "psnr": 24.22293723445346,
+      "ssim": 0.9122156507513496
+    },
+    "loss_components": {
+      "pixel": 0.04547970692316691,
+      "ssim_loss": 0.06874968115015224,
+      "weighted_ssim": 0.006874968115015226
+    }
+  },
+  {
+    "epoch": 109,
+    "train_loss": 0.053735472706396566,
+    "gradient_norm": 0.36349362234274546,
+    "learning_rate": 0.0008747792997590517,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.450436733535476,
+      "ssim": 0.9071805195861988
+    },
+    "ema": {
+      "psnr": 24.226370613554675,
+      "ssim": 0.9122638809546996
+    },
+    "loss_components": {
+      "pixel": 0.04677126122017702,
+      "ssim_loss": 0.06964211486219547,
+      "weighted_ssim": 0.006964211486219544
+    }
+  },
+  {
+    "epoch": 110,
+    "train_loss": 0.051597461812184685,
+    "gradient_norm": 0.26147042512893676,
+    "learning_rate": 0.0008592128581856108,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 24.120422160039556,
+      "ssim": 0.9102684339780486
+    },
+    "ema": {
+      "psnr": 24.229177547321672,
+      "ssim": 0.9123127212685146
+    },
+    "loss_components": {
+      "pixel": 0.044797417148947714,
+      "ssim_loss": 0.06800044663236952,
+      "weighted_ssim": 0.0068000446632369505
+    }
+  },
+  {
+    "epoch": 111,
+    "train_loss": 0.05160634242282505,
+    "gradient_norm": 0.2582870364189148,
+    "learning_rate": 0.0008436811784062727,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 24.200481450264974,
+      "ssim": 0.910403750585706
+    },
+    "ema": {
+      "psnr": 24.233711210144065,
+      "ssim": 0.9123597788007072
+    },
+    "loss_components": {
+      "pixel": 0.04478353324035803,
+      "ssim_loss": 0.06822809182467021,
+      "weighted_ssim": 0.006822809182467019
+    }
+  },
+  {
+    "epoch": 112,
+    "train_loss": 0.05097051816818426,
+    "gradient_norm": 0.2741764987508456,
+    "learning_rate": 0.0008281880926306178,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.55715307521084,
+      "ssim": 0.9101333638255515
+    },
+    "ema": {
+      "psnr": 24.238397279944216,
+      "ssim": 0.912410501683696
+    },
+    "loss_components": {
+      "pixel": 0.04424828067421913,
+      "ssim_loss": 0.06722237493965129,
+      "weighted_ssim": 0.006722237493965127
+    }
+  },
+  {
+    "epoch": 113,
+    "train_loss": 0.05163020346769486,
+    "gradient_norm": 0.32171007692813874,
+    "learning_rate": 0.0008127374235457335,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.967238341330855,
+      "ssim": 0.9105601873290673
+    },
+    "ema": {
+      "psnr": 24.2429743947936,
+      "ssim": 0.9124481450305896
+    },
+    "loss_components": {
+      "pixel": 0.04485066557923953,
+      "ssim_loss": 0.06779537888455336,
+      "weighted_ssim": 0.006779537888455337
+    }
+  },
+  {
+    "epoch": 114,
+    "train_loss": 0.05134753490108854,
+    "gradient_norm": 0.28556295186281205,
+    "learning_rate": 0.0007973329833730229,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.67532479901112,
+      "ssim": 0.9100640958614563
+    },
+    "ema": {
+      "psnr": 24.246363702489447,
+      "ssim": 0.9124923341729668
+    },
+    "loss_components": {
+      "pixel": 0.04458526770273844,
+      "ssim_loss": 0.06762267198350097,
+      "weighted_ssim": 0.006762267198350095
+    }
+  },
+  {
+    "epoch": 115,
+    "train_loss": 0.05072266883807498,
+    "gradient_norm": 0.2620077093442281,
+    "learning_rate": 0.000781978572927597,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 24.024485262948065,
+      "ssim": 0.9101134438193246
+    },
+    "ema": {
+      "psnr": 24.249394662085518,
+      "ssim": 0.9125348985864875
+    },
+    "loss_components": {
+      "pixel": 0.043956082438429196,
+      "ssim_loss": 0.06766586399645784,
+      "weighted_ssim": 0.006766586399645784
+    }
+  },
+  {
+    "epoch": 116,
+    "train_loss": 0.050698864777737634,
+    "gradient_norm": 0.265051956474781,
+    "learning_rate": 0.0007666779806804796,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 24.096108030564,
+      "ssim": 0.9106220127491469
+    },
+    "ema": {
+      "psnr": 24.251856019455268,
+      "ssim": 0.9125695154907998
+    },
+    "loss_components": {
+      "pixel": 0.04396369842191537,
+      "ssim_loss": 0.06735166355822254,
+      "weighted_ssim": 0.006735166355822253
+    }
+  },
+  {
+    "epoch": 117,
+    "train_loss": 0.05007208015749341,
+    "gradient_norm": 0.29338636870185536,
+    "learning_rate": 0.0007514349818238612,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 24.017918017979564,
+      "ssim": 0.9103276568852113
+    },
+    "ema": {
+      "psnr": 24.255843932444165,
+      "ssim": 0.9126015044330211
+    },
+    "loss_components": {
+      "pixel": 0.043417080243428545,
+      "ssim_loss": 0.06654999914064866,
+      "weighted_ssim": 0.006654999914064868
+    }
+  },
+  {
+    "epoch": 118,
+    "train_loss": 0.049739042804859586,
+    "gradient_norm": 0.2849248031775157,
+    "learning_rate": 0.0007362533373396232,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.727482087460128,
+      "ssim": 0.9064117676756355
+    },
+    "ema": {
+      "psnr": 24.259008898838452,
+      "ssim": 0.9126317916291483
+    },
+    "loss_components": {
+      "pixel": 0.0431059608856837,
+      "ssim_loss": 0.06633081919175894,
+      "weighted_ssim": 0.006633081919175895
+    }
+  },
+  {
+    "epoch": 119,
+    "train_loss": 0.05068922107840023,
+    "gradient_norm": 0.338522225121657,
+    "learning_rate": 0.0007211367930713743,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 24.103105198175793,
+      "ssim": 0.9101402170202705
+    },
+    "ema": {
+      "psnr": 24.26242724699647,
+      "ssim": 0.9126683286066806
+    },
+    "loss_components": {
+      "pixel": 0.04388593224187692,
+      "ssim_loss": 0.06803288836523305,
+      "weighted_ssim": 0.0068032888365233074
+    }
+  },
+  {
+    "epoch": 120,
+    "train_loss": 0.04941942264385884,
+    "gradient_norm": 0.2558443799614906,
+    "learning_rate": 0.000706089078800219,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.805798356313144,
+      "ssim": 0.9088954135273279
+    },
+    "ema": {
+      "psnr": 24.265960251975752,
+      "ssim": 0.9127038208286414
+    },
+    "loss_components": {
+      "pixel": 0.04282405649622281,
+      "ssim_loss": 0.06595366147636021,
+      "weighted_ssim": 0.00659536614763602
+    }
+  },
+  {
+    "epoch": 121,
+    "train_loss": 0.05037518506579327,
+    "gradient_norm": 0.2953874026735624,
+    "learning_rate": 0.00069111390732449,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.78080194954809,
+      "ssim": 0.9082576384705104
+    },
+    "ema": {
+      "psnr": 24.26846737524581,
+      "ssim": 0.9127309315660027
+    },
+    "loss_components": {
+      "pixel": 0.04366003361841043,
+      "ssim_loss": 0.06715151447382832,
+      "weighted_ssim": 0.0067151514473828295
+    }
+  },
+  {
+    "epoch": 122,
+    "train_loss": 0.04964342444204439,
+    "gradient_norm": 0.2763639157017072,
+    "learning_rate": 0.00067621497354367,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.6530621960661,
+      "ssim": 0.9086001997583368
+    },
+    "ema": {
+      "psnr": 24.272708735153802,
+      "ssim": 0.9127610727642359
+    },
+    "loss_components": {
+      "pixel": 0.04298374429345131,
+      "ssim_loss": 0.06659680148593079,
+      "weighted_ssim": 0.00665968014859308
+    }
+  },
+  {
+    "epoch": 123,
+    "train_loss": 0.048822200368625064,
+    "gradient_norm": 0.25490078032016755,
+    "learning_rate": 0.0006613959535467328,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 24.048490686439507,
+      "ssim": 0.9094486316938079
+    },
+    "ema": {
+      "psnr": 24.2742071470989,
+      "ssim": 0.9127770829736517
+    },
+    "loss_components": {
+      "pixel": 0.042253463963667554,
+      "ssim_loss": 0.06568736404957524,
+      "weighted_ssim": 0.006568736404957525
+    }
+  },
+  {
+    "epoch": 124,
+    "train_loss": 0.049460223029087196,
+    "gradient_norm": 0.3201400741934776,
+    "learning_rate": 0.0006466605037051207,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.922285855186274,
+      "ssim": 0.910017771667309
+    },
+    "ema": {
+      "psnr": 24.276244836842267,
+      "ssim": 0.9128078014663096
+    },
+    "loss_components": {
+      "pixel": 0.04288483038544655,
+      "ssim_loss": 0.06575392643640646,
+      "weighted_ssim": 0.006575392643640649
+    }
+  },
+  {
+    "epoch": 125,
+    "train_loss": 0.04903021324521791,
+    "gradient_norm": 0.2837132940689723,
+    "learning_rate": 0.0006320122597705905,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.884540115118156,
+      "ssim": 0.9106125416380636
+    },
+    "ema": {
+      "psnr": 24.278471365619215,
+      "ssim": 0.9128188557839125
+    },
+    "loss_components": {
+      "pixel": 0.042435343066851296,
+      "ssim_loss": 0.06594870178366605,
+      "weighted_ssim": 0.006594870178366608
+    }
+  },
+  {
+    "epoch": 126,
+    "train_loss": 0.04900712632731212,
+    "gradient_norm": 0.32500779430071514,
+    "learning_rate": 0.0006174548359781468,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 24.148224752931185,
+      "ssim": 0.909402810455708
+    },
+    "ema": {
+      "psnr": 24.28023705546333,
+      "ssim": 0.9128347963429568
+    },
+    "loss_components": {
+      "pixel": 0.042459379757444064,
+      "ssim_loss": 0.06547746569868061,
+      "weighted_ssim": 0.0065477465698680635
+    }
+  },
+  {
+    "epoch": 127,
+    "train_loss": 0.0484456812915242,
+    "gradient_norm": 0.29249821652968727,
+    "learning_rate": 0.0006029918241542826,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.92334530350831,
+      "ssim": 0.9093024369036213
+    },
+    "ema": {
+      "psnr": 24.28222906952311,
+      "ssim": 0.9128478705213311
+    },
+    "loss_components": {
+      "pixel": 0.041916209583481155,
+      "ssim_loss": 0.06529471708043047,
+      "weighted_ssim": 0.006529471708043046
+    }
+  },
+  {
+    "epoch": 128,
+    "train_loss": 0.04795813493070786,
+    "gradient_norm": 0.26786378820737206,
+    "learning_rate": 0.0005886267928307515,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.92125045779281,
+      "ssim": 0.9095172044936191
+    },
+    "ema": {
+      "psnr": 24.282746563989054,
+      "ssim": 0.9128577890021078
+    },
+    "loss_components": {
+      "pixel": 0.04147500768303871,
+      "ssim_loss": 0.06483127247669151,
+      "weighted_ssim": 0.0064831272476691525
+    }
+  },
+  {
+    "epoch": 129,
+    "train_loss": 0.04854891197847036,
+    "gradient_norm": 0.2982841953635216,
+    "learning_rate": 0.0005743632863640836,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.791960013374382,
+      "ssim": 0.9076015761729037
+    },
+    "ema": {
+      "psnr": 24.284092963087136,
+      "ssim": 0.9128787336724528
+    },
+    "loss_components": {
+      "pixel": 0.042043511072794595,
+      "ssim_loss": 0.06505400905675754,
+      "weighted_ssim": 0.0065054009056757555
+    }
+  },
+  {
+    "epoch": 130,
+    "train_loss": 0.0481240618666317,
+    "gradient_norm": 0.27746486514806745,
+    "learning_rate": 0.0005602048240610702,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 24.118214857456064,
+      "ssim": 0.9086642379171392
+    },
+    "ema": {
+      "psnr": 24.282743593476344,
+      "ssim": 0.9128758103659983
+    },
+    "loss_components": {
+      "pixel": 0.04163602242867152,
+      "ssim_loss": 0.06488039437960182,
+      "weighted_ssim": 0.006488039437960182
+    }
+  },
+  {
+    "epoch": 131,
+    "train_loss": 0.04786534355931853,
+    "gradient_norm": 0.2961176584164302,
+    "learning_rate": 0.000546154899310427,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.967471572281287,
+      "ssim": 0.9106233173541809
+    },
+    "ema": {
+      "psnr": 24.28381215379338,
+      "ssim": 0.9128890164782492
+    },
+    "loss_components": {
+      "pixel": 0.041405866667628285,
+      "ssim_loss": 0.06459476891690245,
+      "weighted_ssim": 0.006459476891690246
+    }
+  },
+  {
+    "epoch": 132,
+    "train_loss": 0.04674242767256095,
+    "gradient_norm": 0.2533567706743876,
+    "learning_rate": 0.0005322169787208526,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 24.18981283398473,
+      "ssim": 0.9109752821118644
+    },
+    "ema": {
+      "psnr": 24.2843660381807,
+      "ssim": 0.9128845380933097
+    },
+    "loss_components": {
+      "pixel": 0.04035398817310731,
+      "ssim_loss": 0.06388439499453648,
+      "weighted_ssim": 0.006388439499453649
+    }
+  },
+  {
+    "epoch": 133,
+    "train_loss": 0.046717698834131016,
+    "gradient_norm": 0.26075732658306755,
+    "learning_rate": 0.0005183945012656945,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.94263725098346,
+      "ssim": 0.9085815254222142
+    },
+    "ema": {
+      "psnr": 24.285952677077127,
+      "ssim": 0.9128940219289801
+    },
+    "loss_components": {
+      "pixel": 0.0403823371976614,
+      "ssim_loss": 0.06335361636469615,
+      "weighted_ssim": 0.006335361636469615
+    }
+  },
+  {
+    "epoch": 134,
+    "train_loss": 0.04628942915948471,
+    "gradient_norm": 0.25122676193714144,
+    "learning_rate": 0.0005046908774344354,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.895193353511168,
+      "ssim": 0.9096963171208843
+    },
+    "ema": {
+      "psnr": 24.284730016853704,
+      "ssim": 0.912902698088228
+    },
+    "loss_components": {
+      "pixel": 0.03995722991724809,
+      "ssim_loss": 0.06332199242236611,
+      "weighted_ssim": 0.006332199242236608
+    }
+  },
+  {
+    "epoch": 135,
+    "train_loss": 0.046060850389448835,
+    "gradient_norm": 0.26387288024028144,
+    "learning_rate": 0.0004911094883912034,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.912506575391347,
+      "ssim": 0.909484235758192
+    },
+    "ema": {
+      "psnr": 24.286727422262597,
+      "ssim": 0.9129150824600392
+    },
+    "loss_components": {
+      "pixel": 0.03974868090202411,
+      "ssim_loss": 0.06312169487424728,
+      "weighted_ssim": 0.006312169487424729
+    }
+  },
+  {
+    "epoch": 136,
+    "train_loss": 0.04549699377704172,
+    "gradient_norm": 0.24834931939840316,
+    "learning_rate": 0.0004776536851405225,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 24.059512217124798,
+      "ssim": 0.9100551511464494
+    },
+    "ema": {
+      "psnr": 24.28554762476346,
+      "ssim": 0.9129133579436313
+    },
+    "loss_components": {
+      "pixel": 0.039250609713296095,
+      "ssim_loss": 0.06246384063745616,
+      "weighted_ssim": 0.006246384063745618
+    }
+  },
+  {
+    "epoch": 137,
+    "train_loss": 0.04616405263260364,
+    "gradient_norm": 0.2719409560163816,
+    "learning_rate": 0.00046432678770050073,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.991558890919652,
+      "ssim": 0.9085021554754021
+    },
+    "ema": {
+      "psnr": 24.286957784218988,
+      "ssim": 0.912912252243985
+    },
+    "loss_components": {
+      "pixel": 0.03985588941723108,
+      "ssim_loss": 0.06308163215372574,
+      "weighted_ssim": 0.006308163215372575
+    }
+  },
+  {
+    "epoch": 138,
+    "train_loss": 0.045619235061329214,
+    "gradient_norm": 0.2377867857615153,
+    "learning_rate": 0.00045113208428366764,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.8792273828088,
+      "ssim": 0.9080548018551944
+    },
+    "ema": {
+      "psnr": 24.286636455778464,
+      "ssim": 0.9129018160734284
+    },
+    "loss_components": {
+      "pixel": 0.03934874162077904,
+      "ssim_loss": 0.06270493440550169,
+      "weighted_ssim": 0.0062704934405501695
+    }
+  },
+  {
+    "epoch": 139,
+    "train_loss": 0.04551064741046403,
+    "gradient_norm": 0.23770410418510438,
+    "learning_rate": 0.0004380728304856542,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 24.071130457405918,
+      "ssim": 0.9095842898561713
+    },
+    "ema": {
+      "psnr": 24.28519759359353,
+      "ssim": 0.9128786245088899
+    },
+    "loss_components": {
+      "pixel": 0.039237156758705774,
+      "ssim_loss": 0.0627349065175826,
+      "weighted_ssim": 0.006273490651758259
+    }
+  },
+  {
+    "epoch": 140,
+    "train_loss": 0.04540011549672822,
+    "gradient_norm": 0.2422742227713267,
+    "learning_rate": 0.00042515224848192545,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 24.02429802530271,
+      "ssim": 0.9106390596775527
+    },
+    "ema": {
+      "psnr": 24.28552819251657,
+      "ssim": 0.9128713480542215
+    },
+    "loss_components": {
+      "pixel": 0.039136494820316635,
+      "ssim_loss": 0.06263620676411592,
+      "weighted_ssim": 0.006263620676411592
+    }
+  },
+  {
+    "epoch": 141,
+    "train_loss": 0.044312107557094346,
+    "gradient_norm": 0.23490158319473267,
+    "learning_rate": 0.00041237352623275594,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.68747221500728,
+      "ssim": 0.9076996633176053
+    },
+    "ema": {
+      "psnr": 24.284933491404864,
+      "ssim": 0.912864076957274
+    },
+    "loss_components": {
+      "pixel": 0.03815483500560125,
+      "ssim_loss": 0.06157272551493098,
+      "weighted_ssim": 0.006157272551493097
+    }
+  },
+  {
+    "epoch": 142,
+    "train_loss": 0.04509931254767152,
+    "gradient_norm": 0.2814136157433192,
+    "learning_rate": 0.0003997398166966484,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 24.06921705556742,
+      "ssim": 0.909272550866845
+    },
+    "ema": {
+      "psnr": 24.283584596559333,
+      "ssim": 0.9128392285175537
+    },
+    "loss_components": {
+      "pixel": 0.03893546313047409,
+      "ssim_loss": 0.06163849417197427,
+      "weighted_ssim": 0.006163849417197428
+    }
+  },
+  {
+    "epoch": 143,
+    "train_loss": 0.044369385919607714,
+    "gradient_norm": 0.24595586160818736,
+    "learning_rate": 0.0003872542370523884,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 24.04209882004259,
+      "ssim": 0.9095129584998227
+    },
+    "ema": {
+      "psnr": 24.283013341159,
+      "ssim": 0.9128245965818341
+    },
+    "loss_components": {
+      "pixel": 0.038191195701559384,
+      "ssim_loss": 0.061781902180483385,
+      "weighted_ssim": 0.006178190218048339
+    }
+  },
+  {
+    "epoch": 144,
+    "train_loss": 0.044169606068616835,
+    "gradient_norm": 0.27411921272675194,
+    "learning_rate": 0.0003749198679299281,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 24.120079480038825,
+      "ssim": 0.9097440979453955
+    },
+    "ema": {
+      "psnr": 24.281032869803518,
+      "ssim": 0.9127946000420646
+    },
+    "loss_components": {
+      "pixel": 0.038043042706946535,
+      "ssim_loss": 0.061265633616702966,
+      "weighted_ssim": 0.006126563361670295
+    }
+  },
+  {
+    "epoch": 145,
+    "train_loss": 0.044136299730264686,
+    "gradient_norm": 0.23661442945400873,
+    "learning_rate": 0.00036273975265028487,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.790552091342214,
+      "ssim": 0.9097971675101291
+    },
+    "ema": {
+      "psnr": 24.28015224388175,
+      "ssim": 0.9127656127629655
+    },
+    "loss_components": {
+      "pixel": 0.03800175370027622,
+      "ssim_loss": 0.061345460299884635,
+      "weighted_ssim": 0.006134546029988464
+    }
+  },
+  {
+    "epoch": 146,
+    "train_loss": 0.04416367301982071,
+    "gradient_norm": 0.2703974078098933,
+    "learning_rate": 0.00035071689647464923,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.74731583228781,
+      "ssim": 0.907974221733179
+    },
+    "ema": {
+      "psnr": 24.278207868239615,
+      "ssim": 0.9127469672245926
+    },
+    "loss_components": {
+      "pixel": 0.0380475935836633,
+      "ssim_loss": 0.06116079436157406,
+      "weighted_ssim": 0.006116079436157404
+    }
+  },
+  {
+    "epoch": 147,
+    "train_loss": 0.04310532162187045,
+    "gradient_norm": 0.2147202079494794,
+    "learning_rate": 0.0003388542658628804,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 24.091350430703116,
+      "ssim": 0.9105236349480875
+    },
+    "ema": {
+      "psnr": 24.277337800556158,
+      "ssim": 0.91272368993652
+    },
+    "loss_components": {
+      "pixel": 0.03708674963563681,
+      "ssim_loss": 0.06018571986233659,
+      "weighted_ssim": 0.00601857198623366
+    }
+  },
+  {
+    "epoch": 148,
+    "train_loss": 0.043700621665115395,
+    "gradient_norm": 0.19838089893261593,
+    "learning_rate": 0.00032715478774157734,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.854835400245705,
+      "ssim": 0.9082331704289726
+    },
+    "ema": {
+      "psnr": 24.276791981528614,
+      "ssim": 0.9126929901958851
+    },
+    "loss_components": {
+      "pixel": 0.03762537656972806,
+      "ssim_loss": 0.060752450953873494,
+      "weighted_ssim": 0.006075245095387346
+    }
+  },
+  {
+    "epoch": 149,
+    "train_loss": 0.0431118783965238,
+    "gradient_norm": 0.21944639335076013,
+    "learning_rate": 0.00031562134878190394,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.791491890768974,
+      "ssim": 0.9078412652015686
+    },
+    "ema": {
+      "psnr": 24.276644950902828,
+      "ssim": 0.9126691650808527
+    },
+    "loss_components": {
+      "pixel": 0.037034503556787966,
+      "ssim_loss": 0.06077374839735834,
+      "weighted_ssim": 0.006077374839735835
+    }
+  },
+  {
+    "epoch": 150,
+    "train_loss": 0.04363646806047204,
+    "gradient_norm": 0.27091169854005176,
+    "learning_rate": 0.0003042567946873447,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.90466101998238,
+      "ssim": 0.9085034748141685
+    },
+    "ema": {
+      "psnr": 24.273851426874,
+      "ssim": 0.9126341637600673
+    },
+    "loss_components": {
+      "pixel": 0.03756498824805021,
+      "ssim_loss": 0.060714798124218386,
+      "weighted_ssim": 0.006071479812421838
+    }
+  },
+  {
+    "epoch": 151,
+    "train_loss": 0.04291192452918757,
+    "gradient_norm": 0.26170414984226226,
+    "learning_rate": 0.000293063929491571,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 24.056991231302153,
+      "ssim": 0.909717778811294
+    },
+    "ema": {
+      "psnr": 24.270475420803518,
+      "ssim": 0.9126017267784375
+    },
+    "loss_components": {
+      "pixel": 0.03693235379954179,
+      "ssim_loss": 0.05979570729645778,
+      "weighted_ssim": 0.005979570729645779
+    }
+  },
+  {
+    "epoch": 152,
+    "train_loss": 0.04323669496008564,
+    "gradient_norm": 0.27884904444217684,
+    "learning_rate": 0.0002820455148665874,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.91143392584066,
+      "ssim": 0.9079604644453927
+    },
+    "ema": {
+      "psnr": 24.26902371494886,
+      "ssim": 0.9125674835751566
+    },
+    "loss_components": {
+      "pixel": 0.03722075093537569,
+      "ssim_loss": 0.06015944024709954,
+      "weighted_ssim": 0.006015944024709954
+    }
+  },
+  {
+    "epoch": 153,
+    "train_loss": 0.04306616476053276,
+    "gradient_norm": 0.30081326415141424,
+    "learning_rate": 0.00027120426944133056,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 24.051789200261364,
+      "ssim": 0.9086299270726321
+    },
+    "ema": {
+      "psnr": 24.265667318701958,
+      "ssim": 0.9125313176197952
+    },
+    "loss_components": {
+      "pixel": 0.03710698752353589,
+      "ssim_loss": 0.05959177236996871,
+      "weighted_ssim": 0.005959177236996871
+    }
+  },
+  {
+    "epoch": 154,
+    "train_loss": 0.04251125866699646,
+    "gradient_norm": 0.2418232465783755,
+    "learning_rate": 0.0002605428681308878,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.879173383846265,
+      "ssim": 0.9083538912655262
+    },
+    "ema": {
+      "psnr": 24.263781853244545,
+      "ssim": 0.912499231568883
+    },
+    "loss_components": {
+      "pixel": 0.036560374001661934,
+      "ssim_loss": 0.059508846653345264,
+      "weighted_ssim": 0.005950884665334526
+    }
+  },
+  {
+    "epoch": 155,
+    "train_loss": 0.04204632158517228,
+    "gradient_norm": 0.23688600659370423,
+    "learning_rate": 0.0002500639414765032,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.71082894551422,
+      "ssim": 0.9087170958518982
+    },
+    "ema": {
+      "psnr": 24.260406174323993,
+      "ssim": 0.912455122792319
+    },
+    "loss_components": {
+      "pixel": 0.03613123558461666,
+      "ssim_loss": 0.059150860005556145,
+      "weighted_ssim": 0.005915086000555613
+    }
+  },
+  {
+    "epoch": 156,
+    "train_loss": 0.04208505033310895,
+    "gradient_norm": 0.2509709358215332,
+    "learning_rate": 0.00023977007499652886,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.824732858476406,
+      "ssim": 0.9077200949861762
+    },
+    "ema": {
+      "psnr": 24.257299553354386,
+      "ssim": 0.9124097609787845
+    },
+    "loss_components": {
+      "pixel": 0.036140376888215545,
+      "ssim_loss": 0.059446734448934106,
+      "weighted_ssim": 0.00594467344489341
+    }
+  },
+  {
+    "epoch": 157,
+    "train_loss": 0.04235147780829996,
+    "gradient_norm": 0.2703885644674301,
+    "learning_rate": 0.00022966380854848824,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.740273880435616,
+      "ssim": 0.907150308067879
+    },
+    "ema": {
+      "psnr": 24.252794505651888,
+      "ssim": 0.9123618897427334
+    },
+    "loss_components": {
+      "pixel": 0.036405311959485216,
+      "ssim_loss": 0.05946165848814742,
+      "weighted_ssim": 0.005946165848814741
+    }
+  },
+  {
+    "epoch": 158,
+    "train_loss": 0.04209234436772317,
+    "gradient_norm": 0.2489200661579768,
+    "learning_rate": 0.00021974763570240406,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 24.024659633523076,
+      "ssim": 0.9095369369796152
+    },
+    "ema": {
+      "psnr": 24.249910455655982,
+      "ssim": 0.9123220269599658
+    },
+    "loss_components": {
+      "pixel": 0.03621235756824414,
+      "ssim_loss": 0.05879986799479032,
+      "weighted_ssim": 0.0058799867994790336
+    }
+  },
+  {
+    "epoch": 159,
+    "train_loss": 0.0420637645935051,
+    "gradient_norm": 0.24219125161568325,
+    "learning_rate": 0.00021002400312554697,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.890684677916376,
+      "ssim": 0.9085549953278531
+    },
+    "ema": {
+      "psnr": 24.247668621459283,
+      "ssim": 0.9122807142439853
+    },
+    "loss_components": {
+      "pixel": 0.03614674086372058,
+      "ssim_loss": 0.05917023729784529,
+      "weighted_ssim": 0.005917023729784529
+    }
+  },
+  {
+    "epoch": 160,
+    "train_loss": 0.04222260971246868,
+    "gradient_norm": 0.30990613251924515,
+    "learning_rate": 0.00020049530997875796,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.849330574176907,
+      "ssim": 0.9083413434832284
+    },
+    "ema": {
+      "psnr": 24.243932520658305,
+      "ssim": 0.9122346043586731
+    },
+    "loss_components": {
+      "pixel": 0.03631038361539443,
+      "ssim_loss": 0.05912226097074249,
+      "weighted_ssim": 0.005912226097074248
+    }
+  },
+  {
+    "epoch": 161,
+    "train_loss": 0.041550705501315725,
+    "gradient_norm": 0.23725152164697647,
+    "learning_rate": 0.00019116390732449,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.95072560735834,
+      "ssim": 0.9082639887091819
+    },
+    "ema": {
+      "psnr": 24.239592733140643,
+      "ssim": 0.9121786851561471
+    },
+    "loss_components": {
+      "pixel": 0.03570400290191174,
+      "ssim_loss": 0.05846702599403987,
+      "weighted_ssim": 0.005846702599403988
+    }
+  },
+  {
+    "epoch": 162,
+    "train_loss": 0.04085572991168971,
+    "gradient_norm": 0.20672353357076645,
+    "learning_rate": 0.00018203209754671907,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.93018204233721,
+      "ssim": 0.9087709054518281
+    },
+    "ema": {
+      "psnr": 24.23702843647631,
+      "ssim": 0.912131715356634
+    },
+    "loss_components": {
+      "pixel": 0.03503722449143728,
+      "ssim_loss": 0.058185054202524296,
+      "weighted_ssim": 0.00581850542025243
+    }
+  },
+  {
+    "epoch": 163,
+    "train_loss": 0.04053044475334462,
+    "gradient_norm": 0.22812086393435796,
+    "learning_rate": 0.0001731021337828656,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.870762189760693,
+      "ssim": 0.9077915502398202
+    },
+    "ema": {
+      "psnr": 24.233817461554505,
+      "ssim": 0.9120720109243071
+    },
+    "loss_components": {
+      "pixel": 0.034758887129525344,
+      "ssim_loss": 0.057715576238192824,
+      "weighted_ssim": 0.005771557623819282
+    }
+  },
+  {
+    "epoch": 164,
+    "train_loss": 0.04022916768214334,
+    "gradient_norm": 0.23223651299873987,
+    "learning_rate": 0.00016437621936786666,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 24.02537218598895,
+      "ssim": 0.9085551386468866
+    },
+    "ema": {
+      "psnr": 24.2291955684847,
+      "ssim": 0.9120148058687703
+    },
+    "loss_components": {
+      "pixel": 0.0344963738694787,
+      "ssim_loss": 0.057327938126646334,
+      "weighted_ssim": 0.0057327938126646326
+    }
+  },
+  {
+    "epoch": 165,
+    "train_loss": 0.03996007690709088,
+    "gradient_norm": 0.23897942105929057,
+    "learning_rate": 0.00015585650729053524,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.884235296486317,
+      "ssim": 0.9087346484152119
+    },
+    "ema": {
+      "psnr": 24.226274931965413,
+      "ssim": 0.9119607263736511
+    },
+    "loss_components": {
+      "pixel": 0.034269961342215535,
+      "ssim_loss": 0.056901155648753386,
+      "weighted_ssim": 0.005690115564875337
+    }
+  },
+  {
+    "epoch": 166,
+    "train_loss": 0.04010545618689286,
+    "gradient_norm": 0.19476851522922517,
+    "learning_rate": 0.00014754509966234336,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.906477425381688,
+      "ssim": 0.9088270597243577
+    },
+    "ema": {
+      "psnr": 24.221734579962266,
+      "ssim": 0.9118990616851979
+    },
+    "loss_components": {
+      "pixel": 0.03437755250682433,
+      "ssim_loss": 0.057279036800685273,
+      "weighted_ssim": 0.005727903680068525
+    }
+  },
+  {
+    "epoch": 167,
+    "train_loss": 0.04015298208556341,
+    "gradient_norm": 0.23530856544772785,
+    "learning_rate": 0.00013944404719875656,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 24.01497319709297,
+      "ssim": 0.9090056774321567
+    },
+    "ema": {
+      "psnr": 24.216960718677115,
+      "ssim": 0.9118320560187436
+    },
+    "loss_components": {
+      "pixel": 0.03443237195412318,
+      "ssim_loss": 0.05720610131440234,
+      "weighted_ssim": 0.005720610131440234
+    }
+  },
+  {
+    "epoch": 168,
+    "train_loss": 0.04021975249437174,
+    "gradient_norm": 0.22093040347099305,
+    "learning_rate": 0.00013155534871325244,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.913410439955907,
+      "ssim": 0.9087497926829906
+    },
+    "ema": {
+      "psnr": 24.21306940619534,
+      "ssim": 0.9117715901203369
+    },
+    "loss_components": {
+      "pixel": 0.034540146216750146,
+      "ssim_loss": 0.056796062776215954,
+      "weighted_ssim": 0.005679606277621597
+    }
+  },
+  {
+    "epoch": 169,
+    "train_loss": 0.040032644028823325,
+    "gradient_norm": 0.25144799302021664,
+    "learning_rate": 0.00012388095062414075,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.963292178595452,
+      "ssim": 0.9085529547059135
+    },
+    "ema": {
+      "psnr": 24.209043626984155,
+      "ssim": 0.9117013992888204
+    },
+    "loss_components": {
+      "pixel": 0.034285859453181425,
+      "ssim_loss": 0.05746784575641895,
+      "weighted_ssim": 0.005746784575641896
+    }
+  },
+  {
+    "epoch": 170,
+    "train_loss": 0.04000741519611431,
+    "gradient_norm": 0.23666244248549143,
+    "learning_rate": 0.00011642274647431536,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.88518000422039,
+      "ssim": 0.9084256204326501
+    },
+    "ema": {
+      "psnr": 24.203287455066196,
+      "ssim": 0.911631117376049
+    },
+    "loss_components": {
+      "pixel": 0.03432593240092198,
+      "ssim_loss": 0.05681482795192337,
+      "weighted_ssim": 0.00568148279519234
+    }
+  },
+  {
+    "epoch": 171,
+    "train_loss": 0.03898708172403011,
+    "gradient_norm": 0.22123598009347917,
+    "learning_rate": 0.00010918257646405101,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.834331346850703,
+      "ssim": 0.9082542811886648
+    },
+    "ema": {
+      "psnr": 24.198193841386406,
+      "ssim": 0.9115528122762616
+    },
+    "loss_components": {
+      "pixel": 0.03339057428141435,
+      "ssim_loss": 0.05596507442615782,
+      "weighted_ssim": 0.0055965074426157805
+    }
+  },
+  {
+    "epoch": 172,
+    "train_loss": 0.03912478883987932,
+    "gradient_norm": 0.22306365768114725,
+    "learning_rate": 0.0001021622269969605,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.93603189958264,
+      "ssim": 0.90867567464207
+    },
+    "ema": {
+      "psnr": 24.193523910895227,
+      "ssim": 0.9114833541130751
+    },
+    "loss_components": {
+      "pixel": 0.03351032187541326,
+      "ssim_loss": 0.05614466964466054,
+      "weighted_ssim": 0.005614466964466055
+    }
+  },
+  {
+    "epoch": 173,
+    "train_loss": 0.03953578612147106,
+    "gradient_norm": 0.21444666832685472,
+    "learning_rate": 9.536343023922722e-05,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.90894461225174,
+      "ssim": 0.9082696190041103
+    },
+    "ema": {
+      "psnr": 24.18815743345834,
+      "ssim": 0.9114184272423219
+    },
+    "loss_components": {
+      "pixel": 0.033874206244945526,
+      "ssim_loss": 0.05661579876525529,
+      "weighted_ssim": 0.005661579876525531
+    }
+  },
+  {
+    "epoch": 174,
+    "train_loss": 0.039163192164134136,
+    "gradient_norm": 0.20159646819035212,
+    "learning_rate": 8.878786369221845e-05,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.92270341376188,
+      "ssim": 0.9083678963479032
+    },
+    "ema": {
+      "psnr": 24.18235872044676,
+      "ssim": 0.9113317795014113
+    },
+    "loss_components": {
+      "pixel": 0.03351621783028046,
+      "ssim_loss": 0.056469743338536764,
+      "weighted_ssim": 0.005646974333853677
+    }
+  },
+  {
+    "epoch": 175,
+    "train_loss": 0.039080976282821436,
+    "gradient_norm": 0.20829010158777236,
+    "learning_rate": 8.243714977858747e-05,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.894660585966953,
+      "ssim": 0.9081947850377372
+    },
+    "ema": {
+      "psnr": 24.17661635301753,
+      "ssim": 0.9112603054957443
+    },
+    "loss_components": {
+      "pixel": 0.033445013624926405,
+      "ssim_loss": 0.056359626578950266,
+      "weighted_ssim": 0.005635962657895025
+    }
+  },
+  {
+    "epoch": 176,
+    "train_loss": 0.03920238792611402,
+    "gradient_norm": 0.21209542055924732,
+    "learning_rate": 7.631285544196459e-05,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.845376866945394,
+      "ssim": 0.9079355892170681
+    },
+    "ema": {
+      "psnr": 24.17100038692131,
+      "ssim": 0.9111842526478714
+    },
+    "loss_components": {
+      "pixel": 0.033556620900829635,
+      "ssim_loss": 0.05645767025284385,
+      "weighted_ssim": 0.005645767025284384
+    }
+  },
+  {
+    "epoch": 177,
+    "train_loss": 0.03897208461003717,
+    "gradient_norm": 0.20999071796735128,
+    "learning_rate": 7.041649176033746e-05,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.97066260591555,
+      "ssim": 0.908181436945883
+    },
+    "ema": {
+      "psnr": 24.165998100193207,
+      "ssim": 0.9111154575026437
+    },
+    "loss_components": {
+      "pixel": 0.03334845161686341,
+      "ssim_loss": 0.056236329931737584,
+      "weighted_ssim": 0.005623632993173759
+    }
+  },
+  {
+    "epoch": 178,
+    "train_loss": 0.03908465070225647,
+    "gradient_norm": 0.2067099186281363,
+    "learning_rate": 6.47495135732156e-05,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.883652622952365,
+      "ssim": 0.9083048386520214
+    },
+    "ema": {
+      "psnr": 24.16008279020707,
+      "ssim": 0.9110409007983261
+    },
+    "loss_components": {
+      "pixel": 0.03344213825960954,
+      "ssim_loss": 0.056425124426469325,
+      "weighted_ssim": 0.005642512442646932
+    }
+  },
+  {
+    "epoch": 179,
+    "train_loss": 0.03870695686776163,
+    "gradient_norm": 0.20548336803913117,
+    "learning_rate": 5.931331912266995e-05,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.861245638320163,
+      "ssim": 0.9081382034869676
+    },
+    "ema": {
+      "psnr": 24.155313757371054,
+      "ssim": 0.9109733024339998
+    },
+    "loss_components": {
+      "pixel": 0.03311261466393868,
+      "ssim_loss": 0.05594342203822937,
+      "weighted_ssim": 0.005594342203822937
+    }
+  },
+  {
+    "epoch": 180,
+    "train_loss": 0.038636308987255695,
+    "gradient_norm": 0.18872886002063752,
+    "learning_rate": 5.410924970833744e-05,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.88419388812157,
+      "ssim": 0.9075929435451379
+    },
+    "ema": {
+      "psnr": 24.148877324395073,
+      "ssim": 0.9108977806702089
+    },
+    "loss_components": {
+      "pixel": 0.03303600965688626,
+      "ssim_loss": 0.056002993303694314,
+      "weighted_ssim": 0.005600299330369433
+    }
+  },
+  {
+    "epoch": 181,
+    "train_loss": 0.03831174585201201,
+    "gradient_norm": 0.1937915342549483,
+    "learning_rate": 4.913858935647597e-05,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.865817540300874,
+      "ssim": 0.9076776517910904
+    },
+    "ema": {
+      "psnr": 24.142989300746144,
+      "ssim": 0.9108158885762933
+    },
+    "loss_components": {
+      "pixel": 0.032748235700031124,
+      "ssim_loss": 0.05563510151980892,
+      "weighted_ssim": 0.005563510151980893
+    }
+  },
+  {
+    "epoch": 182,
+    "train_loss": 0.03821105525170396,
+    "gradient_norm": 0.1777897653480371,
+    "learning_rate": 4.44025645031497e-05,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.82921528019691,
+      "ssim": 0.9076397633284665
+    },
+    "ema": {
+      "psnr": 24.138029500344192,
+      "ssim": 0.9107448719860463
+    },
+    "loss_components": {
+      "pixel": 0.032665934910376865,
+      "ssim_loss": 0.05545120341327088,
+      "weighted_ssim": 0.005545120341327087
+    }
+  },
+  {
+    "epoch": 183,
+    "train_loss": 0.03897107100657449,
+    "gradient_norm": 0.1934432253241539,
+    "learning_rate": 3.990234369162473e-05,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.943795377449657,
+      "ssim": 0.9083400228050318
+    },
+    "ema": {
+      "psnr": 24.132223653635005,
+      "ssim": 0.9106707164410794
+    },
+    "loss_components": {
+      "pixel": 0.03332408225784699,
+      "ssim_loss": 0.056469887487274835,
+      "weighted_ssim": 0.005646988748727485
+    }
+  },
+  {
+    "epoch": 184,
+    "train_loss": 0.03825639965186776,
+    "gradient_norm": 0.19110162059466043,
+    "learning_rate": 3.5639037284047806e-05,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.79114609204495,
+      "ssim": 0.9071672753001867
+    },
+    "ema": {
+      "psnr": 24.12498220223211,
+      "ssim": 0.9105915708488292
+    },
+    "loss_components": {
+      "pixel": 0.03272905660172303,
+      "ssim_loss": 0.05527343050144731,
+      "weighted_ssim": 0.005527343050144732
+    }
+  },
+  {
+    "epoch": 185,
+    "train_loss": 0.03811338463086676,
+    "gradient_norm": 0.1939819077650706,
+    "learning_rate": 3.161369718748189e-05,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.92377014027598,
+      "ssim": 0.9078742714410417
+    },
+    "ema": {
+      "psnr": 24.119126562532323,
+      "ssim": 0.910519650143184
+    },
+    "loss_components": {
+      "pixel": 0.03258452334751685,
+      "ssim_loss": 0.05528861283349914,
+      "weighted_ssim": 0.0055288612833499125
+    }
+  },
+  {
+    "epoch": 186,
+    "train_loss": 0.038528729057936535,
+    "gradient_norm": 0.1909908818701903,
+    "learning_rate": 2.782731659436321e-05,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.89926585212751,
+      "ssim": 0.9077017387647307
+    },
+    "ema": {
+      "psnr": 24.113824204906464,
+      "ssim": 0.9104562950937936
+    },
+    "loss_components": {
+      "pixel": 0.03294378413508336,
+      "ssim_loss": 0.05584944922853173,
+      "weighted_ssim": 0.005584944922853174
+    }
+  },
+  {
+    "epoch": 187,
+    "train_loss": 0.03799954363274117,
+    "gradient_norm": 0.18461015522480012,
+    "learning_rate": 2.428082973744655e-05,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.840746920609877,
+      "ssim": 0.9077296946825606
+    },
+    "ema": {
+      "psnr": 24.107762497821444,
+      "ssim": 0.910375360692485
+    },
+    "loss_components": {
+      "pixel": 0.03248601704835892,
+      "ssim_loss": 0.05513526584382255,
+      "weighted_ssim": 0.005513526584382255
+    }
+  },
+  {
+    "epoch": 188,
+    "train_loss": 0.03815999274589654,
+    "gradient_norm": 0.1973526914914449,
+    "learning_rate": 2.0975111659296316e-05,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.872648685378312,
+      "ssim": 0.907527507021186
+    },
+    "ema": {
+      "psnr": 24.102732340280255,
+      "ssim": 0.910313691316026
+    },
+    "loss_components": {
+      "pixel": 0.032634120496610804,
+      "ssim_loss": 0.05525872249285736,
+      "weighted_ssim": 0.0055258722492857355
+    }
+  },
+  {
+    "epoch": 189,
+    "train_loss": 0.03886092329927277,
+    "gradient_norm": 0.17927492732803027,
+    "learning_rate": 1.7910977996384147e-05,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.87677660472048,
+      "ssim": 0.9079969170388211
+    },
+    "ema": {
+      "psnr": 24.09663502691356,
+      "ssim": 0.9102406341038393
+    },
+    "loss_components": {
+      "pixel": 0.03326369989663362,
+      "ssim_loss": 0.05597223402639145,
+      "weighted_ssim": 0.005597223402639145
+    }
+  },
+  {
+    "epoch": 190,
+    "train_loss": 0.03889608668629293,
+    "gradient_norm": 0.19614698936541874,
+    "learning_rate": 1.5089184777841606e-05,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.891793505190495,
+      "ssim": 0.9076555686050587
+    },
+    "ema": {
+      "psnr": 24.091696536922413,
+      "ssim": 0.9101860268732135
+    },
+    "loss_components": {
+      "pixel": 0.03325986011574666,
+      "ssim_loss": 0.056362265705462704,
+      "weighted_ssim": 0.0056362265705462745
+    }
+  },
+  {
+    "epoch": 191,
+    "train_loss": 0.03839984166310133,
+    "gradient_norm": 0.18082166065772373,
+    "learning_rate": 1.2510428238921853e-05,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.84423069863566,
+      "ssim": 0.9075256679834944
+    },
+    "ema": {
+      "psnr": 24.08590003689951,
+      "ssim": 0.9101206030738488
+    },
+    "loss_components": {
+      "pixel": 0.03287056206415097,
+      "ssim_loss": 0.0552927959895037,
+      "weighted_ssim": 0.005529279598950371
+    }
+  },
+  {
+    "epoch": 192,
+    "train_loss": 0.037964785685192244,
+    "gradient_norm": 0.17021582598487536,
+    "learning_rate": 1.0175344649214118e-05,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.868524879170707,
+      "ssim": 0.9076645501543966
+    },
+    "ema": {
+      "psnr": 24.081301306742496,
+      "ssim": 0.9100544305329912
+    },
+    "loss_components": {
+      "pixel": 0.03244195661197106,
+      "ssim_loss": 0.055228290732211784,
+      "weighted_ssim": 0.0055228290732211765
+    }
+  },
+  {
+    "epoch": 193,
+    "train_loss": 0.03819889190654259,
+    "gradient_norm": 0.17962036753694216,
+    "learning_rate": 8.084510155653682e-06,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.86864500115673,
+      "ssim": 0.9076577090145497
+    },
+    "ema": {
+      "psnr": 24.0760600698909,
+      "ssim": 0.9099939532494277
+    },
+    "loss_components": {
+      "pixel": 0.03264801197995742,
+      "ssim_loss": 0.05550879926585168,
+      "weighted_ssim": 0.005550879926585166
+    }
+  },
+  {
+    "epoch": 194,
+    "train_loss": 0.038375532013237706,
+    "gradient_norm": 0.17706023305654525,
+    "learning_rate": 6.238440640365922e-06,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.87922911867299,
+      "ssim": 0.907598517583997
+    },
+    "ema": {
+      "psnr": 24.07070153189045,
+      "ssim": 0.9099287055851368
+    },
+    "loss_components": {
+      "pixel": 0.0328094182536006,
+      "ssim_loss": 0.05566113759637103,
+      "weighted_ssim": 0.005566113759637104
+    }
+  },
+  {
+    "epoch": 195,
+    "train_loss": 0.03832870282176025,
+    "gradient_norm": 0.17832688068350155,
+    "learning_rate": 4.637591593380311e-06,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.8726165939124,
+      "ssim": 0.9077082216069939
+    },
+    "ema": {
+      "psnr": 24.066680171021712,
+      "ssim": 0.9098788787809651
+    },
+    "loss_components": {
+      "pixel": 0.03275841561456521,
+      "ssim_loss": 0.05570287207195032,
+      "weighted_ssim": 0.005570287207195033
+    }
+  },
+  {
+    "epoch": 196,
+    "train_loss": 0.038183252148117235,
+    "gradient_norm": 0.17502953385313352,
+    "learning_rate": 3.282358000245349e-06,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.879875136908456,
+      "ssim": 0.9077274939987097
+    },
+    "ema": {
+      "psnr": 24.0609509651416,
+      "ssim": 0.909816873877236
+    },
+    "loss_components": {
+      "pixel": 0.0326451750472188,
+      "ssim_loss": 0.05538077100898438,
+      "weighted_ssim": 0.0055380771008984395
+    }
+  },
+  {
+    "epoch": 197,
+    "train_loss": 0.03773345211090055,
+    "gradient_norm": 0.17457224180301031,
+    "learning_rate": 2.1730742445712684e-06,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.8682725534281,
+      "ssim": 0.9076474637127994
+    },
+    "ema": {
+      "psnr": 24.056844697212675,
+      "ssim": 0.9097707057267093
+    },
+    "loss_components": {
+      "pixel": 0.032234967996676765,
+      "ssim_loss": 0.05498484114223788,
+      "weighted_ssim": 0.005498484114223787
+    }
+  },
+  {
+    "epoch": 198,
+    "train_loss": 0.03834261751203408,
+    "gradient_norm": 0.1745951645076275,
+    "learning_rate": 1.3100140255262934e-06,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.870170841479098,
+      "ssim": 0.9076691973075438
+    },
+    "ema": {
+      "psnr": 24.052535008436795,
+      "ssim": 0.9097130874569497
+    },
+    "loss_components": {
+      "pixel": 0.0327920180434982,
+      "ssim_loss": 0.055505994685358766,
+      "weighted_ssim": 0.005550599468535878
+    }
+  },
+  {
+    "epoch": 199,
+    "train_loss": 0.0379907968707226,
+    "gradient_norm": 0.16758232489228247,
+    "learning_rate": 6.933902903049731e-07,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.871735458096015,
+      "ssim": 0.9076721045408356
+    },
+    "ema": {
+      "psnr": 24.04731410396896,
+      "ssim": 0.9096641279338451
+    },
+    "loss_components": {
+      "pixel": 0.03246126230806112,
+      "ssim_loss": 0.05529534562661468,
+      "weighted_ssim": 0.005529534562661468
+    }
+  },
+  {
+    "epoch": 200,
+    "train_loss": 0.0376211401362616,
+    "gradient_norm": 0.17243653113643329,
+    "learning_rate": 3.233551815875784e-07,
+    "ema_decay": 0.999,
+    "raw": {
+      "psnr": 23.873152068632404,
+      "ssim": 0.9076871409844817
+    },
+    "ema": {
+      "psnr": 24.043542142567066,
+      "ssim": 0.9096116691492917
+    },
+    "loss_components": {
+      "pixel": 0.03209866148730119,
+      "ssim_loss": 0.05522478648960412,
+      "weighted_ssim": 0.005522478648960414
+    }
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "at": 1794203300.8360245,
+  "restored_raw_ema_optimizer_scheduler_all_rng": true,
+  "from_epoch": 197,
+  "prefix_steps": 5910,
+  "checkpoint_sha256": "111334386306f4aff28b3c1d2440beac6866db22e3b53def8e43cda772378bb6"
+}

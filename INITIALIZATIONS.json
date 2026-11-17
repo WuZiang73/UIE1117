@@ -1,0 +1,63 @@
+{
+  "at": 1794828730.0449152,
+  "models": {
+    "7/baseline": {
+      "full_sha": "15f7f4f3f3548940382e4988e7addc5d1c8305efabc7e12f59dbc0313cf62549",
+      "common_backbone_sha": "15f7f4f3f3548940382e4988e7addc5d1c8305efabc7e12f59dbc0313cf62549",
+      "total_parameters": 480995,
+      "trainable_parameters": 480995,
+      "native_file_sha256": "f22cbb8b464a03e9913b84d9bb6ded26ab441ca448bc6c7f5ac9920b222ac73f"
+    },
+    "7/c0": {
+      "full_sha": "8a31ee6b47b1c01489631fda0222143e3642998173b3cbbb73c56be237f8ebc5",
+      "common_backbone_sha": "15f7f4f3f3548940382e4988e7addc5d1c8305efabc7e12f59dbc0313cf62549",
+      "total_parameters": 485143,
+      "trainable_parameters": 485143,
+      "native_file_sha256": "f22cbb8b464a03e9913b84d9bb6ded26ab441ca448bc6c7f5ac9920b222ac73f"
+    },
+    "7/isp_control": {
+      "full_sha": "8a31ee6b47b1c01489631fda0222143e3642998173b3cbbb73c56be237f8ebc5",
+      "common_backbone_sha": "15f7f4f3f3548940382e4988e7addc5d1c8305efabc7e12f59dbc0313cf62549",
+      "total_parameters": 485143,
+      "trainable_parameters": 485143,
+      "native_file_sha256": "f22cbb8b464a03e9913b84d9bb6ded26ab441ca448bc6c7f5ac9920b222ac73f"
+    },
+    "7/dino_cross_stage": {
+      "full_sha": "f6f808c6ea5e9dc1d126ad20d407ce92f3069e083c1ff04542029c1e4be66069",
+      "common_backbone_sha": "15f7f4f3f3548940382e4988e7addc5d1c8305efabc7e12f59dbc0313cf62549",
+      "total_parameters": 645778,
+      "trainable_parameters": 645778,
+      "native_file_sha256": "f22cbb8b464a03e9913b84d9bb6ded26ab441ca448bc6c7f5ac9920b222ac73f"
+    },
+    "43/baseline": {
+      "full_sha": "e38b4acf68117d075f600750419c1d463268cbf8c34e05230b7b2d0ff6c6d57c",
+      "common_backbone_sha": "e38b4acf68117d075f600750419c1d463268cbf8c34e05230b7b2d0ff6c6d57c",
+      "total_parameters": 480995,
+      "trainable_parameters": 480995,
+      "native_file_sha256": "7b2a415b15c1a77ffb8c976755bb35b94f9ad9d40906a233823ddceda780bb18"
+    },
+    "43/c0": {
+      "full_sha": "ed3d8eb29c17218df185a9ac28b1fc15e33f35b58845dde2e23f248a0f77b689",
+      "common_backbone_sha": "e38b4acf68117d075f600750419c1d463268cbf8c34e05230b7b2d0ff6c6d57c",
+      "total_parameters": 485143,
+      "trainable_parameters": 485143,
+      "native_file_sha256": "7b2a415b15c1a77ffb8c976755bb35b94f9ad9d40906a233823ddceda780bb18"
+    },
+    "43/isp_control": {
+      "full_sha": "ed3d8eb29c17218df185a9ac28b1fc15e33f35b58845dde2e23f248a0f77b689",
+      "common_backbone_sha": "e38b4acf68117d075f600750419c1d463268cbf8c34e05230b7b2d0ff6c6d57c",
+      "total_parameters": 485143,
+      "trainable_parameters": 485143,
+      "native_file_sha256": "7b2a415b15c1a77ffb8c976755bb35b94f9ad9d40906a233823ddceda780bb18"
+    },
+    "43/dino_cross_stage": {
+      "full_sha": "6b8189032450a2fca79c519eebe1bf529782e2e39d94c7298d852f485541693a",
+      "common_backbone_sha": "e38b4acf68117d075f600750419c1d463268cbf8c34e05230b7b2d0ff6c6d57c",
+      "total_parameters": 645778,
+      "trainable_parameters": 645778,
+      "native_file_sha256": "7b2a415b15c1a77ffb8c976755bb35b94f9ad9d40906a233823ddceda780bb18"
+    }
+  },
+  "all8_states_exactly_match_accepted_versions": true,
+  "common_backbone_exact_between_all4": true
+}

@@ -1,0 +1,1091 @@
+{
+  "at": 1794894115.3761454,
+  "passed": true,
+  "independent_copies": [
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/analysis/dark_context_v2_uieb.npz",
+      "destination": "source/analysis/dark_context_v2_uieb.npz",
+      "sha256": "9ed2e4c38c572f6d9f6588d835fb3c3a5a202d1553ef0115d25816d06911ca21"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/baseline_model.py",
+      "destination": "source/baseline_model.py",
+      "sha256": "7dd3b436681f798d987a8b519c63e229b4b5d005e134c18506f4a6d497ffb74e"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/dark_context_v2.py",
+      "destination": "source/dark_context_v2.py",
+      "sha256": "6330f26547a8f46aefa1780d820a82d3823a582be656e12b5dd19a7707a36a56"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/dark_variants.py",
+      "destination": "source/dark_variants.py",
+      "sha256": "8dd27f0a94a4975645f714feaed9de791d6c524557c72b583ba04e00eb94592c"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/dark_variants_v2.py",
+      "destination": "source/dark_variants_v2.py",
+      "sha256": "a426f6b2a88ac2738956bcd19410a9906d265f52f924a26d58e186c658339260"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/dino_c01.py",
+      "destination": "source/dino_c01.py",
+      "sha256": "527df2829b1792d4dfe73219911be554e66f3b3cd064e66efdcad1c42d51b346"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/dino_dg71.py",
+      "destination": "source/dino_dg71.py",
+      "sha256": "da250fe4c245319dba392b27240bb8fa02459dbb54541c42181b761d3edac5de"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/dino_extra_methods.py",
+      "destination": "source/dino_extra_methods.py",
+      "sha256": "8de56d6fcb3d52963d0741aed21df063a99d942b2cde35a37ee0ad000bfad8af"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/dino_five_structural.py",
+      "destination": "source/dino_five_structural.py",
+      "sha256": "cb2038074ac8034925e0340947b5dac686deea759725899d647e76deb5c5e752"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/dino_global_methods.py",
+      "destination": "source/dino_global_methods.py",
+      "sha256": "0e8cdf8f8a660dcd6fe3f6a0f0f419c34d5514921681de06b584da55e9bc51d1"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/dino_isp_fusion.py",
+      "destination": "source/dino_isp_fusion.py",
+      "sha256": "1493e111283b2772436defa698bf773b07223400b7a78113e1c1abf3b9547a1b"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/dino_stage_interaction.py",
+      "destination": "source/dino_stage_interaction.py",
+      "sha256": "c3da7f43cee0463c545127f0531b42464c587cd5f0a7ee973837df8c31457597"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/dino_structure_methods.py",
+      "destination": "source/dino_structure_methods.py",
+      "sha256": "be2e828d3cffe649d852b0025b63eb6926faf96e3042bf4c9998caed8d3abd04"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/dino_wavelet_variants.py",
+      "destination": "source/dino_wavelet_variants.py",
+      "sha256": "cf3b9d3eb144a2dccd4c85a9f63392f218cdf4bad93102febc22e65d77a251c0"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/dp_ema.py",
+      "destination": "source/dp_ema.py",
+      "sha256": "5043375597906619e59f3cdb8887a15837a0d84d71565d8690439a3949ad4778"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/factor_ablation.py",
+      "destination": "source/factor_ablation.py",
+      "sha256": "015cbefdfed6429fa735d3886cd2e47e138fe7f046502a890a7fb9848866b717"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/factorized_cross_stage.py",
+      "destination": "source/factorized_cross_stage.py",
+      "sha256": "877c88a40c3a9ab82cd75d7aecb1d2ea81983969144ffd8ea165d6a083fb96c1"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/global_semantic_modules.py",
+      "destination": "source/global_semantic_modules.py",
+      "sha256": "a09c840ab16dec2d279a2283b2bdc72cb214c162b51528ecdb662b4ba63541da"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/isp_out.py",
+      "destination": "source/isp_out.py",
+      "sha256": "4b6d921b2ad4163b3aa4e0d765a6da5f20d3651d4b26a874d3a0aa3c9044ea25"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/lowfreq.py",
+      "destination": "source/lowfreq.py",
+      "sha256": "fb2f6be49736d6bf57bb7194db3389dd1d8d65b6a0e65087d3d7fdaeec5ed769"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/message_adapter_core.py",
+      "destination": "source/message_adapter_core.py",
+      "sha256": "c9b2902fb854251eae8b6f492314b3f5c983164d3e1f6fb9b44aa76052440192"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/model.py",
+      "destination": "source/model.py",
+      "sha256": "ac3e1ff534bc81d0ee5d6779c5ff02ae8bbd725ed0bb7064b3a4e06313f99d57"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/optical_controlled.py",
+      "destination": "source/optical_controlled.py",
+      "sha256": "168620476ba8a7042b0778ca7623d5a222873af6f1d27f6460240bc98eff5174"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/optical_isp_covariance.py",
+      "destination": "source/optical_isp_covariance.py",
+      "sha256": "64020cb54ffc1d4cf815c4ecffe2060a8d84d5a0bd58c87caf8bc4e8f30bd400"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/optical_noise_propagation.py",
+      "destination": "source/optical_noise_propagation.py",
+      "sha256": "df85106ed03e2ff5df593c566172f7c057043ff6dcd9376dc6fe393db68504c5"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/optical_photon_whitening.py",
+      "destination": "source/optical_photon_whitening.py",
+      "sha256": "2deb7af093a5c467e6ce035536407054e2d76c512b76b868076759fa46a667ee"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/optical_regional_isp.py",
+      "destination": "source/optical_regional_isp.py",
+      "sha256": "e24e51d4a560880445e2acbe570d4decaa49d0d76964521f81c1032851b3961a"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/output_m2routing/init/m2v2r_init_seed7.pth",
+      "destination": "source/output_m2routing/init/m2v2r_init_seed7.pth",
+      "sha256": "726a2e9c02e483d6ae80c9d813f7de105c2a88637d5396f069b10d39974fcbfe"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/patch_compat_fusion.py",
+      "destination": "source/patch_compat_fusion.py",
+      "sha256": "1c02264d190655c6cf8229cadc8b175043acf9bc9cececd76b2ef0ea8e567e0d"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/precision_graph_core.py",
+      "destination": "source/precision_graph_core.py",
+      "sha256": "1493e111283b2772436defa698bf773b07223400b7a78113e1c1abf3b9547a1b"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/psf_improvements.py",
+      "destination": "source/psf_improvements.py",
+      "sha256": "ff4feb0d8059f7d2497962a3ccc7a01c1902c6f6c276f03db3c1c763e673b675"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/psf_internal/__init__.py",
+      "destination": "source/psf_internal/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/psf_internal/module.py",
+      "destination": "source/psf_internal/module.py",
+      "sha256": "b2a4ec3957ad8aac27fb21b513390c11578d083e97fa5afe262856ecddd877e1"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/psf_internal/operators.py",
+      "destination": "source/psf_internal/operators.py",
+      "sha256": "d691cb7e92a63268a122f5ddbc8cc33a792647751336184dc7a5cf23003186a1"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/psf_physics.py",
+      "destination": "source/psf_physics.py",
+      "sha256": "3c3789709b67a2a2c677aa222c7ca5346bdc95d528e06260b99ce1de194afb69"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/psf_prefilter.py",
+      "destination": "source/psf_prefilter.py",
+      "sha256": "4b59607d07a55c671d4c2ba6eb5e24aad420bf9d9acf075d0658c8dec6261a27"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/psf_recovery/__init__.py",
+      "destination": "source/psf_recovery/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/psf_recovery/kernels.py",
+      "destination": "source/psf_recovery/kernels.py",
+      "sha256": "346621da55bd32b5ef0ebaf1c12ed1ebc60ace20c8094d913f11d0515619739a"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/psf_recovery/operators.py",
+      "destination": "source/psf_recovery/operators.py",
+      "sha256": "f4f962fcf11d55e914aa968705cdb5367eb073106803c01b53b3771f3be6eb33"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/psf_structural.py",
+      "destination": "source/psf_structural.py",
+      "sha256": "38e64d993a8d48eaa71aff96dca0b83e2cb31fcb7d9ee373ca49e3107470b65e"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/psf_trainable.py",
+      "destination": "source/psf_trainable.py",
+      "sha256": "fbff8af24ea184a77c2d9b286066e99882722d460125c39c2c0d175016fa0a3c"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/relation_variants.py",
+      "destination": "source/relation_variants.py",
+      "sha256": "7b2eba0eb3a14fb3a9360f3a3c52f5ec0663607afe5c5dbaf67fd765f683558e"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/rms_direction_interaction.py",
+      "destination": "source/rms_direction_interaction.py",
+      "sha256": "78499de9b53dd0d776ac7a3bf430ea140119afb3c9e59776d12c10391b75445c"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/semantic_backbone.py",
+      "destination": "source/semantic_backbone.py",
+      "sha256": "872353f8ed8eaf294c28f75fadca84f9537287c40ee823d15ad6f65733b92286"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/third_party/__init__.py",
+      "destination": "source/third_party/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/third_party/dinov2_vendor/__init__.py",
+      "destination": "source/third_party/dinov2_vendor/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/third_party/dinov2_vendor/layers/__init__.py",
+      "destination": "source/third_party/dinov2_vendor/layers/__init__.py",
+      "sha256": "9a31d6e334ca9a407525b3c3733fa3465dac94b2646d151eb2373b6a1a2181a3"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/third_party/dinov2_vendor/layers/attention.py",
+      "destination": "source/third_party/dinov2_vendor/layers/attention.py",
+      "sha256": "975a249cde9f53d89961228724412600afd027746bd9ea61f5497d0fd25e0733"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/third_party/dinov2_vendor/layers/block.py",
+      "destination": "source/third_party/dinov2_vendor/layers/block.py",
+      "sha256": "37621cd7cb55c0c6fc95a79a67e5d0a4917e3c195f93e287a1a0c4ad17491c18"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/third_party/dinov2_vendor/layers/drop_path.py",
+      "destination": "source/third_party/dinov2_vendor/layers/drop_path.py",
+      "sha256": "b9f8236e86054b9d9a71275efcad2a9ecaa1f86b529d4b8d6109ddb5e806f67a"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/third_party/dinov2_vendor/layers/layer_scale.py",
+      "destination": "source/third_party/dinov2_vendor/layers/layer_scale.py",
+      "sha256": "abb7bbfae152a9de2e6d0961ab5e75c79428e849281bfe50dd07b66b54b485d1"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/third_party/dinov2_vendor/layers/mlp.py",
+      "destination": "source/third_party/dinov2_vendor/layers/mlp.py",
+      "sha256": "255825c73b60a916dd00eb1e38aacbcdbf316e40d6a005efb46e245b7edb43aa"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/third_party/dinov2_vendor/layers/patch_embed.py",
+      "destination": "source/third_party/dinov2_vendor/layers/patch_embed.py",
+      "sha256": "40da6add3d811198ea3e17cb99cdd4e5cda59e369efbbe3d18d89308618cf142"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/third_party/dinov2_vendor/layers/swiglu_ffn.py",
+      "destination": "source/third_party/dinov2_vendor/layers/swiglu_ffn.py",
+      "sha256": "816539ba3958644009cb45fc00f033881574843beedaa41028ca191fcedea271"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/third_party/dinov2_vendor/models/__init__.py",
+      "destination": "source/third_party/dinov2_vendor/models/__init__.py",
+      "sha256": "be2c7813ad9693758d17ebcc137344652566ea27f8d17efbd3e14f88e5496fcb"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/third_party/dinov2_vendor/models/vision_transformer.py",
+      "destination": "source/third_party/dinov2_vendor/models/vision_transformer.py",
+      "sha256": "7cb5bb4b93f9b501d529459b6710dc91a9f1745020475bf1ff5f2763d1bc7b2d"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/train.py",
+      "destination": "source/train.py",
+      "sha256": "96f8f7eb312727a7fb19e98e702e385656c1ab31e8162c4b5eeaf1ce24ebf8d4"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/utils/__init__.py",
+      "destination": "source/utils/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/utils/dataset.py",
+      "destination": "source/utils/dataset.py",
+      "sha256": "0e8b3a268ac968d08e8cada23b617202757473e950f210deeca01478a489f9dd"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/utils/metrics.py",
+      "destination": "source/utils/metrics.py",
+      "sha256": "68b8b65543e6d76074fa8fb9a5fae371241d4d7c19807010397ddfb47b31c3da"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/source/utils/niqe_utils.py",
+      "destination": "source/utils/niqe_utils.py",
+      "sha256": "429f9f77f2e8e53f319e7856d97b7354958fee94ecd301f3895092aa18aac0f7"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/tools/activate_queue.py",
+      "destination": "tools/activate_queue.py",
+      "sha256": "fe15c255e1d6fc49456396fccf6f1db0eec538e7d4a03023ef147f92b726594c"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/tools/adapt_engine.py",
+      "destination": "tools/adapt_engine.py",
+      "sha256": "36d1b17ebe02447eaf4f84db237be6d362b21e3d36c9e6a97d71031787bceed1"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/tools/archive_snapshot.py",
+      "destination": "tools/archive_snapshot.py",
+      "sha256": "af3595f8c584a24235f45d0e070cba97678018a335559a40bf47055d29ddd21a"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/tools/backup_completed_runs.py",
+      "destination": "tools/backup_completed_runs.py",
+      "sha256": "9efdb223b277e94cdfefe708618cc279fe7af7334f61b785418a494efafadcde"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/tools/base_equivalent_operators.py",
+      "destination": "tools/base_equivalent_operators.py",
+      "sha256": "04b1f9165b904841d0d3aaaba5c0bb73d4b2b9d28b7cee42277e8687b03cef70"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/tools/check_and_backup.py",
+      "destination": "tools/check_and_backup.py",
+      "sha256": "1a9c0003f8e8d64ca7bf4b6853821e82a8360fe2602275604f096fb2fd007085"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/tools/check_external_geometry.py",
+      "destination": "tools/check_external_geometry.py",
+      "sha256": "8d880d38f91c4b04dbdd73c33474c54976ee9c3a8e52eace2d2cd105d77d8147"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/tools/check_external_metrics.py",
+      "destination": "tools/check_external_metrics.py",
+      "sha256": "248b93818e666556410ae31ecf5cb01b930b458289f0b4738e40fd5d1882756e"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/tools/delayed_ema.py",
+      "destination": "tools/delayed_ema.py",
+      "sha256": "2757716ab68ae1f0049dd3c610b6f052502c1abd2b06bb4405ed77dd728f383d"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/tools/download_uranker.py",
+      "destination": "tools/download_uranker.py",
+      "sha256": "130c0c1e54608930c9d283651f8cfa41ecbfbf3a24c2483a2f9834c5adfebefe"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/tools/experiment.py",
+      "destination": "tools/experiment.py",
+      "sha256": "84090101d56b49abff003bec4ed3712071f00fa59bba062ad7efd81dfad0073d"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/tools/experiment_dark_extensions.py",
+      "destination": "tools/experiment_dark_extensions.py",
+      "sha256": "e948fd4dcb883d1748c206b1169a75cef2e1b2b3aab4e574b1a4ad933442b409"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/tools/export_excel.py",
+      "destination": "tools/export_excel.py",
+      "sha256": "28ca2bc2a83df638df10a9b3d8dfabeb94c62983787ff4826d74d666041a4172"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/tools/external_evaluate.py",
+      "destination": "tools/external_evaluate.py",
+      "sha256": "9bb7160353e63c75ebff5f3567f92ea569a6e9baefc97c075cda82ff7bdad12b"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/tools/external_geometry.py",
+      "destination": "tools/external_geometry.py",
+      "sha256": "65f7bc69632e85206dbb546fcdd892da8cad7aed92964cf0dec321c88ff87192"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/tools/external_metrics.py",
+      "destination": "tools/external_metrics.py",
+      "sha256": "4ba929dbd595a7a15fd3d66febd931194cd937e754090a4c2d3e5848082b5d50"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/tools/finalize.py",
+      "destination": "tools/finalize.py",
+      "sha256": "f573ec7c6238bd9360ed1a5af246a931d271ef43f7c15758e2b32cc854a9ca4d"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/tools/flexible_evaluation_cards.py",
+      "destination": "tools/flexible_evaluation_cards.py",
+      "sha256": "97270359649b3cca39306bb62bb980cca900a790f478cdfb0314aa664166e26c"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/tools/frozen_factory.py",
+      "destination": "tools/frozen_factory.py",
+      "sha256": "a9fbaf29b68858d35015b256c59839fc371d4c894721299477d89e7cffae02ab"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/tools/harden_finalizer.py",
+      "destination": "tools/harden_finalizer.py",
+      "sha256": "e02308b47becdd44faa63aa9d7c42bee9d6fb8875111c612ced29bd36c70a0a2"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/tools/prepare.py",
+      "destination": "tools/prepare.py",
+      "sha256": "42311be568ef8b8300d59e6501ee7f5494be99adb3d0aa6c8d6c48e838fc3f5f"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/tools/profile_efficiency.py",
+      "destination": "tools/profile_efficiency.py",
+      "sha256": "1e2069fa47046047b990faf9e663bd384c4d927e1ab687163dfec02614d3fc38"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/tools/release_external.py",
+      "destination": "tools/release_external.py",
+      "sha256": "b0262426cce1c968750544cde93e6a4f47a07b11c69c53f3473399e9ea2b8b73"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/tools/release_external_v2.py",
+      "destination": "tools/release_external_v2.py",
+      "sha256": "40f8ee201d2155e49c9d5026f1ac0f5a2fb9608860e9e11c8454da37c3ed2570"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/tools/repair_admission.py",
+      "destination": "tools/repair_admission.py",
+      "sha256": "b76c0fa5b1da6a87e1aff4d7ee64d1f0a366773ad69fbdd74fe7709107a525a9"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/tools/reporting_protocol.py",
+      "destination": "tools/reporting_protocol.py",
+      "sha256": "bb7f8cb3911017d09c21986f0401ab3f00b229bcd8c5dad54e9154c503dbeea2"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/tools/restoration_losses.py",
+      "destination": "tools/restoration_losses.py",
+      "sha256": "0a5deebd719f7f20fa72bbf1bfdedfab1498ffee30cf8fa2c1c470369080b069"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/tools/seal_preparation.py",
+      "destination": "tools/seal_preparation.py",
+      "sha256": "7a1b9836051afdb30d6d3ad367a960a70d12fc3ecb7e83b3e8198a8ab9ac44d8"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/tools/select_method.py",
+      "destination": "tools/select_method.py",
+      "sha256": "168be4ce2f493e764f79941bb9fa5a22390b8e4df409f2756baf17071c6870c9"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/tools/strict_math.py",
+      "destination": "tools/strict_math.py",
+      "sha256": "2d2d2af69561a60bdaad66087d4eae4dced1eeb43791a2f49a94835883a100b9"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/tools/watch_progress.py",
+      "destination": "tools/watch_progress.py",
+      "sha256": "2abfa520f1af3ba5d258627b22f1577b1a3fa19b6067180215a114dcc69b7ee8"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/PLAN.json",
+      "destination": "PLAN.json",
+      "sha256": "02a06852beac7f656e57eb7d09c8f0b693e7e37cb56ddd781d92388ccb35ca37"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/INITIALIZATIONS.json",
+      "destination": "INITIALIZATIONS.json",
+      "sha256": "3abd065f40c3401691f17a48a61ff58b91ee7cd8b159141bd54376447fdcd730"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/SOURCE_PROVENANCE.json",
+      "destination": "SOURCE_PROVENANCE.json",
+      "sha256": "03b4cd9f061ac202d12995e8199f9d8fd0bb7d47bc9570a7a018fe0ff0706048"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/TEACHER_PROVENANCE.json",
+      "destination": "TEACHER_PROVENANCE.json",
+      "sha256": "7fc456d3483d0661ff680f81dc6ee9f26ffb5787979d47beb9ca9391f0afb7e2"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/DATA_MANIFEST.json",
+      "destination": "DATA_MANIFEST.json",
+      "sha256": "4cafaec73d0309bd78679085d78da28ab01dd872e42446d91c8ac60169072a2c"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/SCHEDULER_POLICY.json",
+      "destination": "SCHEDULER_POLICY.json",
+      "sha256": "31344a6250a10c5c4333206d50e875a957d9c6b74decd193dd97ff101d513061"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/WEIGHTS_LOCK.json",
+      "destination": "WEIGHTS_LOCK.json",
+      "sha256": "91a2ddbde6fee64ab55b923f232d6abd67f83686b47f35fbbc9af8c68953e08c"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/METHOD_SELECTION.json",
+      "destination": "METHOD_SELECTION.json",
+      "sha256": "9817ff8ce8ff1c94610773ae4ceb6dd472ea77a47e104e5540fd411321194df5"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/TRAINING_SEED_POLICY.json",
+      "destination": "TRAINING_SEED_POLICY.json",
+      "sha256": "969c01e36f13fdf4d24a1815565953b3a26d24f09edd2f8ae37be47f357d2c29"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/DATASET_COMPATIBILITY.json",
+      "destination": "DATASET_COMPATIBILITY.json",
+      "sha256": "6f91a6ec6c4b029c4cf489a6a76e0ff29fac1c22b970b27860c881fdab9a475c"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/DATA_COMPATIBILITY_LOCK.json",
+      "destination": "DATA_COMPATIBILITY_LOCK.json",
+      "sha256": "8f803736c727145ed062e92a1711b0d773ae6d0a9b0c5bd91d1ae44ada332b9e"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/environment_requirements.txt",
+      "destination": "environment_requirements.txt",
+      "sha256": "8137efad287e965ce8d5f8d6b7b5fe42c0cdfadceab8e44b56591ebc9fa62c33"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/CONFIG_LOCK.json",
+      "destination": "provenance/CONFIG_LOCK.json",
+      "sha256": "a73bbbdb95e510463115fdaa740f5adae75b4d22db4a235c4ba2debee0ed30cf"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/ADAPTIVE_CODE_LOCK.json",
+      "destination": "provenance/ADAPTIVE_CODE_LOCK.json",
+      "sha256": "fb75b0647e63515a4661721c625036efb8242d139f94889f81834ca6a5ccad31"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/CODE_BACKUP_INDEX.md",
+      "destination": "provenance/CODE_BACKUP_INDEX.md",
+      "sha256": "29692eeea7eff137ef0c4be40ff51d7bd05d520a5cc4ade9648ac3f4c3599fe4"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/COMPLETED_RUN_BACKUP_INDEX.md",
+      "destination": "provenance/COMPLETED_RUN_BACKUP_INDEX.md",
+      "sha256": "c332b7f4f7b6a69d89f62dd8a2fedfb53f458fab82e5819d5616ba7cd250a143"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/checks/GITHUB_EXPORT_INPUT_AUDIT_20261117.json",
+      "destination": "provenance/INPUT_AUDIT.json",
+      "sha256": "e315cdad328901ec848ac96cb0e0a87da7b1f138c14e1ecdcbd405d12a15d6de"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/initializations/native_seed7.pth",
+      "destination": "initializations/native_seed7.pth",
+      "sha256": "f22cbb8b464a03e9913b84d9bb6ded26ab441ca448bc6c7f5ac9920b222ac73f"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/initializations/native_seed43.pth",
+      "destination": "initializations/native_seed43.pth",
+      "sha256": "7b2a415b15c1a77ffb8c976755bb35b94f9ad9d40906a233823ddceda780bb18"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/teachers/vitb14.pth",
+      "destination": "teachers/vitb14.pth",
+      "sha256": "0b8b82f85de91b424aded121c7e1dcc2b7bc6d0adeea651bf73a13307fad8c73"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/references/UIEB_seed7_TRACE.json",
+      "destination": "references/UIEB_seed7_TRACE.json",
+      "sha256": "3031b0188df7841c5970e3d78bee5b05347dd1b3055cec4d8950d4fb0cdb7b89"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/references/historical/UIEB/seed7/isp_control/TRACE.json",
+      "destination": "references/historical/UIEB/seed7/isp_control/TRACE.json",
+      "sha256": "a6bb74284d7d274c37dd0691aece9fd98fb55ec208364f45d2d4814b9fec3206"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/checks/github_export_20261117/template/verify_package.py",
+      "destination": "verify_package.py",
+      "sha256": "659108f34e116a53c934ff1dad9454e3e95bc7866b5e709f17f22936023f77d4"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/checks/github_export_20261117/template/runtime.py",
+      "destination": "runtime.py",
+      "sha256": "9e0339879564b6cfb796d523c0157402081dfae077890c16ba287dc73d70653e"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/checks/github_export_20261117/template/evaluate.py",
+      "destination": "evaluate.py",
+      "sha256": "3e08e158142cdb0065eb865790e373e5e882918e2733bc351ded254cca6cc5e1"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/checks/github_export_20261117/template/README.md",
+      "destination": "README.md",
+      "sha256": "bdde0b19f817f387379954549e229d0d12c6ef8027c5e32d6aa8eea4c5a070c2"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/checks/github_export_20261117/template/LICENSE_DINOV2",
+      "destination": "LICENSE_DINOV2",
+      "sha256": "600cc67cc4cb2f5ea317dcfc687ad1c74dc4bec8782bbe9db0afd83513b935b7"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/checks/github_export_20261117/template/fetch_teacher.py",
+      "destination": "fetch_teacher.py",
+      "sha256": "930c266c41d75388a4a222eeb948858a530d30e18e8df3020108d77cb02bd59e"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/checks/github_export_20261117/template/retrain.py",
+      "destination": "retrain.py",
+      "sha256": "646c05d362b48e9122017a33966d621e72dbaf24df6e5b1ceaa68eb74d9bd0a0"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/checks/github_export_20261117/template/infer.py",
+      "destination": "infer.py",
+      "sha256": "e3abc321952daedabf7698a560615f8339efcc1a166525f3c09a7c17d86f46e6"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/baseline/best_model.pth",
+      "destination": "checkpoints/baseline.pth",
+      "sha256": "d29c13a8cd9572619c606017c421f8595fbea13ee64cb7e7cd9ef58f1c1aa6ca"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/baseline/EVALUATED.json",
+      "destination": "results/baseline/EVALUATED.json",
+      "sha256": "8a94837cf9aea6b0d742770ec89cc4172f1855943291d3505f8ab48ecda4ca87"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/baseline/IMPORTED_PROVENANCE.json",
+      "destination": "results/baseline/IMPORTED_PROVENANCE.json",
+      "sha256": "20189ad45c5632e5e85e1311c1af1a50f0273cb8f55655e374d91d935c005747"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/baseline/PROGRESS.json",
+      "destination": "results/baseline/PROGRESS.json",
+      "sha256": "1c9a02796876ddb012ba62fb956f2647c7c7a1cdc5b3556d4eacf8f929b44297"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/baseline/TRACE.json",
+      "destination": "results/baseline/TRACE.json",
+      "sha256": "7eb8b387cf4047d2290cea0a0697dceea5abed710b55b4b2e5c56601164534df"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/baseline/best_ema.json",
+      "destination": "results/baseline/best_ema.json",
+      "sha256": "f38f338f3abd7cb711fb4117b68e425108e1042e76bf552cf1a6a59eb853bd03"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/baseline/best_raw.json",
+      "destination": "results/baseline/best_raw.json",
+      "sha256": "ca58a95682cdabc3f348a8165b9b05155dc38f4593381ba9bba3ae4b595c5734"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/baseline/completed.json",
+      "destination": "results/baseline/completed.json",
+      "sha256": "5f438ab9fde8b67617fc974f313690f97f573d3b89fce341cc9d50c7e1e75513"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/baseline/ema_test_per_image.json",
+      "destination": "results/baseline/ema_test_per_image.json",
+      "sha256": "1eba76f80e25ab683e530e98c4286f092e2549c421310e0f47a2e7a3138401e1"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/baseline/ema_val_per_image.json",
+      "destination": "results/baseline/ema_val_per_image.json",
+      "sha256": "1dec12d777d130aff8ed2db0ee2ff9b60d2f76dbd17508952f0cb4ef253f90b4"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/baseline/raw_test_per_image.json",
+      "destination": "results/baseline/raw_test_per_image.json",
+      "sha256": "cfb112b48aef7311dfa61eec8592b20d6b3e5af21633b143be611edcae1b9002"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/baseline/raw_val_per_image.json",
+      "destination": "results/baseline/raw_val_per_image.json",
+      "sha256": "2e9ffa7ab9ec3ec63bb6b473ddd9020a1da28307a8fc2dfb3a6ea7caf1ad18d8"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/baseline/records.json",
+      "destination": "results/baseline/records.json",
+      "sha256": "75b77e56df4108b7d59f863b84ecd7de1a20346d496f12b5cb502e740e268228"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/baseline/run_config.json",
+      "destination": "results/baseline/run_config.json",
+      "sha256": "4a33e643c19882adf5b9a2ced7ca359b86ce19f9c9b6c42f6e747300aa805ba2"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/baseline/raw_test_per_image.json",
+      "destination": "historical_context/seed7/baseline/raw_test_per_image.json",
+      "sha256": "cfb112b48aef7311dfa61eec8592b20d6b3e5af21633b143be611edcae1b9002"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/baseline/ema_test_per_image.json",
+      "destination": "historical_context/seed7/baseline/ema_test_per_image.json",
+      "sha256": "1eba76f80e25ab683e530e98c4286f092e2549c421310e0f47a2e7a3138401e1"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/baseline/best_raw.json",
+      "destination": "historical_context/seed7/baseline/best_raw.json",
+      "sha256": "ca58a95682cdabc3f348a8165b9b05155dc38f4593381ba9bba3ae4b595c5734"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/baseline/best_ema.json",
+      "destination": "historical_context/seed7/baseline/best_ema.json",
+      "sha256": "f38f338f3abd7cb711fb4117b68e425108e1042e76bf552cf1a6a59eb853bd03"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed43/baseline/raw_test_per_image.json",
+      "destination": "historical_context/seed43/baseline/raw_test_per_image.json",
+      "sha256": "6a838dc45c73b5fbf97ba2495d419865bbda98cad4d4b934bd3ff7f105c677b3"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed43/baseline/ema_test_per_image.json",
+      "destination": "historical_context/seed43/baseline/ema_test_per_image.json",
+      "sha256": "7b774018f40aec63f4ff6c23d8b635ad1d108e50c21cd269f9d847657c85699b"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed43/baseline/best_raw.json",
+      "destination": "historical_context/seed43/baseline/best_raw.json",
+      "sha256": "89e301c82ed313087a3559cf1c9318fe30875d70fac858692a620fc25ca495e5"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed43/baseline/best_ema.json",
+      "destination": "historical_context/seed43/baseline/best_ema.json",
+      "sha256": "d6a269b68fb23e703317af6cc65a235d724dc6bf77847b1a644a80fd63f2625b"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/c0/best_model.pth",
+      "destination": "checkpoints/c0.pth",
+      "sha256": "cbe28325282e602d9a9009d6ed517a56c474e5e9c83d587993372a0a13065619"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/c0/EVALUATED.json",
+      "destination": "results/c0/EVALUATED.json",
+      "sha256": "b137b59d23ad363906e4cd97ff27c63cee644721e5f94f7a5481a17df908f6a3"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/c0/IMPORTED_PROVENANCE.json",
+      "destination": "results/c0/IMPORTED_PROVENANCE.json",
+      "sha256": "5c3f8579580139e46d4185f1dc656ffa47e24990551e8945ae6007ac9bf65cfd"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/c0/PROGRESS.json",
+      "destination": "results/c0/PROGRESS.json",
+      "sha256": "4d55a2adb0ad68b42c6fa3b305d9df00a9e5141827ac1bbf2fc61a2adf913e0a"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/c0/RESUME_ATTEMPT_1.json",
+      "destination": "results/c0/RESUME_ATTEMPT_1.json",
+      "sha256": "08b422f8c5cff46f18be13d4ab75f32f48dad4b2607fd3d900d2e63f8fbbf0d7"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/c0/TRACE.json",
+      "destination": "results/c0/TRACE.json",
+      "sha256": "ec411eb51f4eca3f7cb30bdfd07738ba2d1beaeb751b1f1bdf41e92f9acbcb98"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/c0/best_ema.json",
+      "destination": "results/c0/best_ema.json",
+      "sha256": "e530f3bba3b8054a698e5d441022f94f16ac7442f8d79f7eeacbc0be68da9825"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/c0/best_raw.json",
+      "destination": "results/c0/best_raw.json",
+      "sha256": "f41cdb1069cf519500aae6093a5a383f389512d4530bcfb66f9f5a02d3daa356"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/c0/completed.json",
+      "destination": "results/c0/completed.json",
+      "sha256": "60e5bd1006b105968d27b502f8fa4cba32d8db981f1495caf9dde481efb3eadd"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/c0/ema_test_per_image.json",
+      "destination": "results/c0/ema_test_per_image.json",
+      "sha256": "3f61126d393f8898dc58e394dd8183a60ade15996f96cfabfcec1f76f712315b"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/c0/ema_val_per_image.json",
+      "destination": "results/c0/ema_val_per_image.json",
+      "sha256": "590f97611972ef96583ad7a474982971c75575533a163a076bf86ae22f05fafa"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/c0/raw_test_per_image.json",
+      "destination": "results/c0/raw_test_per_image.json",
+      "sha256": "e7cb6d0db428c4cfc5ab1efa31e225bad6141b02879ec1dda8819651d4ab39a8"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/c0/raw_val_per_image.json",
+      "destination": "results/c0/raw_val_per_image.json",
+      "sha256": "6cc593b7b301c429a7bbe920ff69bd2e30d0ddb3b41918fd2c27fdb1eb461a6b"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/c0/records.json",
+      "destination": "results/c0/records.json",
+      "sha256": "3e695d76e562b15acb38f12cdde4862879045846daa5ed02048ffd25df2c67c9"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/c0/run_config.json",
+      "destination": "results/c0/run_config.json",
+      "sha256": "a5da10847a372d4e869e8ca16cea20ee2012676f747aa49c67543feb40493aab"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/c0/raw_test_per_image.json",
+      "destination": "historical_context/seed7/c0/raw_test_per_image.json",
+      "sha256": "e7cb6d0db428c4cfc5ab1efa31e225bad6141b02879ec1dda8819651d4ab39a8"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/c0/ema_test_per_image.json",
+      "destination": "historical_context/seed7/c0/ema_test_per_image.json",
+      "sha256": "3f61126d393f8898dc58e394dd8183a60ade15996f96cfabfcec1f76f712315b"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/c0/best_raw.json",
+      "destination": "historical_context/seed7/c0/best_raw.json",
+      "sha256": "f41cdb1069cf519500aae6093a5a383f389512d4530bcfb66f9f5a02d3daa356"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/c0/best_ema.json",
+      "destination": "historical_context/seed7/c0/best_ema.json",
+      "sha256": "e530f3bba3b8054a698e5d441022f94f16ac7442f8d79f7eeacbc0be68da9825"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed43/c0/raw_test_per_image.json",
+      "destination": "historical_context/seed43/c0/raw_test_per_image.json",
+      "sha256": "1db1206ceab52f3eaa749bf34c4b82b6384df3a9a9edadbc5f55eb6b57854f33"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed43/c0/ema_test_per_image.json",
+      "destination": "historical_context/seed43/c0/ema_test_per_image.json",
+      "sha256": "b96f1394c90f1353894c1c21b4d0cee8e46c1a1acac2fe1b35b56bfee39a77fd"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed43/c0/best_raw.json",
+      "destination": "historical_context/seed43/c0/best_raw.json",
+      "sha256": "7369ffdd6fab9458ee645250f69e3b3248ca8edf655c61fd2d0776e5848e6a7a"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed43/c0/best_ema.json",
+      "destination": "historical_context/seed43/c0/best_ema.json",
+      "sha256": "75c8204739c8fb0b30687572acd69a458b7a59bae1d8737e3d81209ae12bcca4"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/isp_control/best_model.pth",
+      "destination": "checkpoints/isp_control.pth",
+      "sha256": "948449ced5f922d54e9f42de8ff9d7b8c53bf69e54c772d5b7c7608ec4f67347"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/isp_control/EVALUATED.json",
+      "destination": "results/isp_control/EVALUATED.json",
+      "sha256": "a4f4e73d0212b15f4faae773ddbc2d06eb39043b55973d8ade6c07a1e2332453"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/isp_control/IMPORTED_PROVENANCE.json",
+      "destination": "results/isp_control/IMPORTED_PROVENANCE.json",
+      "sha256": "720c01501c739495a08fd8875d755a3f210e9235746e9594f0ddc30a8067d127"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/isp_control/PROGRESS.json",
+      "destination": "results/isp_control/PROGRESS.json",
+      "sha256": "bbe268c0adbacaff34a70361f30576a7937d979e3d6032d0c2990089c309175b"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/isp_control/RESUME_ATTEMPT_1.json",
+      "destination": "results/isp_control/RESUME_ATTEMPT_1.json",
+      "sha256": "6b918f4db0379a25549a4ec3c8447941ade9b099d71de9ea8a9bc540236e87cc"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/isp_control/RESUME_ATTEMPT_2.json",
+      "destination": "results/isp_control/RESUME_ATTEMPT_2.json",
+      "sha256": "69eec464b132177917e60ce99bf4ea73b94eaa59578e7530abb2ee8633d65dac"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/isp_control/RESUME_ATTEMPT_3.json",
+      "destination": "results/isp_control/RESUME_ATTEMPT_3.json",
+      "sha256": "98d56e4486980bd837aae36ef4b2e31d3bb54f1e6a7b6b2d8c7aeef951b1c9a9"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/isp_control/TRACE.json",
+      "destination": "results/isp_control/TRACE.json",
+      "sha256": "a6bb74284d7d274c37dd0691aece9fd98fb55ec208364f45d2d4814b9fec3206"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/isp_control/best_ema.json",
+      "destination": "results/isp_control/best_ema.json",
+      "sha256": "e5a5f37d798e511613f8ef78e7a95fd5ca7af18589010b40f349114af66b0944"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/isp_control/best_raw.json",
+      "destination": "results/isp_control/best_raw.json",
+      "sha256": "61cc9791dbe73c8af82693a451980641415f37287a211dc741940fd9066ad5f4"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/isp_control/completed.json",
+      "destination": "results/isp_control/completed.json",
+      "sha256": "d245483f568f28f5255c77b49cb30a69380e26987a5ffc8ba841abc4e263b67c"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/isp_control/ema_test_per_image.json",
+      "destination": "results/isp_control/ema_test_per_image.json",
+      "sha256": "fbc610a16053856d6b5037ff8330df7f9cfa4c5ec47661a1910c196adcd2a3ab"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/isp_control/ema_val_per_image.json",
+      "destination": "results/isp_control/ema_val_per_image.json",
+      "sha256": "4065f4a48fe11769026ca9db6979a81ed35c14e98420002b1e4906d0229e4e62"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/isp_control/raw_test_per_image.json",
+      "destination": "results/isp_control/raw_test_per_image.json",
+      "sha256": "7c28030ebbdfc374398ee28fd50d91039bfcdc57f276042ed10e8e1b06be3ab9"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/isp_control/raw_val_per_image.json",
+      "destination": "results/isp_control/raw_val_per_image.json",
+      "sha256": "605af45d59f6467718fece82941ae2928199cda40a342251bc70df65bc13b190"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/isp_control/records.json",
+      "destination": "results/isp_control/records.json",
+      "sha256": "24f2d5a2c51b9409a99fecc8e6a1fc1fbdbb9e9e8c9cdfba93d40c5a28f279d9"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/isp_control/run_config.json",
+      "destination": "results/isp_control/run_config.json",
+      "sha256": "4aaa21dbe49ab0d33f5acea67cdcb5732deadbb1d0885362d377854bce62aa69"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/isp_control/raw_test_per_image.json",
+      "destination": "historical_context/seed7/isp_control/raw_test_per_image.json",
+      "sha256": "7c28030ebbdfc374398ee28fd50d91039bfcdc57f276042ed10e8e1b06be3ab9"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/isp_control/ema_test_per_image.json",
+      "destination": "historical_context/seed7/isp_control/ema_test_per_image.json",
+      "sha256": "fbc610a16053856d6b5037ff8330df7f9cfa4c5ec47661a1910c196adcd2a3ab"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/isp_control/best_raw.json",
+      "destination": "historical_context/seed7/isp_control/best_raw.json",
+      "sha256": "61cc9791dbe73c8af82693a451980641415f37287a211dc741940fd9066ad5f4"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/isp_control/best_ema.json",
+      "destination": "historical_context/seed7/isp_control/best_ema.json",
+      "sha256": "e5a5f37d798e511613f8ef78e7a95fd5ca7af18589010b40f349114af66b0944"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed43/isp_control/raw_test_per_image.json",
+      "destination": "historical_context/seed43/isp_control/raw_test_per_image.json",
+      "sha256": "1f615cdbc0bfb3a8a45e721da90ff9adddaafbb13bbc00ab5c420e32fd341117"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed43/isp_control/ema_test_per_image.json",
+      "destination": "historical_context/seed43/isp_control/ema_test_per_image.json",
+      "sha256": "2e25b4541f510696d523d5b2bd4665fc65959138dcf00386bcda5ab4243d5a4a"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed43/isp_control/best_raw.json",
+      "destination": "historical_context/seed43/isp_control/best_raw.json",
+      "sha256": "34259dc859c2993517b8aef69460bffe447858194f0207a18811e8b39d3d4f08"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed43/isp_control/best_ema.json",
+      "destination": "historical_context/seed43/isp_control/best_ema.json",
+      "sha256": "f97865861dc5754fa72844d05d054d20560ef1ce87f37f0331da943de611b566"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/dino_cross_stage/best_model.pth",
+      "destination": "checkpoints/dino_cross_stage.pth",
+      "sha256": "1b4bfb3000778c0dce53837e846aee6897a2660cdb67ea5073bf4db8f0068b00"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/dino_cross_stage/EVALUATED.json",
+      "destination": "results/dino_cross_stage/EVALUATED.json",
+      "sha256": "d5533a2e628e0a8b4cd70ba5fd4cbe5c09a42a443440a534ca687fb6b84c6d02"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/dino_cross_stage/PROGRESS.json",
+      "destination": "results/dino_cross_stage/PROGRESS.json",
+      "sha256": "6a0f6baa0b4741bc18bd76fb386c9fe3867cce2d65ea9c0bc2dd3f8521020e23"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/dino_cross_stage/RESUME_ATTEMPT_1.json",
+      "destination": "results/dino_cross_stage/RESUME_ATTEMPT_1.json",
+      "sha256": "a2d8a908a09e5105657cde20df1e84fc7a0143dd930565db4a80072eb5ebbe69"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/dino_cross_stage/RESUME_ATTEMPT_2.json",
+      "destination": "results/dino_cross_stage/RESUME_ATTEMPT_2.json",
+      "sha256": "ada571148e8ada26fb90d1f3f088e2bd800042014bc7170652ffc96002aecdb0"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/dino_cross_stage/RESUME_ATTEMPT_3.json",
+      "destination": "results/dino_cross_stage/RESUME_ATTEMPT_3.json",
+      "sha256": "f7d578da4b073efd7863dd2d628f4e183b8c71aa739852795459364113272216"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/dino_cross_stage/RESUME_ATTEMPT_4.json",
+      "destination": "results/dino_cross_stage/RESUME_ATTEMPT_4.json",
+      "sha256": "1f4af3b725a5166a5360b4e6868fd0f0b2563387a0db593276ad85807fb6b28c"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/dino_cross_stage/TRACE.json",
+      "destination": "results/dino_cross_stage/TRACE.json",
+      "sha256": "a7dcc3b33cb16ac10f78ab4899bb43c01664f338ffe83cc6226644cc0b68608f"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/dino_cross_stage/best_ema.json",
+      "destination": "results/dino_cross_stage/best_ema.json",
+      "sha256": "a1319e93ef83c83f04aaefdfc0044017d557dba2314abad4866210f021acc477"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/dino_cross_stage/best_raw.json",
+      "destination": "results/dino_cross_stage/best_raw.json",
+      "sha256": "001c56dd3d237d28dafdc36d1571f331c78cf11fbd73a81932060f89f3175ccd"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/dino_cross_stage/completed.json",
+      "destination": "results/dino_cross_stage/completed.json",
+      "sha256": "fecbced993d46c3371a81e63cb5f95bec4658bfc979f1a49fdcb141d49b8eb37"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/dino_cross_stage/ema_test_per_image.json",
+      "destination": "results/dino_cross_stage/ema_test_per_image.json",
+      "sha256": "898850916fade3844e77743f36fcf31fec6c6ff1ccbd90aa1bdc2e9fca727214"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/dino_cross_stage/ema_val_per_image.json",
+      "destination": "results/dino_cross_stage/ema_val_per_image.json",
+      "sha256": "8542ad2ccba04faa194aaed6e16a33e7bad7037b103c5d590e1b3078ea81895b"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/dino_cross_stage/raw_test_per_image.json",
+      "destination": "results/dino_cross_stage/raw_test_per_image.json",
+      "sha256": "e728148af450ecd7437ec8e520124e33c4a5883703de85bcfbad3fdbcfb0a060"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/dino_cross_stage/raw_val_per_image.json",
+      "destination": "results/dino_cross_stage/raw_val_per_image.json",
+      "sha256": "427662efe2b391292d3c51f8ac6b6f7302f08d9700556bbfd00b47a4d03a8912"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/dino_cross_stage/records.json",
+      "destination": "results/dino_cross_stage/records.json",
+      "sha256": "02b09b9d096276a2442da543d9600e785e3c425b53d870543b128c3eea1d73c0"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/dino_cross_stage/run_config.json",
+      "destination": "results/dino_cross_stage/run_config.json",
+      "sha256": "64a9bd295933b69410b086a971406a0b90f75e506ac9ec2d57f959f66247f0f5"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/dino_cross_stage/raw_test_per_image.json",
+      "destination": "historical_context/seed7/dino_cross_stage/raw_test_per_image.json",
+      "sha256": "e728148af450ecd7437ec8e520124e33c4a5883703de85bcfbad3fdbcfb0a060"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/dino_cross_stage/ema_test_per_image.json",
+      "destination": "historical_context/seed7/dino_cross_stage/ema_test_per_image.json",
+      "sha256": "898850916fade3844e77743f36fcf31fec6c6ff1ccbd90aa1bdc2e9fca727214"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/dino_cross_stage/best_raw.json",
+      "destination": "historical_context/seed7/dino_cross_stage/best_raw.json",
+      "sha256": "001c56dd3d237d28dafdc36d1571f331c78cf11fbd73a81932060f89f3175ccd"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed7/dino_cross_stage/best_ema.json",
+      "destination": "historical_context/seed7/dino_cross_stage/best_ema.json",
+      "sha256": "a1319e93ef83c83f04aaefdfc0044017d557dba2314abad4866210f021acc477"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed43/dino_cross_stage/raw_test_per_image.json",
+      "destination": "historical_context/seed43/dino_cross_stage/raw_test_per_image.json",
+      "sha256": "d1d1dd9f439957eb3c1643f3cc96b38880acf2a72abd57cffa5fe5368d5a5db2"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed43/dino_cross_stage/ema_test_per_image.json",
+      "destination": "historical_context/seed43/dino_cross_stage/ema_test_per_image.json",
+      "sha256": "46a9b6a8cf8256ff0f42de1eb0a0b5cdafd1d75c135fcb788b58484fca841395"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed43/dino_cross_stage/best_raw.json",
+      "destination": "historical_context/seed43/dino_cross_stage/best_raw.json",
+      "sha256": "119935070810ccc7606c0ea8fc95c197f64c67fdd32b841d4d015637a7c9f79e"
+    },
+    {
+      "source": "/data1/wza/wwe/four_stage_all_datasets_20261116/runs/UIEB/seed43/dino_cross_stage/best_ema.json",
+      "destination": "historical_context/seed43/dino_cross_stage/best_ema.json",
+      "sha256": "1ac0835b81637ad8faae432134fd6a3320f313f0302af95a91b291117a410520"
+    }
+  ]
+}

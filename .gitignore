@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+/data/
+/runs/
+/preflight/
+/cohorts/
+/RECOVERIES.json
+*.part
+/recheck/
+/outputs/
+.env
+.env.*
+/teachers/vitb14.pth
